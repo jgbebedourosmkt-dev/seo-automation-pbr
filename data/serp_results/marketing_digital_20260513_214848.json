@@ -1,0 +1,752 @@
+{
+  "search_metadata": {
+    "id": "6a051be89df9dd88bc99e0c0",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/TluAhw_o0N3GATqz8XiWHQ/6a051be89df9dd88bc99e0c0.json",
+    "pixel_position_endpoint": "https://serpapi.com/searches/TluAhw_o0N3GATqz8XiWHQ/6a051be89df9dd88bc99e0c0.json_with_pixel_position",
+    "created_at": "2026-05-14 00:48:40 UTC",
+    "processed_at": "2026-05-14 00:48:40 UTC",
+    "google_url": "https://www.google.com/search?q=marketing+digital&oq=marketing+digital&hl=pt&gl=br&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/TluAhw_o0N3GATqz8XiWHQ/6a051be89df9dd88bc99e0c0.html",
+    "total_time_taken": 6.25
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "marketing digital",
+    "google_domain": "google.com",
+    "hl": "pt",
+    "gl": "br",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "marketing digital",
+    "total_results": 123,
+    "time_taken_displayed": 0.18,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "inline_videos": [
+    {
+      "position": 1,
+      "title": "Como Começar no Marketing Digital do Zero em 2025",
+      "link": "https://www.youtube.com/watch?v=jtg00hZ7CSw",
+      "thumbnail": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/hztmHkKokEE9m_gnxkw3_LBsrMjxVbYAj4TSt_sxXgs.jpeg",
+      "channel": "Tiago Tessmann",
+      "duration": "11:55",
+      "platform": "YouTube",
+      "date": "6 de jan. de 2025",
+      "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRZkWPj2i-LBTnOoQfb8qVLNaFO2783JpEVbQ"
+    },
+    {
+      "position": 2,
+      "title": "Como começar NO MARKETING DIGITAL em 2025 [Passo a ...",
+      "link": "https://www.youtube.com/watch?v=uUAtbKbbPEw",
+      "thumbnail": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/3nN_8FvYVjuTSZohYeZmgdRYXfi-XgkVcDOjhGLfPns.jpeg",
+      "channel": "Yampi",
+      "duration": "8:03",
+      "platform": "YouTube",
+      "date": "3 de jul. de 2025",
+      "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcSE_1SLDly1EUh9G0rOacK26SKP9hialYAfKw"
+    },
+    {
+      "position": 3,
+      "title": "Aula 1: Introdução ao Marketing Digital - além da divulgação",
+      "link": "https://www.youtube.com/watch?v=_p6JE9avKW0",
+      "thumbnail": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/2JsMlnsxXkiPE-TjIPsMbyGqdjGfq4SqJJ9sgbl8LNA.jpeg",
+      "channel": "Professor Lindner",
+      "duration": "17:35",
+      "platform": "YouTube",
+      "date": "5 dias atrás"
+    }
+  ],
+  "short_videos": [
+    {
+      "position": 1,
+      "title": "Marketing digital é essencial",
+      "source": "YouTube",
+      "profile_name": "Tupiniquim",
+      "extensions": [
+        "Tupiniquim"
+      ],
+      "source_logo": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/RvWjgLCRMN0MtGgP3V_SL2eUC0OxX-MY83M1wVicqaM.png",
+      "duration": "0:43",
+      "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcTwz_jsJb4BSm71KmuRTwum_DIxz4Bjg9rjsA",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSivPgYpcjyZZ7a9P74IVKYwniwNswpOCOqOnDe32IpucHtqALvK50vn1I&s=10",
+      "link": "https://www.youtube.com/shorts/SWHfZzoNoOo"
+    },
+    {
+      "position": 2,
+      "title": "O que é Marketing Digital? #marketingdigital #digitalmarketing",
+      "source": "YouTube",
+      "profile_name": "Bruno Peres | Aulas de Marketing Digital",
+      "extensions": [
+        "Bruno Peres | Aulas de Marketing Digital"
+      ],
+      "source_logo": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/5sJjF2jdRenvaLENmApmm0kgDtktvtfsEXH6Cg6Ss8g.png",
+      "duration": "0:41",
+      "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRGiG4udEZivl2T45eHOyRmL01TxjPdBe11GQ",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUY_sUdnBWpCNR__HEuXeLY5rDLHRxTlTPqDP25Sg18qhWSO41N9_CitU&s=10",
+      "link": "https://www.youtube.com/shorts/BEeW04g9_hk"
+    },
+    {
+      "position": 3,
+      "title": "Vendas e Marketing on Instagram: \"O que é marketing digital ... enviado por Luiz Henrique | Vendas e Marketing em Instagram. Assistir em Instagram. 0:18",
+      "source": "Instagram",
+      "profile_name": "Luiz Henrique | Vendas e Marketing",
+      "extensions": [
+        "Luiz Henrique | Vendas e Marketing"
+      ],
+      "source_logo": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/oEIK-E2k2UvkiS45MPZMamW3U6KigAAHHQCbJX4rVyg.png",
+      "duration": "0:18",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBQav8G3neSxPUEhrzWzUvs8a6dH2ZgjTb5PHbJfsLzDfCXXK8IAHr3jk&s=10",
+      "link": "https://www.instagram.com/reel/DXEpn2VDtsV/"
+    },
+    {
+      "position": 4,
+      "title": "THE SMARTEST WAY TO START A DIGITAL MARKETING ...",
+      "source": "YouTube",
+      "profile_name": "Henrique Mol",
+      "extensions": [
+        "Henrique Mol"
+      ],
+      "source_logo": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/FLeeA2dpowbMMXcAaQfVCVI8C0_80b9YUNlxF95hDog.png",
+      "duration": "0:32",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ByatiUdsl7bo_14F9ikgXMrd9vKLn1N7JoACdzEi10hQgCxmMnV3e_A&s=10",
+      "link": "https://www.youtube.com/shorts/hzPkJqBEbjo"
+    }
+  ],
+  "related_questions": [
+    {
+      "question": "O que faz um marketing digital?",
+      "type": "ai_overview",
+      "page_token": "TUrrFHicHdBdboIwAADg7DI-TgrqoolZUigik5oWWgovS21VsEWc4g--7S471U6zZN8Rvu8fWx_N78ut6rrTZTYc3u_3133b7u32VbXNUF76oxoqae1GKjObvE3A-07N0XUJ_a8lJAxckx6MGeNjnNOQHiBlrr7JcJpu80dJg1hkRsvC1XUm6MfGQkzykZMcNCuzEGC0HKUIBLQZAexVfml5RA7hZM2WHWG0zw8U5Q13N0ECtsI8i8a4LIBCo2mtnMJJzLhOj_ue84pLpP11ZoPEqXLhVqbwqpryyseuXaVHAjiPJ8xLHAXKSDldpNmj5yxMEhF70uI4N2BNRTvKPA1RpTwZ4UUhoCAOb0pjzwxZsnFZnz1LKB9tTdhplaGyS5sT1gvQ5haCMpyGpOl8GhCgF3GkQwwIG68IGezUbe4N_j_nn7umm53O7f4PtNd_pA",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=TUrrFHicHdBdboIwAADg7DI-TgrqoolZUigik5oWWgovS21VsEWc4g--7S471U6zZN8Rvu8fWx_N78ut6rrTZTYc3u_3133b7u32VbXNUF76oxoqae1GKjObvE3A-07N0XUJ_a8lJAxckx6MGeNjnNOQHiBlrr7JcJpu80dJg1hkRsvC1XUm6MfGQkzykZMcNCuzEGC0HKUIBLQZAexVfml5RA7hZM2WHWG0zw8U5Q13N0ECtsI8i8a4LIBCo2mtnMJJzLhOj_ue84pLpP11ZoPEqXLhVqbwqpryyseuXaVHAjiPJ8xLHAXKSDldpNmj5yxMEhF70uI4N2BNRTvKPA1RpTwZ4UUhoCAOb0pjzwxZsnFZnz1LKB9tTdhplaGyS5sT1gvQ5haCMpyGpOl8GhCgF3GkQwwIG68IGezUbe4N_j_nn7umm53O7f4PtNd_pA",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUVzR6TFhsU2VtMTRjRWRuT0dOM2VEZ3daVmhzV1RNM0xYTm5jSE5JWkdsVWRVSkdjVTk0U0dSSlFsQlpkWEJUYW5KS2JEWTNZMTlKWTE4NGRVOW9VM1ZxUTBsdldYVnNPR3M0U0haTVRFdFRZa2hrVnpkSk1EVXRSbWxhVEdsU1p4SVhOMmh6Um1Gd1YwTkZabVpKYTFCSlVHOWxNazgyUVdzYUlrRktTMHhHYlV0dFdtaFBhemxWTldkT09VMDJWa2xoYUc5WFlYazRVV2RuV2tFIiwiZmN2IjoiMyIsImVpIjoiN2hzRmFwV0NFZmZJa1BJUG9lMk82QWsiLCJxYyI6IkNoRnRZWEpyWlhScGJtY2daR2xuYVhSaGJCQlNmZXprT0QtaUFRSndkQSIsInF1ZXN0aW9uIjoiTyBxdWUgZmF6IHVtIG1hcmtldGluZyBkaWdpdGFsPyIsImxrIjoiR2g1dklIRjFaU0JtWVhvZ2RXMGdiV0Z5YTJWMGFXNW5JR1JwWjJsMFlXdyIsImJzIjoiYy1OeTVwTDNWeWdzVFZWSVM2eFNLTTFWeUUwc3lrNHR5Y3hMVjBqSlRNOHNTY3l4TjFLUWtzdkhxNFFyakVzN3NEUXhzMWloLVBEaWZJWDhZZ1VUaFpMTUFpQ2Rrb3JOUUhVcDFVS3djZ0lxdWVMQTV1WW9IRjZwa0s5UW5KaHplR0ZSWmo1SUtWYUhTdHl0TmRLUjBpb2tXZ2VYRTVlY2MzNHVVQ0hFYjlqOW5neFNBZk0taGhJQlJnQSIsImlkIjoiZmNfN2hzRmFwV0NFZmZJa1BJUG9lMk82QWtfMyJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUVzR6TFhsU2VtMTRjRWRuT0dOM2VEZ3daVmhzV1RNM0xYTm5jSE5JWkdsVWRVSkdjVTk0U0dSSlFsQlpkWEJUYW5KS2JEWTNZMTlKWTE4NGRVOW9VM1ZxUTBsdldYVnNPR3M0U0haTVRFdFRZa2hrVnpkSk1EVXRSbWxhVEdsU1p4SVhOMmh6Um1Gd1YwTkZabVpKYTFCSlVHOWxNazgyUVdzYUlrRktTMHhHYlV0dFdtaFBhemxWTldkT09VMDJWa2xoYUc5WFlYazRVV2RuV2tFIiwiZmN2IjoiMyIsImVpIjoiN2hzRmFwV0NFZmZJa1BJUG9lMk82QWsiLCJxYyI6IkNoRnRZWEpyWlhScGJtY2daR2xuYVhSaGJCQlNmZXprT0QtaUFRSndkQSIsInF1ZXN0aW9uIjoiTyBxdWUgZmF6IHVtIG1hcmtldGluZyBkaWdpdGFsPyIsImxrIjoiR2g1dklIRjFaU0JtWVhvZ2RXMGdiV0Z5YTJWMGFXNW5JR1JwWjJsMFlXdyIsImJzIjoiYy1OeTVwTDNWeWdzVFZWSVM2eFNLTTFWeUUwc3lrNHR5Y3hMVjBqSlRNOHNTY3l4TjFLUWtzdkhxNFFyakVzN3NEUXhzMWloLVBEaWZJWDhZZ1VUaFpMTUFpQ2Rrb3JOUUhVcDFVS3djZ0lxdWVMQTV1WW9IRjZwa0s5UW5KaHplR0ZSWmo1SUtWYUhTdHl0TmRLUjBpb2tXZ2VYRTVlY2MzNHVVQ0hFYjlqOW5neFNBZk0taGhJQlJnQSIsImlkIjoiZmNfN2hzRmFwV0NFZmZJa1BJUG9lMk82QWtfMyJ9"
+    },
+    {
+      "question": "Quais são os 4 tipos de marketing digital?",
+      "type": "ai_overview",
+      "page_token": "ZM5F5XicHdDbbpswGABg7WV62XBI0jVSVIliB1BthrF_E99MjklCY3NYS0PD3d5lT9Wn2bQ3-PT9_uNeO_v17dqM4_C-WSymabo_9_3ZHe9N3y70-60zC6OdO2hjN-uHtf90Mlv0kUbPv9KoEP4HufkrYdkPLgfJrEpLCTlD0LK5TvWF7fY-TCwAW1_cxNqVUDO9akhDbpXO5WNDEF5Dl82sVflBZpbvvn9SDrry8Z624zMJxnUR1LFwjyc145i3fnhs60R3w1Ja8GtkQ-IrWXIzEsyS4y6j5YVmLFbLfQcAF8VAUKjmfwrP3WjYlKprChBDxaUIc6wscbgvguWSiAEMWkWoMaFO6G5fRVXhQausexPIFYdA3PisIv3ZvxZieOFIjaXFaeWtvIMAkSdQcYyRTM6e6mhM4oyoINOiuDuZ6za8-_-5_Xlqx83w1p__AtIYgZ8",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=ZM5F5XicHdDbbpswGABg7WV62XBI0jVSVIliB1BthrF_E99MjklCY3NYS0PD3d5lT9Wn2bQ3-PT9_uNeO_v17dqM4_C-WSymabo_9_3ZHe9N3y70-60zC6OdO2hjN-uHtf90Mlv0kUbPv9KoEP4HufkrYdkPLgfJrEpLCTlD0LK5TvWF7fY-TCwAW1_cxNqVUDO9akhDbpXO5WNDEF5Dl82sVflBZpbvvn9SDrry8Z624zMJxnUR1LFwjyc145i3fnhs60R3w1Ja8GtkQ-IrWXIzEsyS4y6j5YVmLFbLfQcAF8VAUKjmfwrP3WjYlKprChBDxaUIc6wscbgvguWSiAEMWkWoMaFO6G5fRVXhQausexPIFYdA3PisIv3ZvxZieOFIjaXFaeWtvIMAkSdQcYyRTM6e6mhM4oyoINOiuDuZ6za8-_-5_Xlqx83w1p__AtIYgZ8",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUVzR6TFhsU2VtMTRjRWRuT0dOM2VEZ3daVmhzV1RNM0xYTm5jSE5JWkdsVWRVSkdjVTk0U0dSSlFsQlpkWEJUYW5KS2JEWTNZMTlKWTE4NGRVOW9VM1ZxUTBsdldYVnNPR3M0U0haTVRFdFRZa2hrVnpkSk1EVXRSbWxhVEdsU1p4SVhOMmh6Um1Gd1YwTkZabVpKYTFCSlVHOWxNazgyUVdzYUlrRktTMHhHYlV0dFdtaFBhemxWTldkT09VMDJWa2xoYUc5WFlYazRVV2RuV2tFIiwiZmN2IjoiMyIsImVpIjoiN2hzRmFwV0NFZmZJa1BJUG9lMk82QWsiLCJxYyI6IkNoRnRZWEpyWlhScGJtY2daR2xuYVhSaGJCQlNmZXprT0QtaUFRSndkQSIsInF1ZXN0aW9uIjoiUXVhaXMgc8OjbyBvcyA0IHRpcG9zIGRlIG1hcmtldGluZyBkaWdpdGFsPyIsImxrIjoiR2lWeGRXRnBjeUJ2Y3lBMElIUnBjRzl6SUdSbElHMWhjbXRsZEdsdVp5QmthV2RwZEdGcyIsImJzIjoiYy1OeTVwTDNWeWdzVFZWSVM2eFNLTTFWeUUwc3lrNHR5Y3hMVjBqSlRNOHNTY3l4TjFLUWtzdkhxNFFyakVzN3NEUXhzMWloLVBEaWZJWDhZZ1VUaFpMTUFpQ2Rrb3JOUUhVcDFVS3djZ0lxdWVMQTV1WW9IRjZwa0s5UW5KaHplR0ZSWmo1SUtWYUhTdHl0TmRLUjBpb2tXZ2VYRTVlY2MzNHVVQ0hFYjlqOW5neFNBZk0taGhJQlJnQSIsImlkIjoiZmNfN2hzRmFwV0NFZmZJa1BJUG9lMk82QWtfMyJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUVzR6TFhsU2VtMTRjRWRuT0dOM2VEZ3daVmhzV1RNM0xYTm5jSE5JWkdsVWRVSkdjVTk0U0dSSlFsQlpkWEJUYW5KS2JEWTNZMTlKWTE4NGRVOW9VM1ZxUTBsdldYVnNPR3M0U0haTVRFdFRZa2hrVnpkSk1EVXRSbWxhVEdsU1p4SVhOMmh6Um1Gd1YwTkZabVpKYTFCSlVHOWxNazgyUVdzYUlrRktTMHhHYlV0dFdtaFBhemxWTldkT09VMDJWa2xoYUc5WFlYazRVV2RuV2tFIiwiZmN2IjoiMyIsImVpIjoiN2hzRmFwV0NFZmZJa1BJUG9lMk82QWsiLCJxYyI6IkNoRnRZWEpyWlhScGJtY2daR2xuYVhSaGJCQlNmZXprT0QtaUFRSndkQSIsInF1ZXN0aW9uIjoiUXVhaXMgc8OjbyBvcyA0IHRpcG9zIGRlIG1hcmtldGluZyBkaWdpdGFsPyIsImxrIjoiR2lWeGRXRnBjeUJ2Y3lBMElIUnBjRzl6SUdSbElHMWhjbXRsZEdsdVp5QmthV2RwZEdGcyIsImJzIjoiYy1OeTVwTDNWeWdzVFZWSVM2eFNLTTFWeUUwc3lrNHR5Y3hMVjBqSlRNOHNTY3l4TjFLUWtzdkhxNFFyakVzN3NEUXhzMWloLVBEaWZJWDhZZ1VUaFpMTUFpQ2Rrb3JOUUhVcDFVS3djZ0lxdWVMQTV1WW9IRjZwa0s5UW5KaHplR0ZSWmo1SUtWYUhTdHl0TmRLUjBpb2tXZ2VYRTVlY2MzNHVVQ0hFYjlqOW5neFNBZk0taGhJQlJnQSIsImlkIjoiZmNfN2hzRmFwV0NFZmZJa1BJUG9lMk82QWtfMyJ9"
+    },
+    {
+      "question": "Qual é o salário de um marketing digital?",
+      "type": "featured_snippet",
+      "table": [
+        [
+          "PORTE DA EMPRESA",
+          "SALÁRIO MÉDIO",
+          "SALÁRIO MÉDIO"
+        ],
+        [
+          "Trainee",
+          "Pleno"
+        ],
+        [
+          "Grande Empresa",
+          "R$ 4.382,00",
+          "R$ 6.846,87"
+        ],
+        [
+          "Média Empresa",
+          "R$ 3.370,77",
+          "R$ 5.266,82"
+        ],
+        [
+          "Pequena Empresa",
+          "R$ 2.592,90",
+          "R$ 4.051,40"
+        ]
+      ],
+      "formatted": [
+        {
+          "porte_da_empresa": "Trainee",
+          "salário_médio": "Pleno"
+        },
+        {
+          "porte_da_empresa": "Grande Empresa",
+          "salário_médio": "R$ 6.846,87"
+        },
+        {
+          "porte_da_empresa": "Média Empresa",
+          "salário_médio": "R$ 5.266,82"
+        },
+        {
+          "porte_da_empresa": "Pequena Empresa",
+          "salário_médio": "R$ 4.051,40"
+        }
+      ],
+      "title": "Salário de Tecnólogo em Marketing Digital e Data Science",
+      "link": "https://www.educamaisbrasil.com.br/cursos-e-faculdades/marketing-digital-e-data-science/marketing-digital-e-data-science-salario",
+      "displayed_link": "https://www.educamaisbrasil.com.br › cursos-e-faculdades",
+      "source_logo": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/7pSdSx-mmU2PVehis74xZN6pf_SMmfzHlnJDiZssUpc.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUVzR6TFhsU2VtMTRjRWRuT0dOM2VEZ3daVmhzV1RNM0xYTm5jSE5JWkdsVWRVSkdjVTk0U0dSSlFsQlpkWEJUYW5KS2JEWTNZMTlKWTE4NGRVOW9VM1ZxUTBsdldYVnNPR3M0U0haTVRFdFRZa2hrVnpkSk1EVXRSbWxhVEdsU1p4SVhOMmh6Um1Gd1YwTkZabVpKYTFCSlVHOWxNazgyUVdzYUlrRktTMHhHYlV0dFdtaFBhemxWTldkT09VMDJWa2xoYUc5WFlYazRVV2RuV2tFIiwiZmN2IjoiMyIsImVpIjoiN2hzRmFwV0NFZmZJa1BJUG9lMk82QWsiLCJxYyI6IkNoRnRZWEpyWlhScGJtY2daR2xuYVhSaGJCQlNmZXprT0QtaUFRSndkQSIsInF1ZXN0aW9uIjoiUXVhbCDDqSBvIHNhbMOhcmlvIGRlIHVtIG1hcmtldGluZyBkaWdpdGFsPyIsImxrIjoiR2lweGRXRnNJTU9wSUc4Z2MyRnN3NkZ5YVc4Z1pHVWdkVzBnYldGeWEyVjBhVzVuSUdScFoybDBZV3ciLCJicyI6ImMtTnk1cEwzVnlnc1RWVklTNnhTS00xVnlFMHN5azR0eWN4TFYwakpUTThzU2N5eE4xS1Frc3ZIcTRRcmpFczdzRFF4czFpaC1QRGlmSVg4WWdVVGhaTE1BaUNka29yTlFIVXAxVUt3Y2dJcXVlTEE1dVlvSEY2cGtLOVFuSmh6ZUdGUlpqNUlLVmFIU3R5dE5kS1IwaW9rV2dlWEU1ZWNjMzR1VUNIRWI5ajluZ3hTQWZNLWhoSUJSZ0EiLCJpZCI6ImZjXzdoc0ZhcFdDRWZmSWtQSVBvZTJPNkFrXzMifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUVzR6TFhsU2VtMTRjRWRuT0dOM2VEZ3daVmhzV1RNM0xYTm5jSE5JWkdsVWRVSkdjVTk0U0dSSlFsQlpkWEJUYW5KS2JEWTNZMTlKWTE4NGRVOW9VM1ZxUTBsdldYVnNPR3M0U0haTVRFdFRZa2hrVnpkSk1EVXRSbWxhVEdsU1p4SVhOMmh6Um1Gd1YwTkZabVpKYTFCSlVHOWxNazgyUVdzYUlrRktTMHhHYlV0dFdtaFBhemxWTldkT09VMDJWa2xoYUc5WFlYazRVV2RuV2tFIiwiZmN2IjoiMyIsImVpIjoiN2hzRmFwV0NFZmZJa1BJUG9lMk82QWsiLCJxYyI6IkNoRnRZWEpyWlhScGJtY2daR2xuYVhSaGJCQlNmZXprT0QtaUFRSndkQSIsInF1ZXN0aW9uIjoiUXVhbCDDqSBvIHNhbMOhcmlvIGRlIHVtIG1hcmtldGluZyBkaWdpdGFsPyIsImxrIjoiR2lweGRXRnNJTU9wSUc4Z2MyRnN3NkZ5YVc4Z1pHVWdkVzBnYldGeWEyVjBhVzVuSUdScFoybDBZV3ciLCJicyI6ImMtTnk1cEwzVnlnc1RWVklTNnhTS00xVnlFMHN5azR0eWN4TFYwakpUTThzU2N5eE4xS1Frc3ZIcTRRcmpFczdzRFF4czFpaC1QRGlmSVg4WWdVVGhaTE1BaUNka29yTlFIVXAxVUt3Y2dJcXVlTEE1dVlvSEY2cGtLOVFuSmh6ZUdGUlpqNUlLVmFIU3R5dE5kS1IwaW9rV2dlWEU1ZWNjMzR1VUNIRWI5ajluZ3hTQWZNLWhoSUJSZ0EiLCJpZCI6ImZjXzdoc0ZhcFdDRWZmSWtQSVBvZTJPNkFrXzMifQ%3D%3D"
+    },
+    {
+      "question": "Como se faz marketing digital?",
+      "type": "ai_overview",
+      "page_token": "NTXhMnicHdDLcpswFADQ6c9kGSMwaeMZT6fYUjAxeBDcK6xNRxY2YMSjCfjBLv_Sr-rXNJP9WZ2Pv6Zq63_fLuUw9O-L2ex6vT4WXVeY46Pumpl6v7d6ppUxB6XrxdP3J_LzpJd03HirPxsvBjKGd-ICEIc3OGZ2PqIvLSQeBbiNfNpMykd397KZSxY5SvQet4YunYIKjCE7jJK9oDauiznWUbvDX07S9tscy0_PQYnaylEmsC4v2qJ3bcxKMJlx6uKRygjq5_2OFfMtMnmwf7g5i0AbL8xZ6YeZcbHlXdowyeG5h3pwcj8PcMKbOPPomJBVaJdSmnIVnwMigNhiHZFjGnBaakf50cs-87LYwkbW5g2oiQ823NNJeurWVTH025TKIanlEBsmIAteFcrXsMkHmbFK-FilU2nJc5BC_HDSl6Xz8PW5_H1qhkX_1hX_AbbtggA",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=NTXhMnicHdDLcpswFADQ6c9kGSMwaeMZT6fYUjAxeBDcK6xNRxY2YMSjCfjBLv_Sr-rXNJP9WZ2Pv6Zq63_fLuUw9O-L2ex6vT4WXVeY46Pumpl6v7d6ppUxB6XrxdP3J_LzpJd03HirPxsvBjKGd-ICEIc3OGZ2PqIvLSQeBbiNfNpMykd397KZSxY5SvQet4YunYIKjCE7jJK9oDauiznWUbvDX07S9tscy0_PQYnaylEmsC4v2qJ3bcxKMJlx6uKRygjq5_2OFfMtMnmwf7g5i0AbL8xZ6YeZcbHlXdowyeG5h3pwcj8PcMKbOPPomJBVaJdSmnIVnwMigNhiHZFjGnBaakf50cs-87LYwkbW5g2oiQ823NNJeurWVTH025TKIanlEBsmIAteFcrXsMkHmbFK-FilU2nJc5BC_HDSl6Xz8PW5_H1qhkX_1hX_AbbtggA",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUVzR6TFhsU2VtMTRjRWRuT0dOM2VEZ3daVmhzV1RNM0xYTm5jSE5JWkdsVWRVSkdjVTk0U0dSSlFsQlpkWEJUYW5KS2JEWTNZMTlKWTE4NGRVOW9VM1ZxUTBsdldYVnNPR3M0U0haTVRFdFRZa2hrVnpkSk1EVXRSbWxhVEdsU1p4SVhOMmh6Um1Gd1YwTkZabVpKYTFCSlVHOWxNazgyUVdzYUlrRktTMHhHYlV0dFdtaFBhemxWTldkT09VMDJWa2xoYUc5WFlYazRVV2RuV2tFIiwiZmN2IjoiMyIsImVpIjoiN2hzRmFwV0NFZmZJa1BJUG9lMk82QWsiLCJxYyI6IkNoRnRZWEpyWlhScGJtY2daR2xuYVhSaGJCQlNmZXprT0QtaUFRSndkQSIsInF1ZXN0aW9uIjoiQ29tbyBzZSBmYXogbWFya2V0aW5nIGRpZ2l0YWw/IiwibGsiOiJHaDVqYjIxdklIRjFaU0JtWVhvZ2JXRnlhMlYwYVc1bklHUnBaMmwwWVd3IiwiYnMiOiJjLU55NXBMM1Z5Z3NUVlZJUzZ4U0tNMVZ5RTBzeWs0dHljeExWMGpKVE04c1NjeXhOMUtRa3N2SHE0UXJqRXM3c0RReHMxaWgtUERpZklYOFlnVVRoWkxNQWlDZGtvck5RSFVwMVVLd2NnSXF1ZUxBNXVZb0hGNnBrSzlRbkpoemVHRlJaajVJS1ZhSFN0eXROZEtSMGlva1dnZVhFNWVjYzM0dVVDSEViOWo5bmd4U0FmTS1oaElCUmdBIiwiaWQiOiJmY183aHNGYXBXQ0VmZklrUElQb2UyTzZBa18zIn0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUVzR6TFhsU2VtMTRjRWRuT0dOM2VEZ3daVmhzV1RNM0xYTm5jSE5JWkdsVWRVSkdjVTk0U0dSSlFsQlpkWEJUYW5KS2JEWTNZMTlKWTE4NGRVOW9VM1ZxUTBsdldYVnNPR3M0U0haTVRFdFRZa2hrVnpkSk1EVXRSbWxhVEdsU1p4SVhOMmh6Um1Gd1YwTkZabVpKYTFCSlVHOWxNazgyUVdzYUlrRktTMHhHYlV0dFdtaFBhemxWTldkT09VMDJWa2xoYUc5WFlYazRVV2RuV2tFIiwiZmN2IjoiMyIsImVpIjoiN2hzRmFwV0NFZmZJa1BJUG9lMk82QWsiLCJxYyI6IkNoRnRZWEpyWlhScGJtY2daR2xuYVhSaGJCQlNmZXprT0QtaUFRSndkQSIsInF1ZXN0aW9uIjoiQ29tbyBzZSBmYXogbWFya2V0aW5nIGRpZ2l0YWw%2FIiwibGsiOiJHaDVqYjIxdklIRjFaU0JtWVhvZ2JXRnlhMlYwYVc1bklHUnBaMmwwWVd3IiwiYnMiOiJjLU55NXBMM1Z5Z3NUVlZJUzZ4U0tNMVZ5RTBzeWs0dHljeExWMGpKVE04c1NjeXhOMUtRa3N2SHE0UXJqRXM3c0RReHMxaWgtUERpZklYOFlnVVRoWkxNQWlDZGtvck5RSFVwMVVLd2NnSXF1ZUxBNXVZb0hGNnBrSzlRbkpoemVHRlJaajVJS1ZhSFN0eXROZEtSMGlva1dnZVhFNWVjYzM0dVVDSEViOWo5bmd4U0FmTS1oaElCUmdBIiwiaWQiOiJmY183aHNGYXBXQ0VmZklrUElQb2UyTzZBa18zIn0%3D"
+    }
+  ],
+  "ai_overview": {
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "O marketing digital é um conjunto de estratégias online — como redes sociais, SEO, e-mail e anúncios — utilizado por empresas para promover produtos, atrair clientes e aumentar vendas na internet. Com foco em segmentação e análise de dados, ele permite construir presença digital e converter atenção em negócios, sendo essencial para empresas de todos os tamanhos em 2026.",
+        "snippet_highlighted_words": [
+          "é um conjunto de estratégias online — como redes sociais, SEO, e-mail e anúncios — utilizado por empresas para promover produtos, atrair clientes e aumentar vendas na internet"
+        ],
+        "reference_indexes": [
+          1,
+          8,
+          4,
+          3,
+          6
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Este vídeo explica o que é marketing digital na prática:",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=SMKRj4YGfFA&t=56",
+          "thumbnail": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/oNZXpaznUkTte5QVItz237iAtBcpsliliFE7T5U12vb-zmAowClPr-pzTRCXfXDg.jpeg",
+          "source": "Blog Abri Minha Empresa",
+          "date": "8 de dez. de 2025"
+        }
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Principais Estratégias e Canais (2026)"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Marketing de Conteúdo: Criação de materiais relevantes para atrair e engajar o público."
+          },
+          {
+            "snippet": "Redes Sociais: Uso de plataformas como Instagram, TikTok e YouTube para construir audiência."
+          },
+          {
+            "snippet": "SEO (Search Engine Optimization): Otimização para mecanismos de busca para garantir tráfego orgânico."
+          },
+          {
+            "snippet": "Tráfego Pago: Anúncios em plataformas (Google Ads, Meta Ads) para resultados mais rápidos."
+          },
+          {
+            "snippet": "E-mail Marketing: Relacionamento direto e nutrição de leads."
+          },
+          {
+            "snippet": "Marketing de Influência: Parcerias com influenciadores para validação de marca."
+          }
+        ],
+        "reference_indexes": [
+          1,
+          8,
+          6,
+          4,
+          9,
+          10
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Assista a este vídeo para aprender como começar no marketing digital:",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=uUAtbKbbPEw&t=70",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTyXLGDfKxpuFp93uvMR7EtAmIKUvcQqu1ltMuLjtT2I4Dsjb2A",
+          "source": "Yampi",
+          "date": "3 de jul. de 2025"
+        }
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Como Começar no Marketing Digital"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Defina seu Nicho e Persona: Entenda quem é seu público-alvo."
+          },
+          {
+            "snippet": "Escolha os Canais: Foque onde seu público está (ex: Instagram, LinkedIn, YouTube)."
+          },
+          {
+            "snippet": "Crie Conteúdo de Valor: Eduque ou entretenha sua audiência para ganhar autoridade."
+          },
+          {
+            "snippet": "Analise Métricas: Use ferramentas como Google Analytics para acompanhar o sucesso das ações."
+          },
+          {
+            "snippet": "Tenha Constância: O marketing digital é uma construção de longo prazo, não dinheiro rápido."
+          }
+        ],
+        "reference_indexes": [
+          9,
+          10,
+          6,
+          7,
+          11
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Ferramentas Recomendadas"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Design: Canva, CapCut."
+          },
+          {
+            "snippet": "Gestão/Análise: Notion, Google Analytics."
+          },
+          {
+            "snippet": "Automação/Email: Mailchimp."
+          }
+        ],
+        "reference_indexes": [
+          10
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Para quem deseja se profissionalizar, a área oferece formações com duração média de 2 anos, focadas em planejamento de tráfego, redes sociais e análise de dados.",
+        "reference_indexes": [
+          0
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Este vídeo dá dicas valiosas sobre como analisar métricas no marketing digital:",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=H4X4U3fIEh4&t=155",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTioFA_IScvLoySbLB7pIveePyyXaU2-QGqFi7kKCV4_Q1IdsZK",
+          "source": "Mizui",
+          "date": "14 de mar. de 2025"
+        }
+      }
+    ],
+    "references": [
+      {
+        "title": "MARKETING DIGITAL - Saiba tudo sobre o curso | Quero Bolsa",
+        "link": "https://querobolsa.com.br/cursos-e-faculdades/marketing-digital",
+        "snippet": "A faculdade de Marketing Digital capacita profissionais para criar e analisar estratégias online, com atuação em redes sociais, SE...",
+        "source": "Quero Bolsa",
+        "index": 0
+      },
+      {
+        "title": "Marketing Digital - Curso de Marketing Digital Gratuito e com Certificado",
+        "link": "https://www.programaavancar.com.br/cursos/gestao-de-negocios/curso-marketing-digital/marketing-digital-trailer",
+        "snippet": "O que é Marketing Digital? O marketing digital conta com uma série de estratégias online usadas para a promoção de uma empresa ou ...",
+        "source": "Programa Avançar",
+        "index": 1
+      },
+      {
+        "title": "Como Começar no Marketing Digital do Zero em 2025",
+        "link": "https://www.youtube.com/watch?t=154&v=jtg00hZ7CSw",
+        "snippet": "Tráfego orgânico é a forma de atrair visitantes sem pagar diretamente por anúncios, através da criação de conteúdo que aparece par...",
+        "source": "YouTube",
+        "index": 2
+      },
+      {
+        "title": "The Basics of Digital Marketing for Beginners",
+        "link": "https://www.youtube.com/watch?v=SMKRj4YGfFA",
+        "snippet": "Marketing digital compreende o conjunto de práticas que possibilitam a empresas, mesmo com orçamentos e estruturas limitadas, alca...",
+        "source": "YouTube",
+        "index": 3
+      },
+      {
+        "title": "O que é marketing digital? - IBM",
+        "link": "https://www.ibm.com/br-pt/think/topics/digital-marketing",
+        "snippet": "Marketing digital refere-se ao uso de tecnologias e plataformas digitais para promover produtos, serviços ou conceitos para client...",
+        "source": "IBM",
+        "index": 4
+      },
+      {
+        "title": "Como começar NO MARKETING DIGITAL em 2025 [Passo a Passo ...",
+        "link": "https://www.youtube.com/watch?t=173&v=uUAtbKbbPEw",
+        "snippet": "Para iniciar no marketing digital em 2025, o primeiro passo é definir um nicho com clareza, identificando um tema ou produto com d...",
+        "source": "YouTube",
+        "index": 5
+      },
+      {
+        "title": "Guia de Marketing Digital - Graduação - Estácio",
+        "link": "https://estacio.br/guia-de-carreiras/graduacao/marketing-digital",
+        "snippet": "O profissional de Marketing Digital planeja, executa e monitora campanhas em plataformas online para promover produtos ou serviços...",
+        "source": "Estácio",
+        "index": 6
+      },
+      {
+        "title": "Marketing Digital é furada? Saiba como evitar uma! - Orgânica Digital",
+        "link": "https://www.organicadigital.com/blog/marketing-digital-e-furada/",
+        "snippet": "O Marketing Digital dá dinheiro rápido e fácil Investir em Marketing Digital não dá dinheiro rápido e fácil, mas, como muitas pess...",
+        "source": "Orgânica Digital",
+        "index": 7
+      },
+      {
+        "title": "O que é Marketing Digital? #marketingdigital #digitalmarketing",
+        "link": "https://www.youtube.com/shorts/BEeW04g9_hk",
+        "snippet": "Marketing digital compreende toda estratégia que emprega canais digitais para comunicação, relacionamento e venda entre marcas e c...",
+        "source": "YouTube",
+        "index": 8
+      },
+      {
+        "title": "Como Começar no Marketing Digital do Zero em 2025",
+        "link": "https://www.youtube.com/watch?v=jtg00hZ7CSw&t=154",
+        "snippet": "Tráfego orgânico é a forma de atrair visitantes sem pagar diretamente por anúncios, através da criação de conteúdo que aparece par...",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRgLzmEh5bY1lkBhvLhrQsxHVZjR1VIau6zlYEQqQyzJX0fVsnv",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 9
+      },
+      {
+        "title": "Como começar NO MARKETING DIGITAL em 2025 [Passo a Passo ...",
+        "link": "https://www.youtube.com/watch?v=uUAtbKbbPEw&t=173",
+        "snippet": "Para iniciar no marketing digital em 2025, o primeiro passo é definir um nicho com clareza, identificando um tema ou produto com d...",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTyXLGDfKxpuFp93uvMR7EtAmIKUvcQqu1ltMuLjtT2I4Dsjb2A",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 10
+      },
+      {
+        "title": "Vídeos - A ferramenta de Marketing Digital que mais converte",
+        "link": "https://www.agenciasantafe.com.br/blog/videos-a-ferramenta-que-mais-converte/",
+        "snippet": "Quem não usa está atrasado. Com quase 2 bilhões de usurários, o Youtube tem uma audiência superior as três maiores emissoras de TV...",
+        "source": "www.agenciasantafe.com.br",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQC52fo7nKtDDhytRcBJJ5uJVyUIqxbTuCK6YZkoXbv7nJglskm",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.agenciasantafe.com.br&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 11
+      }
+    ]
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Marketing Digital: o que é, principais estratégias e mais!",
+      "link": "https://www.rdstation.com/blog/marketing/marketing-digital/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.rdstation.com/blog/marketing/marketing-digital/&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50QFnoECCoQAQ",
+      "displayed_link": "https://www.rdstation.com › Blog › Marketing",
+      "favicon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfI-J3Jp90ZIne53a3D8o1fQ.png",
+      "snippet": "O Marketing Digital é uma abordagem para promover produtos ou serviços usando canais e ferramentas digitais. Na prática, ele se baseia na presença online e ...",
+      "snippet_highlighted_words": [
+        "é uma abordagem para promover produtos ou serviços usando canais e ferramentas digitais"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "O Marketing Digital é uma abordagem para promover produtos ou serviços usando canais e ferramentas digitais. Na prática, ele se baseia na presença online e ...",
+          "source_info_link": "https://www.rdstation.com/blog/marketing/marketing-digital/",
+          "icon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfL6gc0MBqdNFt755FSoZ43R8RgcWCweSbAWNp3zFVCqE.png"
+        },
+        "languages": [
+          "pt"
+        ],
+        "regions": [
+          "BR"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://www.rdstation.com/blog/marketing/marketing-digital/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.rdstation.com%2Fblog%2Fmarketing%2Fmarketing-digital%2F",
+      "source": "RD Station"
+    },
+    {
+      "position": 2,
+      "title": "Marketing digital – Wikipédia, a enciclopédia livre",
+      "link": "https://pt.wikipedia.org/wiki/Marketing_digital",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://pt.wikipedia.org/wiki/Marketing_digital&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50QFnoECDEQAQ",
+      "displayed_link": "https://pt.wikipedia.org › wiki › Marketing_digital",
+      "favicon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfOM0JtW9TJbChjN6hCzCbLM.png",
+      "snippet": "Marketing digital ou mercadologia digital é um conjunto de estratégias de comunicação realizadas por meio de plataformas digitais como a internet, aplicativos ...",
+      "snippet_highlighted_words": [
+        "é um conjunto de estratégias de comunicação realizadas por meio de plataformas digitais"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Marketing digital ou mercadologia digital é um conjunto de estratégias de comunicação realizadas por meio de plataformas digitais como a internet, aplicativos ...",
+          "source_info_link": "https://pt.wikipedia.org/wiki/Marketing_digital",
+          "icon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfFxcDZiPBvdPSHugb7ZtXqBvlOE4Xmt6VxzdrRJ6iGu4.png"
+        },
+        "languages": [
+          "pt"
+        ],
+        "regions": [
+          "BR"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://pt.wikipedia.org/wiki/Marketing_digital&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FMarketing_digital",
+      "source": "Wikipedia"
+    },
+    {
+      "position": 3,
+      "title": "MARKETING DIGITAL - Saiba tudo sobre o curso",
+      "link": "https://querobolsa.com.br/cursos-e-faculdades/marketing-digital",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://querobolsa.com.br/cursos-e-faculdades/marketing-digital&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50QFnoECDYQAQ",
+      "displayed_link": "https://querobolsa.com.br › Lista de Cursos",
+      "favicon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfE2i-cjMre7StKPgmp06qn4.png",
+      "snippet": "A faculdade de Marketing Digital capacita profissionais para criar e analisar estratégias online, com atuação em redes sociais, SEO, conteúdo, publicidade e ...",
+      "snippet_highlighted_words": [
+        "A faculdade de Marketing Digital capacita profissionais para criar e analisar estratégias online"
+      ],
+      "rich_snippet": {
+        "bottom": {
+          "detected_extensions": {
+            "price": 69.0,
+            "currency": "R$"
+          },
+          "extensions": [
+            "R$ 69,00"
+          ]
+        }
+      },
+      "about_this_result": {
+        "source": {
+          "description": "A faculdade de Marketing Digital capacita profissionais para criar e analisar estratégias online, com atuação em redes sociais, SEO, conteúdo, publicidade e ...",
+          "source_info_link": "https://querobolsa.com.br/cursos-e-faculdades/marketing-digital",
+          "icon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfCmNUUJKcj6_RFLNDQ4BQMvy_GAkmDzfoPBFBMoildKy.png"
+        },
+        "languages": [
+          "pt"
+        ],
+        "regions": [
+          "BR"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://querobolsa.com.br/cursos-e-faculdades/marketing-digital&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fquerobolsa.com.br%2Fcursos-e-faculdades%2Fmarketing-digital",
+      "source": "Quero Bolsa"
+    },
+    {
+      "position": 4,
+      "title": "Marketing Digital em 2025: o que é e como funciona?",
+      "link": "https://www.organicadigital.com/blog/afinal-como-funciona-o-marketing-digital/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.organicadigital.com/blog/afinal-como-funciona-o-marketing-digital/&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50QFnoECDIQAQ",
+      "displayed_link": "https://www.organicadigital.com › ... › Marketing Digital",
+      "favicon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfOBZ9x-uaYsD7YMR9osuSe0.png",
+      "date": "21 de mai. de 2025",
+      "snippet": "Com o Marketing Digital, é possível saber exatamente de onde cada cliente e prospect veio, qual foi o caminho que tomaram para chegar até sua ...",
+      "snippet_highlighted_words": [
+        "é possível saber exatamente de onde cada cliente e prospect veio"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Com o Marketing Digital, é possível saber exatamente de onde cada cliente e prospect veio, qual foi o caminho que tomaram para chegar até sua ...",
+          "source_info_link": "https://www.organicadigital.com/blog/afinal-como-funciona-o-marketing-digital/",
+          "icon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfHiUhkyGBCwfPysn6nQ31Ujpdt1qAJbqDKpEuupCh8IO.png"
+        },
+        "languages": [
+          "pt"
+        ],
+        "regions": [
+          "BR"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://www.organicadigital.com/blog/afinal-como-funciona-o-marketing-digital/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.organicadigital.com%2Fblog%2Fafinal-como-funciona-o-marketing-digital%2F",
+      "source": "Orgânica Digital"
+    },
+    {
+      "position": 5,
+      "title": "O que é marketing digital? Tipos, exemplos e cursos",
+      "link": "https://advertising.amazon.com/pt-br/library/guides/digital-marketing",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://advertising.amazon.com/pt-br/library/guides/digital-marketing&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50QFnoECDkQAQ",
+      "displayed_link": "https://advertising.amazon.com › pt-br › library › guides",
+      "favicon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfLZXNO9Za8kAj6WxM9z5DHo.png",
+      "snippet": "O marketing digital ajuda empresas e marcas a alcançar clientes em potencial por meio de canais online, como sites, mídias sociais, e-mail e muito mais.",
+      "snippet_highlighted_words": [
+        "ajuda empresas e marcas a alcançar clientes em potencial por meio de canais online"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "O marketing digital ajuda empresas e marcas a alcançar clientes em potencial por meio de canais online, como sites, mídias sociais, e-mail e muito mais.",
+          "source_info_link": "https://advertising.amazon.com/pt-br/library/guides/digital-marketing",
+          "icon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfKHgody0UL39iGZm8GL0KcC2GV_H5vcDllSctuFDZtru.png"
+        },
+        "languages": [
+          "pt"
+        ],
+        "regions": [
+          "BR"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://advertising.amazon.com/pt-br/library/guides/digital-marketing&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fadvertising.amazon.com%2Fpt-br%2Flibrary%2Fguides%2Fdigital-marketing",
+      "source": "Amazon Ads"
+    },
+    {
+      "position": 6,
+      "title": "O que é marketing digital?",
+      "link": "https://www.ibm.com/br-pt/think/topics/digital-marketing",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.ibm.com/br-pt/think/topics/digital-marketing&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50QFnoECDQQAQ",
+      "displayed_link": "https://www.ibm.com › br-pt › think › topics › digital-...",
+      "favicon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfDxPdTTBmnAe77TxdNtrZy4.png",
+      "snippet": "Marketing digital refere-se ao uso de tecnologias e plataformas digitais para promover produtos, serviços ou conceitos para clientes em potencial.",
+      "snippet_highlighted_words": [
+        "Marketing digital"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Marketing digital refere-se ao uso de tecnologias e plataformas digitais para promover produtos, serviços ou conceitos para clientes em potencial.",
+          "source_info_link": "https://www.ibm.com/br-pt/think/topics/digital-marketing",
+          "icon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfMPnpycsy0lObX42idcd8HEHWUqGYNnk3EIRFAMYGMks.png"
+        },
+        "languages": [
+          "pt"
+        ],
+        "regions": [
+          "BR"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://www.ibm.com/br-pt/think/topics/digital-marketing&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.ibm.com%2Fbr-pt%2Fthink%2Ftopics%2Fdigital-marketing",
+      "source": "IBM"
+    },
+    {
+      "position": 7,
+      "title": "Marketing Digital: guia completo sobre o tema",
+      "link": "https://www.salesforce.com/br/blog/marketing-digital/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.salesforce.com/br/blog/marketing-digital/&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50QFnoECDUQAQ",
+      "displayed_link": "https://www.salesforce.com › Home › Recent Stories",
+      "favicon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfCGjHyjwYJOXJy3RHUxer4M.png",
+      "date": "10 de mai. de 2024",
+      "snippet": "Marketing digital é uma forma de marketing direto que conecta clientes a marcas utilizando estratégias online como blogs, sites, mídias sociais, ...",
+      "snippet_highlighted_words": [
+        "é uma forma de marketing direto que conecta clientes a marcas"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Marketing digital é uma forma de marketing direto que conecta clientes a marcas utilizando estratégias online como blogs, sites, mídias sociais, ...",
+          "source_info_link": "https://www.salesforce.com/br/blog/marketing-digital/",
+          "icon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfAJRhXRdAh74Jj9yPBYnKcjCx1ecvrcospJ_pNBB7r8J.png"
+        },
+        "languages": [
+          "pt"
+        ],
+        "regions": [
+          "BR"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://www.salesforce.com/br/blog/marketing-digital/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.salesforce.com%2Fbr%2Fblog%2Fmarketing-digital%2F",
+      "source": "Salesforce"
+    },
+    {
+      "position": 8,
+      "title": "Marketing Digital: guia completo para iniciantes - Conversion",
+      "link": "https://www.conversion.com.br/blog/o-que-e-marketing-digital/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.conversion.com.br/blog/o-que-e-marketing-digital/&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50QFnoECDMQAQ",
+      "displayed_link": "https://www.conversion.com.br › blog › o-que-e-marke...",
+      "favicon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfHTaQ92X-uZ4OWjRxqnec2g.png",
+      "date": "23 de mar. de 2025",
+      "snippet": "O Marketing Digital é uma ferramenta fundamental para promover negócios nos canais online. Saiba como criar uma estratégia eficaz!",
+      "snippet_highlighted_words": [
+        "Marketing Digital"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "O Marketing Digital é uma ferramenta fundamental para promover negócios nos canais online. Saiba como criar uma estratégia eficaz!",
+          "source_info_link": "https://www.conversion.com.br/blog/o-que-e-marketing-digital/",
+          "icon": "https://serpapi.com/searches/6a051be89df9dd88bc99e0c0/images/eZIWoBpE9Dbj6br-z0qKfBM9Zvf4he30JEuD0TWSnKeK_vmVNG_O8zdSCeDgT4VI.png"
+        },
+        "languages": [
+          "pt"
+        ],
+        "regions": [
+          "BR"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://www.conversion.com.br/blog/o-que-e-marketing-digital/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.conversion.com.br%2Fblog%2Fo-que-e-marketing-digital%2F",
+      "source": "conversion.com.br"
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Marketing digital curso",
+      "link": "https://www.google.com/search?sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&q=Marketing+digital+curso&sa=X&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q1QJ6BAguEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=Marketing+digital+curso"
+    },
+    {
+      "block_position": 1,
+      "query": "Marketing digital para iniciantes",
+      "link": "https://www.google.com/search?sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&q=Marketing+digital+para+iniciantes&sa=X&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q1QJ6BAhFEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=Marketing+digital+para+iniciantes"
+    },
+    {
+      "block_position": 1,
+      "query": "Marketing digital - o que faz",
+      "link": "https://www.google.com/search?sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&q=Marketing+digital+-+o+que+faz&sa=X&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q1QJ6BAg7EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=Marketing+digital+-+o+que+faz"
+    },
+    {
+      "block_position": 1,
+      "query": "Marketing Digital faculdade",
+      "link": "https://www.google.com/search?sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&q=Marketing+Digital+faculdade&sa=X&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q1QJ6BAg6EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=Marketing+Digital+faculdade"
+    },
+    {
+      "block_position": 1,
+      "query": "Marketing digital curso gratuito",
+      "link": "https://www.google.com/search?sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&q=Marketing+digital+curso+gratuito&sa=X&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q1QJ6BAg4EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=Marketing+digital+curso+gratuito"
+    },
+    {
+      "block_position": 1,
+      "query": "Marketing Digital salário",
+      "link": "https://www.google.com/search?sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&q=Marketing+Digital+sal%C3%A1rio&sa=X&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q1QJ6BAg3EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=Marketing+Digital+sal%C3%A1rio"
+    },
+    {
+      "block_position": 1,
+      "query": "Marketing digital como começar",
+      "link": "https://www.google.com/search?sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&q=Marketing+digital+como+come%C3%A7ar&sa=X&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q1QJ6BAgwEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=Marketing+digital+como+come%C3%A7ar"
+    },
+    {
+      "block_position": 1,
+      "query": "Marketing Digital vagas",
+      "link": "https://www.google.com/search?sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&q=Marketing+Digital+vagas&sa=X&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q1QJ6BAgvEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=Marketing+Digital+vagas"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=marketing+digital&sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&ei=7hsFapWCEffIkPIPoe2O6Ak&start=10&sa=N&sstk=Af77f_e0PgbAdRLt0oc0AuAR0yNx0-YbF3f4UegGm7XFrGZNm4wv6gdQMmXAKMxamnskQOH-xJOYqSrmi3ZScT2vJqa0KhFqjfNCkQ&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q8NMDegQITBAW",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=marketing+digital&sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&ei=7hsFapWCEffIkPIPoe2O6Ak&start=10&sa=N&sstk=Af77f_e0PgbAdRLt0oc0AuAR0yNx0-YbF3f4UegGm7XFrGZNm4wv6gdQMmXAKMxamnskQOH-xJOYqSrmi3ZScT2vJqa0KhFqjfNCkQ&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q8tMDegQITBAE",
+      "3": "https://www.google.com/search?q=marketing+digital&sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&ei=7hsFapWCEffIkPIPoe2O6Ak&start=20&sa=N&sstk=Af77f_e0PgbAdRLt0oc0AuAR0yNx0-YbF3f4UegGm7XFrGZNm4wv6gdQMmXAKMxamnskQOH-xJOYqSrmi3ZScT2vJqa0KhFqjfNCkQ&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q8tMDegQITBAG",
+      "4": "https://www.google.com/search?q=marketing+digital&sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&ei=7hsFapWCEffIkPIPoe2O6Ak&start=30&sa=N&sstk=Af77f_e0PgbAdRLt0oc0AuAR0yNx0-YbF3f4UegGm7XFrGZNm4wv6gdQMmXAKMxamnskQOH-xJOYqSrmi3ZScT2vJqa0KhFqjfNCkQ&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q8tMDegQITBAI",
+      "5": "https://www.google.com/search?q=marketing+digital&sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&ei=7hsFapWCEffIkPIPoe2O6Ak&start=40&sa=N&sstk=Af77f_e0PgbAdRLt0oc0AuAR0yNx0-YbF3f4UegGm7XFrGZNm4wv6gdQMmXAKMxamnskQOH-xJOYqSrmi3ZScT2vJqa0KhFqjfNCkQ&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q8tMDegQITBAK",
+      "6": "https://www.google.com/search?q=marketing+digital&sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&ei=7hsFapWCEffIkPIPoe2O6Ak&start=50&sa=N&sstk=Af77f_e0PgbAdRLt0oc0AuAR0yNx0-YbF3f4UegGm7XFrGZNm4wv6gdQMmXAKMxamnskQOH-xJOYqSrmi3ZScT2vJqa0KhFqjfNCkQ&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q8tMDegQITBAM",
+      "7": "https://www.google.com/search?q=marketing+digital&sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&ei=7hsFapWCEffIkPIPoe2O6Ak&start=60&sa=N&sstk=Af77f_e0PgbAdRLt0oc0AuAR0yNx0-YbF3f4UegGm7XFrGZNm4wv6gdQMmXAKMxamnskQOH-xJOYqSrmi3ZScT2vJqa0KhFqjfNCkQ&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q8tMDegQITBAO",
+      "8": "https://www.google.com/search?q=marketing+digital&sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&ei=7hsFapWCEffIkPIPoe2O6Ak&start=70&sa=N&sstk=Af77f_e0PgbAdRLt0oc0AuAR0yNx0-YbF3f4UegGm7XFrGZNm4wv6gdQMmXAKMxamnskQOH-xJOYqSrmi3ZScT2vJqa0KhFqjfNCkQ&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q8tMDegQITBAQ",
+      "9": "https://www.google.com/search?q=marketing+digital&sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&ei=7hsFapWCEffIkPIPoe2O6Ak&start=80&sa=N&sstk=Af77f_e0PgbAdRLt0oc0AuAR0yNx0-YbF3f4UegGm7XFrGZNm4wv6gdQMmXAKMxamnskQOH-xJOYqSrmi3ZScT2vJqa0KhFqjfNCkQ&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q8tMDegQITBAS",
+      "10": "https://www.google.com/search?q=marketing+digital&sca_esv=b3ca9c57de57aa89&gl=br&hl=pt&ei=7hsFapWCEffIkPIPoe2O6Ak&start=90&sa=N&sstk=Af77f_e0PgbAdRLt0oc0AuAR0yNx0-YbF3f4UegGm7XFrGZNm4wv6gdQMmXAKMxamnskQOH-xJOYqSrmi3ZScT2vJqa0KhFqjfNCkQ&ved=2ahUKEwiVscKrx7eUAxV3JEQIHaG2A50Q8tMDegQITBAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=marketing+digital&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=marketing+digital&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=marketing+digital&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=marketing+digital&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=marketing+digital&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=marketing+digital&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=marketing+digital&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=marketing+digital&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=marketing+digital&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=marketing+digital&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt&q=marketing+digital&start=90"
+    }
+  }
+}
