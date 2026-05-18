@@ -48,10 +48,14 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
 
 # ── Configuração — edite aqui antes de usar ──────────────────────────────────
 SHEETS_URL         = "https://docs.google.com/spreadsheets/d/1Pug3l_jGx9NOBIJ-qpjL9Klu9NwvZXZ1LI9Ny8Ba-G4/edit?usp=sharing"
-SHEETS_ABA         = "seo local"
+SHEETS_ABA         = "Páginas Pilar"
+SHEETS_GID         = "1294902472"   # GID da aba Páginas Pilar
 REPO_SITE          = r"C:\Users\Lenovo\Desktop\portal-do-bebedouro\portal-do-bebedouro"
 DOMINIO_SITE       = "portaldobebedouro.com.br"
 PASTA_SAIDA_PADRAO = r"C:\Users\Lenovo\seo_automation\temp_saida"
+IMAGENS_OWNER      = "jgbebedourosmkt-dev"
+IMAGENS_REPO       = "portal-do-bebedouro-imagens"
+IMAGENS_MAX        = 2   # máximo de imagens por artigo
 # ─────────────────────────────────────────────────────────────────────────────
 
 HEADERS = {
@@ -62,7 +66,7 @@ HEADERS = {
 REQUEST_TIMEOUT = 20
 DELAY_REQUESTS  = 2
 NUM_RESULTS     = 3
-LINHA_INICIAL   = 4
+LINHA_INICIAL   = 0
 ESTADO_PATH     = os.path.join(os.path.dirname(os.path.abspath(__file__)), "estado.json")
 SAIDA_REPO_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "saida", "linha_dados.json")
 POLL_INTERVALO  = 60    # segundos entre cada verificação
@@ -83,19 +87,31 @@ def _ler_linha(arquivo: str, numero_linha: int, nome_aba: str) -> dict:
 
 
 def _ler_google_sheets(url: str, numero_linha: int, nome_aba: str) -> dict:
+    import io
     match = re.search(r"/spreadsheets/d/([a-zA-Z0-9_-]+)", url)
     if not match:
         raise ValueError("URL do Google Sheets inválida")
     sheet_id = match.group(1)
-    export_url = (
-        f"https://docs.google.com/spreadsheets/d/{sheet_id}"
-        f"/gviz/tq?tqx=out:csv&sheet={quote(nome_aba)}"
-    )
+    # Usa GID quando disponível (mais confiável que nome de aba)
+    if SHEETS_GID:
+        export_url = (
+            f"https://docs.google.com/spreadsheets/d/{sheet_id}"
+            f"/export?format=csv&gid={SHEETS_GID}"
+        )
+    else:
+        export_url = (
+            f"https://docs.google.com/spreadsheets/d/{sheet_id}"
+            f"/export?format=csv&sheet={quote(nome_aba)}"
+        )
     logging.info(f"Baixando planilha: {export_url}")
     resp = requests.get(export_url, timeout=REQUEST_TIMEOUT)
     resp.raise_for_status()
     resp.encoding = "utf-8"
-    reader = csv.DictReader(resp.text.splitlines())
+    # Pula 3 linhas de título/legenda; lê o restante como stream para preservar
+    # campos multi-linha (células com quebra de linha dentro de aspas)
+    conteudo = resp.text.splitlines(keepends=True)
+    restante = "".join(conteudo[3:])
+    reader = csv.DictReader(io.StringIO(restante))
     for i, row in enumerate(reader):
         if i == numero_linha:
             return dict(row)
@@ -148,6 +164,83 @@ def _extrair_keyword(dados_linha: dict, coluna_keyword: Union[int, str]):
     if not valor:
         raise ValueError(f"Keyword vazia na coluna '{nome_coluna}'")
     return valor, nome_coluna
+
+
+# ── Banco de imagens ──────────────────────────────────────────────────────────
+
+_STOP_PT = {
+    "e", "de", "do", "da", "dos", "das", "a", "o", "os", "as",
+    "para", "em", "com", "no", "na", "ao", "um", "uma",
+}
+
+_cache_imagens: list | None = None
+
+
+def _listar_imagens() -> list:
+    """Busca catálogo de imagens do GitHub API (com cache por execução)."""
+    global _cache_imagens
+    if _cache_imagens is not None:
+        return _cache_imagens
+
+    api_url = f"https://api.github.com/repos/{IMAGENS_OWNER}/{IMAGENS_REPO}/contents/"
+    try:
+        resp = requests.get(api_url, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        arquivos = resp.json()
+        _cache_imagens = [
+            {
+                "nome": f["name"],
+                "raw_url": f["download_url"],
+            }
+            for f in arquivos
+            if f["type"] == "file" and f["name"].lower().endswith((".jpg", ".jpeg", ".png", ".webp"))
+        ]
+        logging.info(f"Banco de imagens: {len(_cache_imagens)} imagens encontradas")
+    except Exception as e:
+        logging.warning(f"Falha ao listar banco de imagens: {e}")
+        _cache_imagens = []
+    return _cache_imagens
+
+
+def _normalizar(texto: str) -> set:
+    """Tokeniza texto em palavras minúsculas sem stop words e sem acentos simples."""
+    import unicodedata
+    normalizado = unicodedata.normalize("NFD", texto.lower())
+    sem_acento = "".join(c for c in normalizado if unicodedata.category(c) != "Mn")
+    palavras = re.findall(r"[a-z0-9]+", sem_acento)
+    return {p for p in palavras if p not in _STOP_PT and len(p) > 1}
+
+
+def _buscar_imagens(keyword: str, max_results: int = IMAGENS_MAX) -> list:
+    """Retorna as imagens mais relevantes para a keyword, com score e URL."""
+    imagens = _listar_imagens()
+    if not imagens:
+        return []
+
+    tokens_kw = _normalizar(keyword)
+    resultados = []
+    for img in imagens:
+        nome_sem_ext = os.path.splitext(img["nome"])[0]
+        tokens_img = _normalizar(nome_sem_ext)
+        intersecao = tokens_kw & tokens_img
+        if not intersecao:
+            continue
+        score = len(intersecao) / max(len(tokens_kw), 1)
+        resultados.append({
+            "nome": img["nome"],
+            "raw_url": img["raw_url"],
+            "alt_text": nome_sem_ext,
+            "score": round(score, 2),
+            "palavras_comuns": sorted(intersecao),
+        })
+
+    resultados.sort(key=lambda x: x["score"], reverse=True)
+    selecionadas = resultados[:max_results]
+    logging.info(
+        f"Imagens encontradas para '{keyword}': {len(selecionadas)} "
+        f"(scores: {[i['score'] for i in selecionadas]})"
+    )
+    return selecionadas
 
 
 # ── Busca SERP ────────────────────────────────────────────────────────────────
@@ -205,7 +298,7 @@ def _buscar_google_scraping(keyword: str, num: int) -> list:
         return []
 
 
-# ── Download HTML ─────────────────────────────────────────────────────────────
+# ── Download e extração de HTML ───────────────────────────────────────────────
 
 def _baixar_html(url: str):
     try:
@@ -217,6 +310,50 @@ def _baixar_html(url: str):
     except Exception as e:
         logging.warning(f"Falha ao baixar {url}: {e}")
         return None
+
+
+def _extrair_conteudo_html(html: str, url: str) -> dict:
+    """Extrai estrutura semântica do HTML: headings, intro, contagem de palavras."""
+    try:
+        soup = BeautifulSoup(html, "lxml")
+
+        # remove blocos de navegação, rodapé, scripts e anúncios
+        for tag in soup(["nav", "header", "footer", "script", "style", "aside",
+                         "form", "noscript", "iframe", "svg"]):
+            tag.decompose()
+
+        titulo = soup.find("h1")
+        titulo_texto = titulo.get_text(strip=True) if titulo else ""
+
+        # headings estruturais H2 e H3
+        headings = []
+        for tag in soup.find_all(["h2", "h3"]):
+            texto = tag.get_text(strip=True)
+            if texto and len(texto) > 3:
+                headings.append({"nivel": tag.name, "texto": texto})
+
+        # primeiro parágrafo longo (introdução)
+        intro = ""
+        for p in soup.find_all("p"):
+            texto = p.get_text(strip=True)
+            if len(texto) > 80:
+                intro = texto[:500]
+                break
+
+        # texto limpo para contagem de palavras
+        texto_corpo = soup.get_text(separator=" ", strip=True)
+        num_palavras = len(texto_corpo.split())
+
+        return {
+            "url": url,
+            "titulo_pagina": titulo_texto,
+            "num_palavras": num_palavras,
+            "intro": intro,
+            "headings": headings,
+        }
+    except Exception as e:
+        logging.warning(f"Falha ao extrair conteúdo de {url}: {e}")
+        return {"url": url, "titulo_pagina": "", "num_palavras": 0, "intro": "", "headings": []}
 
 
 # ── Utilitários ───────────────────────────────────────────────────────────────
@@ -236,9 +373,7 @@ def _push_github(pasta_saida: str, keyword: str, numero_linha: int):
     arquivos = [
         "linha_dados.json",
         "serp_urls.json",
-        "resultado_1.html",
-        "resultado_2.html",
-        "resultado_3.html",
+        "serp_content.json",
     ]
     copiados = []
     for nome in arquivos:
@@ -273,122 +408,94 @@ def _push_github(pasta_saida: str, keyword: str, numero_linha: int):
 # ── Publicação ────────────────────────────────────────────────────────────────
 
 def _aguardar_e_publicar(slug: str, titulo: str):
+    """Faz git pull no repo de staging a cada POLL_INTERVALO segundos.
+    Quando saida/page.tsx aparecer, copia para o site e aciona publicação."""
+    repo_dir = os.path.dirname(os.path.abspath(__file__))
+    staging_tsx = os.path.join(repo_dir, "saida", "page.tsx")
     deadline = time.time() + POLL_TIMEOUT * 60
-    logging.info(f"Aguardando artigo '{slug}' em branch claude/ por até {POLL_TIMEOUT} min")
+    logging.info(f"Aguardando saida/page.tsx via git pull por até {POLL_TIMEOUT} min...")
+
+    def _git_staging(cmd: list):
+        subprocess.run(
+            ["git", "-C", repo_dir] + cmd,
+            capture_output=True, text=True, encoding="utf-8", errors="replace",
+        )
 
     while time.time() < deadline:
         time.sleep(POLL_INTERVALO)
-        try:
-            subprocess.run(
-                ["git", "-C", REPO_SITE, "fetch", "--all"],
-                capture_output=True,
-            )
-            result = subprocess.run(
-                ["git", "-C", REPO_SITE, "branch", "-r", "--sort=-committerdate"],
-                capture_output=True,
-                text=True,
-                encoding="utf-8",
-                errors="replace",
-            )
-            branches = [b.strip() for b in result.stdout.splitlines() if "claude/" in b]
-            for branch in branches:
-                ls = subprocess.run(
-                    ["git", "-C", REPO_SITE, "ls-tree", "--name-only", branch, f"{slug}.html"],
-                    capture_output=True,
-                    text=True,
-                    encoding="utf-8",
-                    errors="replace",
-                )
-                if slug in ls.stdout:
-                    logging.info(f"Artigo encontrado em {branch}")
-                    _publicar_artigo(slug)
-                    return
-        except Exception as e:
-            logging.warning(f"Erro durante polling: {e}")
-
-        restante = int((deadline - time.time()) / 60)
-        logging.info(f"Artigo ainda não encontrado. Tempo restante: ~{restante} min")
-
-    logging.warning(f"Timeout de {POLL_TIMEOUT} min atingido — publicação automática não realizada")
-
-
-def _publicar_artigo(slug_override: str = ""):
-    if slug_override:
-        slug = slug_override
-        titulo = slug_override
-    else:
-        with open(SAIDA_REPO_PATH, "r", encoding="utf-8") as f:
-            dados = json.load(f)
-        slug = dados.get("meta", {}).get("slug", "")
-        titulo = dados.get("meta", {}).get("titulo_h1", slug)
-
-    subprocess.run(["git", "-C", REPO_SITE, "fetch", "--all"], capture_output=True)
-    result = subprocess.run(
-        ["git", "-C", REPO_SITE, "branch", "-r", "--sort=-committerdate"],
-        capture_output=True,
-        text=True,
-        encoding="utf-8",
-        errors="replace",
-    )
-    branches = [b.strip() for b in result.stdout.splitlines() if "claude/" in b]
-    if not branches:
-        raise RuntimeError("Nenhuma branch claude/ encontrada no repo do site")
-
-    branch_alvo = None
-    for branch in branches:
-        ls = subprocess.run(
-            ["git", "-C", REPO_SITE, "ls-tree", "--name-only", branch, f"{slug}.html"],
-            capture_output=True,
-            text=True,
-            encoding="utf-8",
-            errors="replace",
-        )
-        if slug in ls.stdout:
-            branch_alvo = branch
-            break
-
-    if not branch_alvo:
-        raise FileNotFoundError(f"Arquivo {slug}.html não encontrado em nenhuma branch claude/")
-
-    subprocess.run(["git", "-C", REPO_SITE, "checkout", "main"], capture_output=True)
-    subprocess.run(["git", "-C", REPO_SITE, "pull", "origin", "main"], capture_output=True)
-
-    status = subprocess.run(
-        ["git", "-C", REPO_SITE, "branch", "--show-current"],
-        capture_output=True,
-        text=True,
-        encoding="utf-8",
-        errors="replace",
-    ).stdout.strip()
-
-    if status == "main":
-        ls_main = subprocess.run(
-            ["git", "-C", REPO_SITE, "ls-tree", "--name-only", "HEAD", f"{slug}.html"],
-            capture_output=True,
-            text=True,
-            encoding="utf-8",
-            errors="replace",
-        )
-        if slug in ls_main.stdout:
-            logging.info("Artigo já publicado em main")
-            _atualizar_sitemap(slug)
-            _notificar_conclusao(titulo, slug)
+        _git_staging(["pull", "origin", "main"])
+        if os.path.exists(staging_tsx):
+            logging.info("saida/page.tsx detectado — copiando para o site...")
+            destino_dir = os.path.join(REPO_SITE, "app", slug)
+            os.makedirs(destino_dir, exist_ok=True)
+            destino_tsx = os.path.join(destino_dir, "page.tsx")
+            shutil.copy2(staging_tsx, destino_tsx)
+            _limpar_staging_tsx(repo_dir, staging_tsx)
+            _publicar_pagina(slug, titulo, destino_tsx)
             return
+        restante = int((deadline - time.time()) / 60)
+        logging.info(f"saida/page.tsx não encontrado. Tempo restante: ~{restante} min")
 
-    subprocess.run(
-        ["git", "-C", REPO_SITE, "checkout", branch_alvo, "--", f"{slug}.html"],
-        capture_output=True,
-    )
-    subprocess.run(["git", "-C", REPO_SITE, "add", f"{slug}.html"], capture_output=True)
-    subprocess.run(
-        ["git", "-C", REPO_SITE, "commit", "-m", f"artigo: {titulo}"],
-        capture_output=True,
-    )
-    subprocess.run(["git", "-C", REPO_SITE, "push", "origin", "main"], capture_output=True)
-    logging.info(f"Artigo '{slug}' publicado em main")
+    logging.warning(f"Timeout de {POLL_TIMEOUT} min — page.tsx não chegou no staging")
+
+
+def _limpar_staging_tsx(repo_dir: str, staging_tsx: str):
+    """Remove saida/page.tsx do repo de staging após copiar para o site."""
+    try:
+        os.remove(staging_tsx)
+        subprocess.run(
+            ["git", "-C", repo_dir, "add", "saida/page.tsx"],
+            capture_output=True, text=True,
+        )
+        subprocess.run(
+            ["git", "-C", repo_dir, "commit", "-m", "cleanup: remove page.tsx do staging"],
+            capture_output=True, text=True,
+        )
+        subprocess.run(
+            ["git", "-C", repo_dir, "push", "origin", "main"],
+            capture_output=True, text=True,
+        )
+    except Exception as e:
+        logging.warning(f"Limpeza do staging falhou (não crítico): {e}")
+
+
+def _publicar_pagina(slug: str, titulo: str, arquivo_tsx: str):
+    """Faz git add + commit + push do page.tsx no repo do site."""
+    def _git(cmd: list) -> str:
+        result = subprocess.run(
+            ["git", "-C", REPO_SITE] + cmd,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+        )
+        if result.returncode != 0:
+            raise RuntimeError(f"git {' '.join(cmd)} falhou:\n{result.stderr.strip()}")
+        return result.stdout.strip()
+
+    _git(["add", f"app/{slug}/"])
+    _git(["commit", "-m", f"feat: página pilar /{slug}"])
+    _git(["push", "origin", "main"])
+    logging.info(f"/{slug} publicado — Vercel deploy iniciado")
 
     _atualizar_sitemap(slug)
     _notificar_conclusao(titulo, slug)
+
+
+def _publicar_artigo(slug_override: str = ""):
+    """Atalho CLI para publicar manualmente um slug já gerado."""
+    if not slug_override:
+        with open(SAIDA_REPO_PATH, "r", encoding="utf-8") as f:
+            dados = json.load(f)
+        slug_override = dados.get("meta", {}).get("slug", "")
+        titulo = dados.get("meta", {}).get("titulo_h1", slug_override)
+    else:
+        titulo = slug_override
+
+    arquivo_tsx = os.path.join(REPO_SITE, "app", slug_override, "page.tsx")
+    if not os.path.exists(arquivo_tsx):
+        raise FileNotFoundError(f"page.tsx não encontrado: {arquivo_tsx}")
+    _publicar_pagina(slug_override, titulo, arquivo_tsx)
 
 
 def _atualizar_sitemap(slug: str):
@@ -447,7 +554,7 @@ def _notificar_conclusao(titulo: str, slug: str):
 
 def processar_linha(
     numero_linha: int,
-    coluna_keyword: Union[int, str] = "Palavra-Chave Principal",
+    coluna_keyword: Union[int, str] = "Palavra-chave Principal",
     pasta_saida: str = PASTA_SAIDA_PADRAO,
     arquivo: str = SHEETS_URL,
     nome_aba: str = SHEETS_ABA,
@@ -460,8 +567,10 @@ def processar_linha(
     keyword, nome_coluna = _extrair_keyword(dados_linha, coluna_keyword)
     logging.info(f"Keyword: {keyword} (coluna: {nome_coluna})")
 
-    links_internos = dados_linha.get("links internos", "")
+    links_internos = dados_linha.get("Links Internos", dados_linha.get("links internos", ""))
     os.makedirs(pasta_saida, exist_ok=True)
+
+    imagens = _buscar_imagens(keyword)
 
     linha_dados = {
         "meta": {
@@ -469,15 +578,16 @@ def processar_linha(
             "linha": numero_linha,
             "coluna_keyword": coluna_keyword if isinstance(coluna_keyword, str) else nome_coluna,
             "keyword": keyword,
-            "titulo_h1": dados_linha.get("Título (H1)", ""),
-            "meta_title": dados_linha.get("Meta Title", ""),
+            "titulo_h1": dados_linha.get("h1", ""),
+            "meta_title": dados_linha.get("h1", ""),   # sem coluna Meta Title separada
             "meta_description": dados_linha.get("Meta Description", ""),
-            "slug": dados_linha.get("Slug", ""),
-            "servico_nicho": dados_linha.get("Serviço / Nicho", ""),
-            "cidade_regiao": dados_linha.get("Cidade / Região", ""),
-            "bairros_areas": dados_linha.get("Bairros / Áreas", ""),
-            "nap": dados_linha.get("NAP", ""),
+            "slug": dados_linha.get("URL / Slug", "").lstrip("/"),
+            "cluster": dados_linha.get("Cluster", ""),
+            "tipo_pilar": dados_linha.get("Tipo de Pilar", ""),
+            "intencao": dados_linha.get("Intenção", ""),
+            "variacoes_semanticas": dados_linha.get("Variações Semânticas", ""),
             "links_internos": links_internos,
+            "imagens": imagens,
             "gerado_em": datetime.now().isoformat(),
         },
         "dados_linha": dados_linha,
@@ -506,30 +616,40 @@ def processar_linha(
     }
     _salvar_json(serp_data, os.path.join(pasta_saida, "serp_urls.json"))
 
-    htmls = []
+    conteudos_serp = []
     for i, r in enumerate(urls):
         html = _baixar_html(r["url"])
-        nome_arquivo = f"resultado_{i + 1}.html"
-        caminho = os.path.join(pasta_saida, nome_arquivo)
         if html:
-            with open(caminho, "w", encoding="utf-8") as f:
-                f.write(html)
-            logging.info(f"HTML salvo: {caminho}")
-            htmls.append(caminho)
+            conteudo = _extrair_conteudo_html(html, r["url"])
+            conteudo["posicao"] = i + 1
+            conteudo["titulo_serp"] = r.get("titulo_serp", "")
+            conteudo["descricao_serp"] = r.get("descricao_serp", "")
+            conteudos_serp.append(conteudo)
+            logging.info(f"Conteúdo extraído: posição {i+1} — {conteudo['num_palavras']} palavras, {len(conteudo['headings'])} headings")
         else:
             logging.warning(f"HTML não baixado para: {r['url']}")
         if i < len(urls) - 1:
             time.sleep(DELAY_REQUESTS)
 
+    serp_content = {
+        "keyword": keyword,
+        "gerado_em": datetime.now().isoformat(),
+        "media_palavras_top3": int(sum(c["num_palavras"] for c in conteudos_serp) / max(len(conteudos_serp), 1)),
+        "minimo_palavras_recomendado": int(max((c["num_palavras"] for c in conteudos_serp), default=0) * 1.2),
+        "concorrentes": conteudos_serp,
+    }
+    _salvar_json(serp_content, os.path.join(pasta_saida, "serp_content.json"))
+
     _avancar_linha()
     _push_github(pasta_saida, keyword, numero_linha)
 
-    logging.info(f"Arquivos gerados: linha_dados.json, serp_urls.json, {len(htmls)} HTMLs")
+    logging.info(f"Arquivos gerados: linha_dados.json, serp_urls.json, serp_content.json")
     return {
         "linha_dados": linha_dados,
         "serp_urls": serp_data,
-        "htmls": htmls,
+        "serp_content": serp_content,
         "links_internos": links_internos,
+        "imagens": imagens,
     }
 
 
@@ -539,7 +659,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Automação SEO — Portal do Bebedouro")
     parser.add_argument("--publicar", action="store_true", help="Publica artigo já gerado")
     parser.add_argument("--slug", default="", help="Slug manual para --publicar")
-    parser.add_argument("--coluna", default="Palavra-Chave Principal", help="Coluna da keyword")
+    parser.add_argument("--coluna", default="Palavra-chave Principal", help="Coluna da keyword")
     parser.add_argument("--pasta", default=PASTA_SAIDA_PADRAO, help="Pasta de saída temporária")
     parser.add_argument("--aba", default=SHEETS_ABA, help="Aba da planilha")
     parser.add_argument("--url", default=SHEETS_URL, help="URL ou caminho da planilha")

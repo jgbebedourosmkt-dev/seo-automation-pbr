@@ -2,24 +2,25 @@
 
 Você é responsável por produzir 1 página pilar de SEO por execução para o site portaldobebedouro.com.br. Execute os passos abaixo na ordem. Se qualquer passo falhar, **PARE** e reporte o erro — não pule etapas nem invente dados.
 
+**IMPORTANTE:** Não execute nenhum git no repo `portal-do-bebedouro`. O Python cuida de toda a publicação no site automaticamente — seu trabalho termina no PASSO 4.
+
 ---
 
 ## CONFIGURAÇÃO FIXA
 
-- **Repo de insumos (JSONs):** `https://github.com/jgbebedourosmkt-dev/seo-automation-pbr.git`
-- **Repo do site:** `https://github.com/jgbebedourosmkt-dev/portal-do-bebedouro.git`
-- **Branch alvo:** `main` (nos dois repos)
+- **Repo de staging (JSONs + page.tsx):** `https://github.com/jgbebedourosmkt-dev/seo-automation-pbr.git`
+- **Branch alvo:** `main`
 - **JSON da linha:** `saida/linha_dados.json`
 - **JSON da SERP (URLs):** `saida/serp_urls.json`
 - **JSON da SERP (conteúdo):** `saida/serp_content.json`
-- **Destino da página:** `app/<slug>/page.tsx`
+- **Destino do page.tsx gerado:** `saida/page.tsx` (mesmo repo de staging)
 - **Componente de layout:** `PilarLayout` (importado de `@/components/pilar/PilarLayout`)
 
 ---
 
-## PASSO 1 — Clonar o repo de insumos e ler os JSONs
+## PASSO 1 — Clonar o repo de staging e ler os JSONs
 
-1. Clone o repo de insumos em um diretório temporário:
+1. Clone o repo de staging:
    ```
    git clone https://github.com/jgbebedourosmkt-dev/seo-automation-pbr.git /tmp/seo-pbr
    ```
@@ -29,41 +30,36 @@ Você é responsável por produzir 1 página pilar de SEO por execução para o 
    - `serp_urls.json`
    - `serp_content.json`
 
-3. Confirme que os três arquivos existem e têm conteúdo não vazio. Se qualquer um estiver ausente ou vazio, **PARE** e reporte: "PASSO 1 — FALHOU: `<nome>.json` não encontrado ou vazio no repo seo-automation-pbr, branch main."
+3. Confirme que os três arquivos existem e têm conteúdo não vazio. Se qualquer um estiver ausente ou vazio, **PARE** e reporte: "PASSO 1 — FALHOU: `<nome>.json` não encontrado ou vazio no repo seo-automation-pbr."
 
-4. Guarde o valor de `meta.keyword` de `linha_dados.json` — ele identifica a execução em todos os logs.
+4. Guarde o valor de `meta.keyword` — ele identifica a execução em todos os logs.
 
 ---
 
 ## PASSO 2 — Extrair variáveis dos JSONs
 
-### 2A — Dados da planilha (`linha_dados.json`)
+### 2A — Dados da planilha (`linha_dados.json → meta`)
 
-Extraia e guarde estas variáveis (use exatamente esses nomes ao longo da execução):
-
-| Variável | Caminho no JSON |
+| Variável | Campo |
 |---|---|
-| `keyword` | `meta.keyword` |
-| `titulo_h1` | `meta.titulo_h1` |
-| `meta_title` | `meta.meta_title` |
-| `meta_description` | `meta.meta_description` |
-| `slug` | `meta.slug` |
-| `intencao` | `meta.intencao` |
-| `variacoes_semanticas` | `meta.variacoes_semanticas` |
-| `links_internos_raw` | `meta.links_internos` (texto com bullets "• Âncora: …") |
-| `imagens` | `meta.imagens` (array com `nome`, `raw_url`, `alt_text`) |
+| `keyword` | `keyword` |
+| `titulo_h1` | `titulo_h1` |
+| `meta_title` | `meta_title` |
+| `meta_description` | `meta_description` |
+| `slug` | `slug` (sem barra inicial) |
+| `variacoes_semanticas` | `variacoes_semanticas` |
+| `links_internos_raw` | `links_internos` (texto com bullets "• Âncora: …") |
+| `imagens` | `imagens` (array com `raw_url` e `alt_text`) |
 
 **Converter `links_internos_raw` para lista estruturada:**
-Cada bullet segue o padrão `• Âncora: "<texto>" → <domínio>/<slug-alvo> (<contexto>)`.
-Extraia de cada bullet:
-- `label` = o texto entre aspas
+Cada bullet: `• Âncora: "<texto>" → portaldobebedouro.com.br/<slug-alvo> (<contexto>)`
+- `label` = texto entre aspas
 - `href` = `/<slug-alvo>` (só o path, sem o domínio)
 
 ### 2B — Dados da SERP (`serp_content.json`)
 
-- `minimo_palavras` = `minimo_palavras_recomendado` (mínimo de palavras para o artigo)
-- `media_palavras_top3` = `media_palavras_top3`
-- Para cada item em `concorrentes`: anote `titulo_pagina`, `num_palavras`, `intro`, `headings`
+- `minimo_palavras` = `minimo_palavras_recomendado`
+- Para cada item em `concorrentes`: anote `titulo_pagina`, `num_palavras`, `intro`, `headings[]`
 
 ### 2C — URLs da SERP (`serp_urls.json`)
 
@@ -71,30 +67,23 @@ Extraia de cada bullet:
 
 ### 2D — Análise SERP (antes de escrever)
 
-Com os dados de 2B e 2C, responda mentalmente:
+**A) Intenção:** Que formato domina o top 3? (guia informacional, comparativo, lista, híbrido?)
 
-**A) Intenção de busca:** Que formato domina o top 3? (guia informacional, comparativo, lista, híbrido?)
+**B) Tópicos obrigatórios:** headings que aparecem em 2+ concorrentes — cada um precisa de pelo menos 1 seção.
 
-**B) Tópicos obrigatórios:** Temas que aparecem nos títulos/headings de pelo menos 2 concorrentes — precisam estar no artigo.
+**C) Diferenciação:** tópico que nenhum concorrente cobre bem — pelo menos 1 seção exclusiva.
 
-**C) Diferenciação:** Temas em apenas 1 concorrente ou ausentes — ângulo único do artigo.
+**D) Tamanho alvo:** o corpo do artigo deve atingir `minimo_palavras`.
 
-**D) Tamanho alvo:** `minimo_palavras` já está calculado. O corpo do artigo (dentro do PilarLayout) deve atingi-lo.
+**E) Variações semânticas:** distribuir `variacoes_semanticas` naturalmente ao longo do texto.
 
-**E) Variações semânticas:** Inclua as de `variacoes_semanticas` naturalmente ao longo do texto.
-
-Consolide tudo isso antes de escrever. Se algum campo estiver vazio (ex.: `concorrentes` vazio), registre "não presente" e siga.
+Se algum campo estiver vazio (ex.: `concorrentes` vazio), registre "não presente" e siga.
 
 ---
 
 ## PASSO 3 — Escrever o `page.tsx`
 
-Clone o repo do site:
-```
-git clone https://github.com/jgbebedourosmkt-dev/portal-do-bebedouro.git /tmp/site-pbr
-```
-
-Crie o arquivo `/tmp/site-pbr/app/<slug>/page.tsx` seguindo **exatamente** esta estrutura:
+Crie o arquivo `/tmp/seo-pbr/saida/page.tsx` seguindo **exatamente** esta estrutura:
 
 ```tsx
 import { buildMetadata } from '@/lib/metadata'
@@ -106,30 +95,28 @@ import Footer from '@/components/layout/Footer'
 import PilarLayout from '@/components/pilar/PilarLayout'
 
 export const metadata = buildMetadata({
-  title: '<meta_title>',
-  description: '<meta_description>',
-  slug: '<slug>',
+  title: '{meta_title}',            // literal da planilha — não altere
+  description: '{meta_description}', // literal da planilha — não altere
+  slug: '{slug}',
 })
 
 const faqs = [
-  // 4 a 6 perguntas derivadas dos headings dos concorrentes e das buscas relacionadas
-  // Formato: { question: '...?', answer: '...' }
-  // Resposta direta de 2-4 linhas, orientada a featured snippet
+  // mínimo 4 perguntas reais derivadas dos headings dos concorrentes
+  // { question: '...?', answer: '...' } — respostas de 2-4 frases com dados concretos
 ]
 
-export default function <NomeDaFuncao>Page() {
+export default function {PascalCase(slug)}Page() {
   return (
     <>
       <Topbar />
       <Header />
       <Nav />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbSchema([
             { name: 'Home', slug: '' },
-            { name: '<titulo_h1>' },
+            { name: '{titulo_h1}' },
           ])),
         }}
       />
@@ -137,118 +124,123 @@ export default function <NomeDaFuncao>Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(faqs)) }}
       />
-
       <PilarLayout
-        badge="<badge>"
-        title="<titulo_h1>"
-        excerpt="<resumo de 1 frase para o excerpt>"
-        breadcrumbLabel="<titulo_h1>"
-        breadcrumbSlug="<slug>"
-        ctaHref="https://jgbebedouros.com.br?utm_source=portalbebedouro&utm_medium=pilar&utm_campaign=<slug>"
+        badge="Guia Completo"
+        title="{titulo_h1}"
+        excerpt="{keyword nos primeiros 100 chars — 2 frases}"
+        breadcrumbLabel="{titulo_h1}"
+        breadcrumbSlug="{slug}"
+        ctaHref="https://jgbedouros.com.br?utm_source=portalbebedouro&utm_medium=pilar&utm_campaign={slug}"
         ctaLabel="Solicitar orçamento"
-        sidebarCtaHref="https://jgbebedouros.com.br?utm_source=portalbebedouro&utm_medium=sidebar&utm_campaign=<slug>"
-        finalCtaTitle="<CTA final — pergunta/convite direto sobre a keyword>"
-        finalCtaDesc="<1 frase de apoio ao CTA>"
+        sidebarCtaHref="https://jgbebedouros.com.br?utm_source=portalbebedouro&utm_medium=sidebar&utm_campaign={slug}"
+        finalCtaTitle="Precisa de {keyword}?"
+        finalCtaDesc="A JG Bebedouros oferece venda e manutenção com atendimento em todo o Brasil."
         tocItems={[
-          // 4 a 6 itens de sumário, href="#id-da-secao" derivado dos H2s que você vai escrever
+          // { href: '#id-da-secao', label: 'Título do H2' } — um por seção
         ]}
         stats={[
-          // 3 a 4 stats relevantes: { valor: '...', label: '...' }
-          // Use dados reais do artigo (capacidade, normas, prazos, etc.)
+          // 3-4 dados numéricos reais: L/h, prazo, norma, preço médio
         ]}
         faqs={faqs}
         internalLinks={[
-          // Use TODOS os links de links_internos_raw convertidos para { href: '/slug', label: 'texto' }
+          // TODOS os links de links_internos_raw → { href: '/slug', label: 'âncora' }
         ]}
       >
-        {/* Seções do artigo — mínimo: minimo_palavras palavras no total */}
-        {/* Cada seção: <section id="id-da-secao" className="mb-12 scroll-mt-20"> */}
-        {/* H2: className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }} */}
-        {/* Parágrafos: className="text-[17px] text-txt2 leading-relaxed mb-4" */}
-
-        {/* REGRAS DO CONTEÚDO: */}
-        {/* 1. keyword no primeiro parágrafo (primeiros 100 chars) */}
-        {/* 2. variacoes_semanticas distribuídas naturalmente */}
-        {/* 3. Tópicos obrigatórios da análise 2D-B cobertos com pelo menos 1 seção cada */}
-        {/* 4. Tópicos de diferenciação 2D-C com pelo menos 1 seção */}
-        {/* 5. Imagens: use as de meta.imagens — <img src={raw_url} alt={alt_text} ... /> */}
-        {/* 6. Especificações técnicas concretas (litros, voltagem, normas, prazos) */}
-        {/* 7. FAQ no final via props faqs= (já passado acima) */}
+        {/* Seções do artigo — mínimo minimo_palavras palavras no total */}
       </PilarLayout>
-
       <Footer />
     </>
   )
 }
 ```
 
-**Regras de nomenclatura:**
-- `<NomeDaFuncao>` = slug em PascalCase sem hífens. Ex.: `bebedouro-industrial` → `BebedouroIndustrial`
-- `<badge>` = rótulo curto do tipo de conteúdo. Ex.: "Guia Completo", "Comparativo", "Lista"
-- IDs de seção: kebab-case, sem acentos. Ex.: `id="o-que-e"`, `id="tipos"`, `id="capacidade"`
+**Cada seção:**
+```tsx
+<section id="kebab-do-h2" className="mb-12 scroll-mt-20">
+  <h2
+    className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda"
+    style={{ fontFamily: 'var(--font-barlow-condensed)' }}
+  >
+    Título
+  </h2>
+  {/* conteúdo */}
+</section>
+```
+
+**Imagens** — insira as do array `imagens` em seções relevantes (não na primeira):
+```tsx
+<img src="{raw_url}" alt="{alt_text}" className="w-full rounded-lg mb-6 object-cover" loading="lazy" />
+```
+
+**Links internos** — no corpo, no contexto indicado:
+```tsx
+<a href="/slug" className="text-az hover:underline">âncora</a>
+```
+
+**Regras de conteúdo:**
+- `titulo_h1` e `meta_description` são literais — não altere nenhum caractere
+- `keyword` no excerpt, no 1º parágrafo (primeiros 100 chars) e em pelo menos 2 H2s
+- Primeira seção: parágrafo de 40-60 palavras que responde diretamente à keyword (formato featured snippet)
+- Dados obrigatórios: capacidade em L/h, normas (NBR 13713, INMETRO, NR-24, RDC 275), faixas de preço reais
+- Tamanho ≥ `minimo_palavras` — conte antes de salvar
+- Nunca generalize — números e especificações técnicas em cada seção
+- FAQ ao final com mínimo 4 perguntas, respostas diretas de 2-4 frases
+- `<NomeDaFuncao>` = slug em PascalCase. Ex.: `bebedouro-industrial` → `BebedouroIndustrial`
+- IDs de seção: kebab-case sem acentos. Ex.: `id="o-que-e"`, `id="tipos"`
 
 **Checklist antes de salvar:**
-- [ ] `metadata` usa `meta_title` e `meta_description` da planilha?
+- [ ] `metadata` usa `meta_title` e `meta_description` literais da planilha?
 - [ ] `title` do PilarLayout é o `titulo_h1`?
 - [ ] Primeiro parágrafo tem a `keyword` nos primeiros 100 chars?
-- [ ] Todos os `links_internos_raw` convertidos e passados em `internalLinks`?
-- [ ] Imagens de `meta.imagens` usadas no corpo?
-- [ ] FAQs preenchidas com 4 a 6 perguntas relevantes?
-- [ ] `tocItems` bate com os IDs das seções escritas?
-- [ ] Contagem de palavras no corpo ≥ `minimo_palavras`?
+- [ ] Todos os `links_internos_raw` convertidos e em `internalLinks`?
+- [ ] Imagens de `meta.imagens` inseridas no corpo?
+- [ ] FAQs com 4+ perguntas reais?
+- [ ] `tocItems` bate com os IDs das seções?
+- [ ] Contagem de palavras ≥ `minimo_palavras`?
 
 ---
 
-## PASSO 4 — Publicar no repositório do site (Git)
+## PASSO 4 — Enviar `page.tsx` para o staging (Git)
 
-Dentro de `/tmp/site-pbr`:
+Dentro de `/tmp/seo-pbr`, execute:
 
 ```
 git config user.email "jgbebedourosmkt@gmail.com"
 git config user.name "SEO Automation"
-git pull origin main
-git add app/<slug>/
-git commit -m "feat(content): adiciona página pilar <keyword>"
+git add saida/page.tsx
+git commit -m "page: {slug}"
 git push origin main
 ```
 
-Confira cada comando antes de avançar. Se `git pull` trouxer conflito, **PARE** e reporte. Se o push retornar `main -> main`, a Vercel vai deployar automaticamente.
+Confirme que o push retornou `main -> main`. Se falhar, **PARE** e reporte a mensagem de erro exata.
+
+**Não execute nenhum git em outro repositório.** O Python detecta o `saida/page.tsx` via `git pull` e cuida de toda a publicação no site e no Vercel automaticamente.
 
 ---
 
 ## PASSO 5 — Rotacionar a linha na planilha
 
-Esta etapa garante que na próxima execução a "primeira linha" seja a próxima da fila. Faça **exatamente nesta ordem**.
-
-1. Abra a planilha: https://docs.google.com/spreadsheets/d/1Pug3l_jGx9NOBIJ-qpjL9Klu9NwvZXZ1LI9Ny8Ba-G4/edit, aba **Páginas Pilar**.
-
-2. **Identifique a última linha preenchida** (a última que tem qualquer dado, não conte linhas vazias).
-
-3. **Copie a linha 1 de dados** (a que você acabou de processar — primeira linha após o cabeçalho) e **cole logo após a última linha preenchida**, mantendo todos os campos originais idênticos.
-
-4. **Confirme** que a linha colada apareceu no final e que os dados batem com o processado (mesma `keyword`, mesmo `slug`).
-
-5. Só depois de confirmar, **delete a linha 1 de dados** original. Use "Excluir linha" — não use "Limpar conteúdo".
-
-6. Verifique que a nova primeira linha de dados é uma keyword **diferente**. Se for a mesma, algo deu errado — **PARE** e reporte.
+1. Abra: https://docs.google.com/spreadsheets/d/1Pug3l_jGx9NOBIJ-qpjL9Klu9NwvZXZ1LI9Ny8Ba-G4/edit, aba **Páginas Pilar**.
+2. **Identifique a última linha preenchida.**
+3. **Copie a linha 1 de dados** (primeira após o cabeçalho) e **cole logo após a última linha preenchida**, mantendo todos os campos idênticos.
+4. Confirme que a linha colada bate com o que foi processado (mesma `keyword`, mesmo `slug`).
+5. Só então **delete a linha 1 de dados** original ("Excluir linha", não "Limpar conteúdo").
+6. Verifique que a nova linha 1 é uma keyword **diferente**. Se for a mesma, **PARE** e reporte.
 
 ---
 
 ## PASSO 6 — Relatório final
 
-Ao final, responda no chat com este resumo:
-
 ```
-Página pilar publicada
+page.tsx enviado para staging — Python fará a publicação
 
-Keyword: <keyword>
-Slug: /<slug>
-Arquivo: app/<slug>/page.tsx
-Commit: <hash>
-Palavras (corpo): <contagem>
-Links internos inseridos: <X/Y>
-Imagens inseridas: <X/Y>
-Próxima keyword na fila: <keyword da nova primeira linha ou "fila vazia">
+Keyword:  {keyword}
+Slug:     /{slug}
+Palavras: ~{N} / mínimo {minimo_palavras}
+Seções:   {lista dos H2s}
+Imagens:  {alt_text das imagens inseridas}
+Links:    {X/Y inseridos}
+Próxima:  {keyword da nova linha 1 ou "fila vazia"}
 ```
 
 ---
@@ -258,6 +250,6 @@ Próxima keyword na fila: <keyword da nova primeira linha ou "fila vazia">
 Se qualquer passo falhar, **PARE** imediatamente, **não desfaça nada** e reporte:
 - Em qual passo falhou
 - Mensagem de erro exata
-- O que NÃO foi feito (para retomar manualmente)
+- O que NÃO foi feito
 
-Nunca: invente dados da SERP, edite arquivos fora dos caminhos definidos, force push, faça commit em outra branch, ou pule o passo de rotacionar a linha.
+Nunca: invente dados, edite arquivos fora de `/tmp/seo-pbr/saida/`, toque no repo `portal-do-bebedouro`, force push, ou pule a rotação da linha.
