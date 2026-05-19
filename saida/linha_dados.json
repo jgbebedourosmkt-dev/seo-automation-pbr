@@ -1,36 +1,61 @@
 {
   "meta": {
     "arquivo": "https://docs.google.com/spreadsheets/d/1Pug3l_jGx9NOBIJ-qpjL9Klu9NwvZXZ1LI9Ny8Ba-G4/edit?usp=sharing",
-    "linha": 4,
+    "linha": 5,
     "coluna_keyword": "Palavra-chave Principal",
-    "keyword": "bebedouro industrial 25 litros",
-    "titulo_h1": "Bebedouro Industrial 25 Litros: Atende 50 Pessoas",
-    "meta_title": "Bebedouro Industrial 25 Litros: Atende 50 Pessoas",
-    "meta_description": "Bebedouro Industrial 25 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 50 colaboradores.",
-    "slug": "bebedouro-industrial-25-litros",
+    "keyword": "bebedouro industrial 30 litros",
+    "titulo_h1": "Bebedouro Industrial 30 Litros: Atende 60 Pessoas",
+    "meta_title": "Bebedouro Industrial 30 Litros: Atende 60 Pessoas",
+    "meta_description": "Bebedouro Industrial 30 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 60 colaboradores.",
+    "slug": "bebedouro-industrial-30-litros",
     "cluster": "Bebedouro Industrial",
     "tipo_pilar": "🟢 Variação Litragem",
     "intencao": "Transacional",
-    "variacoes_semanticas": "bebedouro industrial 25l; bebedouro industrial de 25 litros; bebedouro industrial capacidade 25 litros",
+    "variacoes_semanticas": "bebedouro industrial 30l; bebedouro industrial de 30 litros; bebedouro industrial capacidade 30 litros",
     "links_internos": "• Âncora: \"bebedouro industrial\" → portaldobebedouro.com.br/bebedouro-industrial (intro/contexto (linkar para a raiz é obrigatório))\n• Âncora: \"bebedouro industrial 2 torneiras\" → portaldobebedouro.com.br/bebedouro-industrial-2-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro industrial 3 torneiras\" → portaldobebedouro.com.br/bebedouro-industrial-3-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro industrial 4 torneiras\" → portaldobebedouro.com.br/bebedouro-industrial-4-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção sobre uso corporativo)\n• Âncora: \"veja a faixa de preço\" → portaldobebedouro.com.br/blog/bebedouro-industrial-preco-2025 (seção de orçamento/preço)\n• Âncora: \"em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção de disponibilidade/entrega)",
-    "imagens": [],
-    "gerado_em": "2026-05-18T20:44:03.177852"
+    "imagens": [
+      {
+        "nome": "bebedouro 25 e 30 litros inox 2 torneiras industrial.png",
+        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%2025%20e%2030%20litros%20inox%202%20torneiras%20industrial.png",
+        "alt_text": "bebedouro 25 e 30 litros inox 2 torneiras industrial",
+        "score": 0.73,
+        "palavras_comuns": [
+          "30",
+          "bebedouro",
+          "industrial",
+          "litros"
+        ]
+      },
+      {
+        "nome": "bebedouro industrial 25 30 litros inox 2 torneiras ambiente de refeitorio de obra.png",
+        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%2025%2030%20litros%20inox%202%20torneiras%20ambiente%20de%20refeitorio%20de%20obra.png",
+        "alt_text": "bebedouro industrial 25 30 litros inox 2 torneiras ambiente de refeitorio de obra",
+        "score": 0.57,
+        "palavras_comuns": [
+          "30",
+          "bebedouro",
+          "industrial",
+          "litros"
+        ]
+      }
+    ],
+    "gerado_em": "2026-05-18T21:35:18.722977"
   },
   "dados_linha": {
-    "#": "5",
+    "#": "6",
     "Status": "A produzir",
     "Tipo de Pilar": "🟢 Variação Litragem",
     "Raiz / Pai": "Bebedouro Industrial",
     "Cluster": "Bebedouro Industrial",
-    "Palavra-chave Principal": "bebedouro industrial 25 litros",
-    "Variações Semânticas": "bebedouro industrial 25l; bebedouro industrial de 25 litros; bebedouro industrial capacidade 25 litros",
+    "Palavra-chave Principal": "bebedouro industrial 30 litros",
+    "Variações Semânticas": "bebedouro industrial 30l; bebedouro industrial de 30 litros; bebedouro industrial capacidade 30 litros",
     "Intenção": "Transacional",
-    "Prioridade": "Média",
+    "Prioridade": "Baixa",
     "Vol. Estimado": "—",
     "Dificuldade": "Baixa",
-    "URL / Slug": "/bebedouro-industrial-25-litros",
-    "h1": "Bebedouro Industrial 25 Litros: Atende 50 Pessoas",
-    "Meta Description": "Bebedouro Industrial 25 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 50 colaboradores.",
+    "URL / Slug": "/bebedouro-industrial-30-litros",
+    "h1": "Bebedouro Industrial 30 Litros: Atende 60 Pessoas",
+    "Meta Description": "Bebedouro Industrial 30 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 60 colaboradores.",
     "Links Internos": "• Âncora: \"bebedouro industrial\" → portaldobebedouro.com.br/bebedouro-industrial (intro/contexto (linkar para a raiz é obrigatório))\n• Âncora: \"bebedouro industrial 2 torneiras\" → portaldobebedouro.com.br/bebedouro-industrial-2-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro industrial 3 torneiras\" → portaldobebedouro.com.br/bebedouro-industrial-3-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro industrial 4 torneiras\" → portaldobebedouro.com.br/bebedouro-industrial-4-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção sobre uso corporativo)\n• Âncora: \"veja a faixa de preço\" → portaldobebedouro.com.br/blog/bebedouro-industrial-preco-2025 (seção de orçamento/preço)\n• Âncora: \"em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção de disponibilidade/entrega)"
   }
 }
