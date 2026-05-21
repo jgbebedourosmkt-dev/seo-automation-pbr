@@ -1,55 +1,61 @@
 {
   "meta": {
     "arquivo": "https://docs.google.com/spreadsheets/d/1Pug3l_jGx9NOBIJ-qpjL9Klu9NwvZXZ1LI9Ny8Ba-G4/edit?usp=sharing",
-    "linha": 13,
+    "linha": 14,
     "coluna_keyword": "Palavra-chave Principal",
-    "keyword": "bebedouro inox 25 litros",
-    "titulo_h1": "Bebedouro Inox 25 Litros: Atende 50 Pessoas",
-    "meta_title": "Bebedouro Inox 25 Litros: Atende 50 Pessoas",
-    "meta_description": "Bebedouro Inox 25 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 50 colaboradores.",
-    "slug": "bebedouro-inox-25-litros",
+    "keyword": "bebedouro inox 30 litros",
+    "titulo_h1": "Bebedouro Inox 30 Litros: Atende 60 Pessoas",
+    "meta_title": "Bebedouro Inox 30 Litros: Atende 60 Pessoas",
+    "meta_description": "Bebedouro Inox 30 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 60 colaboradores.",
+    "slug": "bebedouro-inox-30-litros",
     "cluster": "Bebedouro Inox",
     "tipo_pilar": "🟢 Variação Litragem",
     "intencao": "Transacional",
-    "variacoes_semanticas": "bebedouro inox 25l; bebedouro inox de 25 litros; bebedouro inox capacidade 25 litros",
+    "variacoes_semanticas": "bebedouro inox 30l; bebedouro inox de 30 litros; bebedouro inox capacidade 30 litros",
     "links_internos": "• Âncora: \"bebedouro inox\" → portaldobebedouro.com.br/bebedouro-inox (intro/contexto (linkar para a raiz é obrigatório))\n• Âncora: \"bebedouro inox 2 torneiras\" → portaldobebedouro.com.br/bebedouro-inox-2-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro inox 3 torneiras\" → portaldobebedouro.com.br/bebedouro-inox-3-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro inox 4 torneiras\" → portaldobebedouro.com.br/bebedouro-inox-4-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção sobre uso corporativo)\n• Âncora: \"veja a faixa de preço\" → portaldobebedouro.com.br/blog/bebedouro-industrial-preco-2025 (seção de orçamento/preço)\n• Âncora: \"em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção de disponibilidade/entrega)",
     "imagens": [
       {
-        "nome": "ozean inox ambiente escritorio cowork 2.png",
-        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/ozean%20inox%20ambiente%20escritorio%20cowork%202.png",
-        "alt_text": "ozean inox ambiente escritorio cowork 2",
-        "score": 0.22,
+        "nome": "bebedouro 25 e 30 litros inox 2 torneiras industrial.png",
+        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%2025%20e%2030%20litros%20inox%202%20torneiras%20industrial.png",
+        "alt_text": "bebedouro 25 e 30 litros inox 2 torneiras industrial",
+        "score": 0.73,
         "palavras_comuns": [
-          "inox"
+          "30",
+          "bebedouro",
+          "inox",
+          "litros"
         ]
       },
       {
-        "nome": "ozean inox ambiente escritorio cowork 3.png",
-        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/ozean%20inox%20ambiente%20escritorio%20cowork%203.png",
-        "alt_text": "ozean inox ambiente escritorio cowork 3",
-        "score": 0.22,
+        "nome": "bebedouro industrial 25 30 litros inox 2 torneiras ambiente de refeitorio de obra.png",
+        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%2025%2030%20litros%20inox%202%20torneiras%20ambiente%20de%20refeitorio%20de%20obra.png",
+        "alt_text": "bebedouro industrial 25 30 litros inox 2 torneiras ambiente de refeitorio de obra",
+        "score": 0.57,
         "palavras_comuns": [
-          "inox"
+          "30",
+          "bebedouro",
+          "inox",
+          "litros"
         ]
       }
     ],
-    "gerado_em": "2026-05-21T08:00:09.350219"
+    "gerado_em": "2026-05-21T13:00:09.484064"
   },
   "dados_linha": {
-    "#": "14",
+    "#": "15",
     "Status": "A produzir",
     "Tipo de Pilar": "🟢 Variação Litragem",
     "Raiz / Pai": "Bebedouro Inox",
     "Cluster": "Bebedouro Inox",
-    "Palavra-chave Principal": "bebedouro inox 25 litros",
-    "Variações Semânticas": "bebedouro inox 25l; bebedouro inox de 25 litros; bebedouro inox capacidade 25 litros",
+    "Palavra-chave Principal": "bebedouro inox 30 litros",
+    "Variações Semânticas": "bebedouro inox 30l; bebedouro inox de 30 litros; bebedouro inox capacidade 30 litros",
     "Intenção": "Transacional",
-    "Prioridade": "Média",
+    "Prioridade": "Baixa",
     "Vol. Estimado": "—",
     "Dificuldade": "Baixa",
-    "URL / Slug": "/bebedouro-inox-25-litros",
-    "h1": "Bebedouro Inox 25 Litros: Atende 50 Pessoas",
-    "Meta Description": "Bebedouro Inox 25 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 50 colaboradores.",
+    "URL / Slug": "/bebedouro-inox-30-litros",
+    "h1": "Bebedouro Inox 30 Litros: Atende 60 Pessoas",
+    "Meta Description": "Bebedouro Inox 30 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 60 colaboradores.",
     "Links Internos": "• Âncora: \"bebedouro inox\" → portaldobebedouro.com.br/bebedouro-inox (intro/contexto (linkar para a raiz é obrigatório))\n• Âncora: \"bebedouro inox 2 torneiras\" → portaldobebedouro.com.br/bebedouro-inox-2-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro inox 3 torneiras\" → portaldobebedouro.com.br/bebedouro-inox-3-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro inox 4 torneiras\" → portaldobebedouro.com.br/bebedouro-inox-4-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção sobre uso corporativo)\n• Âncora: \"veja a faixa de preço\" → portaldobebedouro.com.br/blog/bebedouro-industrial-preco-2025 (seção de orçamento/preço)\n• Âncora: \"em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção de disponibilidade/entrega)"
   }
 }
