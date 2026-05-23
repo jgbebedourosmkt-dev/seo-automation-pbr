@@ -1,61 +1,55 @@
 {
   "meta": {
     "arquivo": "https://docs.google.com/spreadsheets/d/1Pug3l_jGx9NOBIJ-qpjL9Klu9NwvZXZ1LI9Ny8Ba-G4/edit?usp=sharing",
-    "linha": 16,
+    "linha": 18,
     "coluna_keyword": "Palavra-chave Principal",
-    "keyword": "bebedouro inox 100 litros",
-    "titulo_h1": "Bebedouro Inox 100 Litros: Atende 200 Pessoas",
-    "meta_title": "Bebedouro Inox 100 Litros: Atende 200 Pessoas",
-    "meta_description": "Bebedouro Inox 100 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 200 colaboradores.",
-    "slug": "bebedouro-inox-100-litros",
-    "cluster": "Bebedouro Inox",
-    "tipo_pilar": "🟢 Variação Litragem",
-    "intencao": "Transacional",
-    "variacoes_semanticas": "bebedouro inox 100l; bebedouro inox de 100 litros; bebedouro inox capacidade 100 litros",
-    "links_internos": "• Âncora: \"bebedouro inox\" → portaldobebedouro.com.br/bebedouro-inox (intro/contexto (linkar para a raiz é obrigatório))\n• Âncora: \"bebedouro inox 2 torneiras\" → portaldobebedouro.com.br/bebedouro-inox-2-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro inox 3 torneiras\" → portaldobebedouro.com.br/bebedouro-inox-3-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro inox 4 torneiras\" → portaldobebedouro.com.br/bebedouro-inox-4-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção sobre uso corporativo)\n• Âncora: \"veja a faixa de preço\" → portaldobebedouro.com.br/blog/bebedouro-industrial-preco-2025 (seção de orçamento/preço)\n• Âncora: \"em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção de disponibilidade/entrega)",
+    "keyword": "Bebedouro",
+    "titulo_h1": "Bebedouro: Guia Completo 2025",
+    "meta_title": "Bebedouro: Guia Completo 2025",
+    "meta_description": "Bebedouro: tipos, capacidades, modelos e como escolher. Conheça todas as opções para empresas e indústrias.",
+    "slug": "bebedouro",
+    "cluster": "Bebedouro (genérico)",
+    "tipo_pilar": "🔵 Raiz (com variações)",
+    "intencao": "Informacional",
+    "variacoes_semanticas": "bebedouros; tipos de bebedouro; modelos de bebedouro",
+    "links_internos": "• Âncora: \"bebedouro 2 torneiras\" → portaldobebedouro.com.br/bebedouro-2-torneiras (tabela/seção de variações)\n• Âncora: \"bebedouro 3 torneiras\" → portaldobebedouro.com.br/bebedouro-3-torneiras (tabela/seção de variações)\n• Âncora: \"bebedouro 4 torneiras\" → portaldobebedouro.com.br/bebedouro-4-torneiras (tabela/seção de variações)\n• Âncora: \"bebedouro 25 litros\" → portaldobebedouro.com.br/bebedouro-25-litros (tabela/seção de variações)\n• Âncora: \"Bebedouro Industrial\" → portaldobebedouro.com.br/bebedouro-industrial (seção 'modelos similares')\n• Âncora: \"Bebedouro Inox\" → portaldobebedouro.com.br/bebedouro-inox (seção 'modelos similares')\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (intro — tipos disponíveis)\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção corporativa)",
     "imagens": [
       {
-        "nome": "bebedouro industrial inox 3 torneiras robust 100 litros.png",
-        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%203%20torneiras%20robust%20100%20litros.png",
-        "alt_text": "bebedouro industrial inox 3 torneiras robust 100 litros",
-        "score": 0.73,
+        "nome": "bebedouro 100 e 50 litros inox 3 e 2 torneiras lado a lado.png",
+        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20100%20e%2050%20litros%20inox%203%20e%202%20torneiras%20lado%20a%20lado.png",
+        "alt_text": "bebedouro 100 e 50 litros inox 3 e 2 torneiras lado a lado",
+        "score": 0.25,
         "palavras_comuns": [
-          "100",
-          "bebedouro",
-          "inox",
-          "litros"
+          "bebedouro"
         ]
       },
       {
-        "nome": "bebedouro 100 litros inox 3 torneiras robust angulo fontal.png",
-        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20100%20litros%20inox%203%20torneiras%20robust%20angulo%20fontal.png",
-        "alt_text": "bebedouro 100 litros inox 3 torneiras robust angulo fontal",
-        "score": 0.67,
+        "nome": "bebedouro 25 e 30 litros inox 2 torneiras industrial.png",
+        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%2025%20e%2030%20litros%20inox%202%20torneiras%20industrial.png",
+        "alt_text": "bebedouro 25 e 30 litros inox 2 torneiras industrial",
+        "score": 0.25,
         "palavras_comuns": [
-          "100",
-          "bebedouro",
-          "inox",
-          "litros"
+          "bebedouro"
         ]
       }
     ],
-    "gerado_em": "2026-05-22T19:18:50.000502"
+    "gerado_em": "2026-05-23T08:00:08.224804"
   },
   "dados_linha": {
-    "#": "17",
+    "#": "19",
     "Status": "A produzir",
-    "Tipo de Pilar": "🟢 Variação Litragem",
-    "Raiz / Pai": "Bebedouro Inox",
-    "Cluster": "Bebedouro Inox",
-    "Palavra-chave Principal": "bebedouro inox 100 litros",
-    "Variações Semânticas": "bebedouro inox 100l; bebedouro inox de 100 litros; bebedouro inox capacidade 100 litros",
-    "Intenção": "Transacional",
+    "Tipo de Pilar": "🔵 Raiz (com variações)",
+    "Raiz / Pai": "Bebedouro",
+    "Cluster": "Bebedouro (genérico)",
+    "Palavra-chave Principal": "Bebedouro",
+    "Variações Semânticas": "bebedouros; tipos de bebedouro; modelos de bebedouro",
+    "Intenção": "Informacional",
     "Prioridade": "Alta",
-    "Vol. Estimado": "—",
-    "Dificuldade": "Baixa",
-    "URL / Slug": "/bebedouro-inox-100-litros",
-    "h1": "Bebedouro Inox 100 Litros: Atende 200 Pessoas",
-    "Meta Description": "Bebedouro Inox 100 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 200 colaboradores.",
-    "Links Internos": "• Âncora: \"bebedouro inox\" → portaldobebedouro.com.br/bebedouro-inox (intro/contexto (linkar para a raiz é obrigatório))\n• Âncora: \"bebedouro inox 2 torneiras\" → portaldobebedouro.com.br/bebedouro-inox-2-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro inox 3 torneiras\" → portaldobebedouro.com.br/bebedouro-inox-3-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro inox 4 torneiras\" → portaldobebedouro.com.br/bebedouro-inox-4-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção sobre uso corporativo)\n• Âncora: \"veja a faixa de preço\" → portaldobebedouro.com.br/blog/bebedouro-industrial-preco-2025 (seção de orçamento/preço)\n• Âncora: \"em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção de disponibilidade/entrega)"
+    "Vol. Estimado": "60.500",
+    "Dificuldade": "Muito Alta",
+    "URL / Slug": "/bebedouro",
+    "h1": "Bebedouro: Guia Completo 2025",
+    "Meta Description": "Bebedouro: tipos, capacidades, modelos e como escolher. Conheça todas as opções para empresas e indústrias.",
+    "Links Internos": "• Âncora: \"bebedouro 2 torneiras\" → portaldobebedouro.com.br/bebedouro-2-torneiras (tabela/seção de variações)\n• Âncora: \"bebedouro 3 torneiras\" → portaldobebedouro.com.br/bebedouro-3-torneiras (tabela/seção de variações)\n• Âncora: \"bebedouro 4 torneiras\" → portaldobebedouro.com.br/bebedouro-4-torneiras (tabela/seção de variações)\n• Âncora: \"bebedouro 25 litros\" → portaldobebedouro.com.br/bebedouro-25-litros (tabela/seção de variações)\n• Âncora: \"Bebedouro Industrial\" → portaldobebedouro.com.br/bebedouro-industrial (seção 'modelos similares')\n• Âncora: \"Bebedouro Inox\" → portaldobebedouro.com.br/bebedouro-inox (seção 'modelos similares')\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (intro — tipos disponíveis)\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção corporativa)"
   }
 }
