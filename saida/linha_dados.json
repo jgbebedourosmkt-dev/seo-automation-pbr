@@ -1,55 +1,57 @@
 {
   "meta": {
     "arquivo": "https://docs.google.com/spreadsheets/d/1Pug3l_jGx9NOBIJ-qpjL9Klu9NwvZXZ1LI9Ny8Ba-G4/edit?usp=sharing",
-    "linha": 18,
+    "linha": 19,
     "coluna_keyword": "Palavra-chave Principal",
-    "keyword": "Bebedouro",
-    "titulo_h1": "Bebedouro: Guia Completo 2025",
-    "meta_title": "Bebedouro: Guia Completo 2025",
-    "meta_description": "Bebedouro: tipos, capacidades, modelos e como escolher. Conheça todas as opções para empresas e indústrias.",
-    "slug": "bebedouro",
+    "keyword": "bebedouro 2 torneiras",
+    "titulo_h1": "Bebedouro 2 Torneiras: Modelos e Especificações",
+    "meta_title": "Bebedouro 2 Torneiras: Modelos e Especificações",
+    "meta_description": "Bebedouro 2 Torneiras: ideal para ambientes com fluxo moderado de usuários. Veja capacidades e dimensões.",
+    "slug": "bebedouro-2-torneiras",
     "cluster": "Bebedouro (genérico)",
-    "tipo_pilar": "🔵 Raiz (com variações)",
-    "intencao": "Informacional",
-    "variacoes_semanticas": "bebedouros; tipos de bebedouro; modelos de bebedouro",
-    "links_internos": "• Âncora: \"bebedouro 2 torneiras\" → portaldobebedouro.com.br/bebedouro-2-torneiras (tabela/seção de variações)\n• Âncora: \"bebedouro 3 torneiras\" → portaldobebedouro.com.br/bebedouro-3-torneiras (tabela/seção de variações)\n• Âncora: \"bebedouro 4 torneiras\" → portaldobebedouro.com.br/bebedouro-4-torneiras (tabela/seção de variações)\n• Âncora: \"bebedouro 25 litros\" → portaldobebedouro.com.br/bebedouro-25-litros (tabela/seção de variações)\n• Âncora: \"Bebedouro Industrial\" → portaldobebedouro.com.br/bebedouro-industrial (seção 'modelos similares')\n• Âncora: \"Bebedouro Inox\" → portaldobebedouro.com.br/bebedouro-inox (seção 'modelos similares')\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (intro — tipos disponíveis)\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção corporativa)",
+    "tipo_pilar": "🟡 Variação Torneiras",
+    "intencao": "Transacional",
+    "variacoes_semanticas": "bebedouro com 2 torneiras; bebedouro 2 bicas",
+    "links_internos": "• Âncora: \"bebedouro\" → portaldobebedouro.com.br/bebedouro (intro/contexto (linkar para a raiz é obrigatório))\n• Âncora: \"bebedouro 3 torneiras\" → portaldobebedouro.com.br/bebedouro-3-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro 4 torneiras\" → portaldobebedouro.com.br/bebedouro-4-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro 25 litros\" → portaldobebedouro.com.br/bebedouro-25-litros (seção 'modelos relacionados')\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção sobre uso corporativo)\n• Âncora: \"veja a faixa de preço\" → portaldobebedouro.com.br/blog/bebedouro-industrial-preco-2025 (seção de orçamento/preço)\n• Âncora: \"em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção de disponibilidade/entrega)",
     "imagens": [
       {
         "nome": "bebedouro 100 e 50 litros inox 3 e 2 torneiras lado a lado.png",
         "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20100%20e%2050%20litros%20inox%203%20e%202%20torneiras%20lado%20a%20lado.png",
         "alt_text": "bebedouro 100 e 50 litros inox 3 e 2 torneiras lado a lado",
-        "score": 0.25,
+        "score": 0.44,
         "palavras_comuns": [
-          "bebedouro"
+          "bebedouro",
+          "torneiras"
         ]
       },
       {
         "nome": "bebedouro 25 e 30 litros inox 2 torneiras industrial.png",
         "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%2025%20e%2030%20litros%20inox%202%20torneiras%20industrial.png",
         "alt_text": "bebedouro 25 e 30 litros inox 2 torneiras industrial",
-        "score": 0.25,
+        "score": 0.44,
         "palavras_comuns": [
-          "bebedouro"
+          "bebedouro",
+          "torneiras"
         ]
       }
     ],
-    "gerado_em": "2026-05-23T08:00:08.224804"
+    "gerado_em": "2026-05-23T13:00:07.500696"
   },
   "dados_linha": {
-    "#": "19",
+    "#": "20",
     "Status": "A produzir",
-    "Tipo de Pilar": "🔵 Raiz (com variações)",
+    "Tipo de Pilar": "🟡 Variação Torneiras",
     "Raiz / Pai": "Bebedouro",
     "Cluster": "Bebedouro (genérico)",
-    "Palavra-chave Principal": "Bebedouro",
-    "Variações Semânticas": "bebedouros; tipos de bebedouro; modelos de bebedouro",
-    "Intenção": "Informacional",
+    "Palavra-chave Principal": "bebedouro 2 torneiras",
+    "Variações Semânticas": "bebedouro com 2 torneiras; bebedouro 2 bicas",
+    "Intenção": "Transacional",
     "Prioridade": "Alta",
-    "Vol. Estimado": "60.500",
-    "Dificuldade": "Muito Alta",
-    "URL / Slug": "/bebedouro",
-    "h1": "Bebedouro: Guia Completo 2025",
-    "Meta Description": "Bebedouro: tipos, capacidades, modelos e como escolher. Conheça todas as opções para empresas e indústrias.",
-    "Links Internos": "• Âncora: \"bebedouro 2 torneiras\" → portaldobebedouro.com.br/bebedouro-2-torneiras (tabela/seção de variações)\n• Âncora: \"bebedouro 3 torneiras\" → portaldobebedouro.com.br/bebedouro-3-torneiras (tabela/seção de variações)\n• Âncora: \"bebedouro 4 torneiras\" → portaldobebedouro.com.br/bebedouro-4-torneiras (tabela/seção de variações)\n• Âncora: \"bebedouro 25 litros\" → portaldobebedouro.com.br/bebedouro-25-litros (tabela/seção de variações)\n• Âncora: \"Bebedouro Industrial\" → portaldobebedouro.com.br/bebedouro-industrial (seção 'modelos similares')\n• Âncora: \"Bebedouro Inox\" → portaldobebedouro.com.br/bebedouro-inox (seção 'modelos similares')\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (intro — tipos disponíveis)\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção corporativa)"
+    "Vol. Estimado": "—",
+    "Dificuldade": "Baixa",
+    "URL / Slug": "/bebedouro-2-torneiras",
+    "h1": "Bebedouro 2 Torneiras: Modelos e Especificações",
+    "Meta Description": "Bebedouro 2 Torneiras: ideal para ambientes com fluxo moderado de usuários. Veja capacidades e dimensões.",
+    "Links Internos": "• Âncora: \"bebedouro\" → portaldobebedouro.com.br/bebedouro (intro/contexto (linkar para a raiz é obrigatório))\n• Âncora: \"bebedouro 3 torneiras\" → portaldobebedouro.com.br/bebedouro-3-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro 4 torneiras\" → portaldobebedouro.com.br/bebedouro-4-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro 25 litros\" → portaldobebedouro.com.br/bebedouro-25-litros (seção 'modelos relacionados')\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção sobre uso corporativo)\n• Âncora: \"veja a faixa de preço\" → portaldobebedouro.com.br/blog/bebedouro-industrial-preco-2025 (seção de orçamento/preço)\n• Âncora: \"em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção de disponibilidade/entrega)"
   }
 }

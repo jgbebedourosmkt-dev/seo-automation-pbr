@@ -1,241 +1,28 @@
 {
-  "keyword": "Bebedouro",
-  "gerado_em": "2026-05-23T08:00:22.967300",
-  "media_palavras_top3": 2893,
-  "minimo_palavras_recomendado": 6666,
+  "keyword": "bebedouro 2 torneiras",
+  "gerado_em": "2026-05-23T13:00:18.073338",
+  "media_palavras_top3": 16,
+  "minimo_palavras_recomendado": 20,
   "concorrentes": [
     {
-      "url": "https://pt.wikipedia.org/wiki/Bebedouro",
-      "titulo_pagina": "",
-      "num_palavras": 1860,
-      "intro": "Bebedourooubebedoiroé um dispositivo ou reservatório artificial que fornece umlíquido, em geralágua potável, parapessoasouanimais.",
-      "headings": [
-        {
-          "nivel": "h2",
-          "texto": "Bebedouros para pessoas"
-        },
-        {
-          "nivel": "h2",
-          "texto": "História"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Nepal"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Reino Unido"
-        },
-        {
-          "nivel": "h3",
-          "texto": "França"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Estados Unidos"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Modelos contemporâneos e antigos"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouros resistentes ao gelo"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro industrial"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouros para animais"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Aves"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Galeria"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Ver também"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Referências"
-        }
-      ],
-      "posicao": 1,
-      "titulo_serp": "Bebedouro – Wikipédia, a enciclopédia livre",
-      "descricao_serp": "March 2, 2026 - Bebedouro ou bebedoiro é um dispositivo ou reservatório artificial que fornece um líquido, em geral água potável, para pessoas ou animais. Os bebedouros manufaturados para fins de consumo humano em geral são aparelhos mecânicos ..."
-    },
-    {
-      "url": "https://pt.wikipedia.org/wiki/Bebedouro_(São_Paulo)",
-      "titulo_pagina": "",
-      "num_palavras": 5555,
-      "intro": "Bebedouroé ummunicípio brasileirodoestadodeSão Paulo, localizado entre o Vale do Rio Grande e a Serra de Jaboticabal, a 379km de São Paulo. Sua população, segundo o Censo IBGE2025, é de 78.257 habitantes.[5]Situada no nordeste do estado de São Paulo, faz parte da região imediata deBarretose intermediária deRibeirão Preto. O município é formado pelo distrito sede, e pelos distritos deBotafogoeTurvínia. Dentro do distrito sede, há dois aglomerados rurais isolados: o Lugarejo de Areias e oPovoado d",
-      "headings": [
-        {
-          "nivel": "h2",
-          "texto": "Toponímia"
-        },
-        {
-          "nivel": "h2",
-          "texto": "História"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Geografia"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Hidrografia"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Topografia"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Clima"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Rodovias"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Ferrovias"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Aeroporto"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Demografia"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Dados demográficos"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Etnias"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Política e administração"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Subdivisões"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Economia"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Infraestrutura"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Transporte urbano e mobilidade"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Saúde"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Educação"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Comunicações"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Cultura e lazer"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Cultura"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Lazer"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Esportes"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Pessoas ilustres"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Religião"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Igreja Católica"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Igrejas Evangélicas"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Outras religiões"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Ver também"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Referências"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Ligações externas"
-        }
-      ],
-      "posicao": 2,
-      "titulo_serp": "Bebedouro (São Paulo) – Wikipédia, a enciclopédia livre",
-      "descricao_serp": "April 9, 2026 - Bebedouro é um município brasileiro do estado de São Paulo, localizado entre o Vale do Rio Grande e a Serra de Jaboticabal, a 379 km de São Paulo. Sua população, segundo o Censo IBGE 2025, é de 78.257 habitantes."
-    },
-    {
-      "url": "https://www.lojadobebedouro.com.br/",
-      "titulo_pagina": "Bebedouros e purificadores de água industriais | Loja do Bebedouro",
-      "num_palavras": 1266,
+      "url": "https://lista.mercadolivre.com.br/bebedouro-industrial-2-torneiras-re",
+      "titulo_pagina": "Bebedouro Industrial 2 Torneiras Re | Mercado Livre",
+      "num_palavras": 17,
       "intro": "",
-      "headings": [
-        {
-          "nivel": "h2",
-          "texto": "Conheça nossas principais categorias e encontre os produtos que deseja"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Separamos nossa linha de produtos por categoria"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Quem compra, na prática, aprova a qualidade e o valor do produto."
-        },
-        {
-          "nivel": "h2",
-          "texto": "Conheça os clientes satisfeitos até aqui"
-        }
-      ],
+      "headings": [],
+      "posicao": 1,
+      "titulo_serp": "Bebedouro Industrial 2 Torneiras Re | MercadoLivre 📦",
+      "descricao_serp": "Frete grátis no dia ✓ Compre Bebedouro Industrial 2 Torneiras Re parcelado sem juros! Saiba mais sobre nossas incríveis ofertas e promoções em milhões de produtos."
+    },
+    {
+      "url": "https://lista.mercadolivre.com.br/bebedouro-industrial-2-torneiras",
+      "titulo_pagina": "Bebedouro Industrial 2 Torneiras | Mercado Livre",
+      "num_palavras": 15,
+      "intro": "",
+      "headings": [],
       "posicao": 3,
-      "titulo_serp": "Bebedouros e Purificadores de Água | Loja do Bebedouro",
-      "descricao_serp": "Encontre na Loja do Bebedouro as melhores opções em bebedouros industriais, purificadores de água e acessórios para empresas, comércios e diferentes necessidades."
+      "titulo_serp": "Bebedouro Industrial 2 Torneiras | MercadoLivre 📦",
+      "descricao_serp": "Avaliação 5 de 5. (2 avaliações)5.0 (2)Disponível em 2 cores ... Avaliação 4,6 de 5. (70 avaliações)4.6 (70) O frete grátis está sujeito ao peso, preço e distância do envio. Saúde e sustentabilidade: benefícios de bebedouros e purificadores. Garanta água limpa para sua família. ... Adeus sede! Conheça as torneiras mais populares para bebedouros e garanta água fresca e pura em 2023!"
     }
   ]
 }
