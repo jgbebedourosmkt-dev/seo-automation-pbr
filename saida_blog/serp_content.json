@@ -1,224 +1,174 @@
 {
-  "keyword": "NR-24 bebedouro",
-  "gerado_em": "2026-05-25T14:30:30.400982",
-  "media_palavras_top3": 1886,
-  "minimo_palavras_recomendado": 5302,
+  "keyword": "bebedouro NBR 9050",
+  "gerado_em": "2026-05-25T17:41:22.771415",
+  "media_palavras_top3": 1328,
+  "minimo_palavras_recomendado": 1971,
   "concorrentes": [
     {
-      "url": "https://www.verdeghaia.com.br/bebedouros-reservatorios-de-agua-e-clt-qual-a-obrigatoriedade-das-empresas/",
-      "titulo_pagina": "Bebedouros/Reservatórios de água e CLT: qual a obrigatoriedade das empresas?27/02/2023",
-      "num_palavras": 4419,
-      "intro": "Abrangida NR 18 e NR 24, a obrigatoriedade do fornecimento de água potável, filtrada e fresca para os colaboradores é comumente fornecida através da instalação de bebedouros; estes são comumente encontrados através da utilização de abastecimento de rede ou por meio de galões/bombonas (envazada ou mineral).",
+      "url": "https://www.lagge.com.br/blog/acessibilidade-escolas-mec-guia-sinalizacao-tatil-piso-tatil-nbr-9050",
+      "titulo_pagina": "Acessibilidade em Escolas e o MEC: Guia de Sinalização Tátil e Piso Tátil (NBR 9050)",
+      "num_palavras": 1013,
+      "intro": "Para gestores educacionais e mantenedoras, a visita dos avaliadores do MEC é o momento decisivo. O que muitos não sabem é que a acessibilidade arquitetônica e comunicacional deixou de ser um diferencial e tornou-se condição obrigatória para o credenciamento e recredenciamento de instituições, conforme a Lei Brasileira de Inclusão (Lei 13.146).",
       "headings": [
         {
-          "nivel": "h3",
-          "texto": "Você também pode gostar..."
-        },
-        {
-          "nivel": "h3",
-          "texto": "Informe seus dados de contato para receber a ligação dos nossos consultores"
+          "nivel": "h2",
+          "texto": "O Peso da Acessibilidade na Nota do MEC"
         },
         {
           "nivel": "h2",
-          "texto": "SEUS DIREITOS:"
+          "texto": "O Que o MEC Exige? Entendendo o Instrumento de Avaliação"
         },
         {
           "nivel": "h2",
-          "texto": "OBTENÇÃO DE CONFIRMAÇÃO DE EXISTÊNCIA OU O ACESSO AOS SEUS DADOS PESSOAIS"
+          "texto": "Guia Ambiente por Ambiente: O Checklist da Aprovação"
         },
         {
           "nivel": "h2",
-          "texto": "SOLICITAÇÃO DE CORREÇÃO, ELIMINAÇÃO, BLOQUEIO OU ANONIMIZAÇÃO DOS SEUS DADOS PESSOAIS"
-        },
-        {
-          "nivel": "h2",
-          "texto": "PORTABILIDADE DOS SEUS DADOS PESSOAIS"
-        },
-        {
-          "nivel": "h2",
-          "texto": "INVIOLABILIDADE E SIGILO DAS SUAS INFORMAÇÕES"
-        },
-        {
-          "nivel": "h2",
-          "texto": "NÃO FORNECIMENTO A TERCEIROS DE SEUS DADOS PESSOAIS"
-        },
-        {
-          "nivel": "h2",
-          "texto": "FINALIDADES PARA O TRATAMENTO DE DADOS"
-        },
-        {
-          "nivel": "h2",
-          "texto": "CONTROLE DE ACESSO"
-        },
-        {
-          "nivel": "h2",
-          "texto": "MECANISMOS PARA AUTENTICAÇÃO DE ACESSO"
-        },
-        {
-          "nivel": "h2",
-          "texto": "INVENTÁRIO DETALHADO DE ACESSO"
-        },
-        {
-          "nivel": "h2",
-          "texto": "ENCRIPTAÇÃO E PROTEÇÃO DOS DADOS"
-        },
-        {
-          "nivel": "h2",
-          "texto": "APLICAÇÃO DE NORMAS DE CONSUMO"
-        },
-        {
-          "nivel": "h2",
-          "texto": "MAIS SOBRE PADRÕES DE SEGURANÇA DA INFORMAÇÃO"
+          "texto": "O Desafio do Vandalismo: Soluções Práticas"
         },
         {
           "nivel": "h3",
-          "texto": "CAMADA DE SEGURANÇA:"
+          "texto": "A Solução Lagge"
         },
         {
           "nivel": "h2",
-          "texto": "FIQUE LIGADO"
+          "texto": "Quanto Custa Adequar?"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Checklist de Vistoria: Você Passaria Hoje?"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Conclusão e Próximos Passos"
         },
         {
           "nivel": "h3",
-          "texto": "TERMO DE USO Ambipar ESG"
-        },
-        {
-          "nivel": "h3",
-          "texto": "DÚVIDAS TERMO DE USO"
-        },
-        {
-          "nivel": "h3",
-          "texto": "SEU CONSENTIMENTO"
-        },
-        {
-          "nivel": "h2",
-          "texto": "RESPONSÁVEL PELO TRATAMENTO DE DADOS"
-        },
-        {
-          "nivel": "h2",
-          "texto": "RESPONSABILIDADES DA Ambipar ESG"
-        },
-        {
-          "nivel": "h2",
-          "texto": "RESPONSABILIDADES DOS USUÁRIOS E CLIENTES"
-        },
-        {
-          "nivel": "h2",
-          "texto": "PROPRIEDADE INTELECTUAL"
-        },
-        {
-          "nivel": "h2",
-          "texto": "BASE LEGAL PARA O TRATAMENTO DE DADOS PESSOAIS"
-        },
-        {
-          "nivel": "h2",
-          "texto": "PERÍODO DURANTE O QUAL OS DADOS SÃO ARMAZENADOS"
-        },
-        {
-          "nivel": "h2",
-          "texto": "TRATAMENTO DE DADOS PESSOAIS SENSÍVEIS E DE CRIANÇAS OU ADOLESCENTES"
-        },
-        {
-          "nivel": "h2",
-          "texto": "CONTATO POR FORMULÁRIO"
-        },
-        {
-          "nivel": "h2",
-          "texto": "SUBSCRIÇÃO EM NOSSA NEWSLETTER"
-        },
-        {
-          "nivel": "h2",
-          "texto": "UTILIZAÇÃO DOS NOSSOS WEB SITES"
-        },
-        {
-          "nivel": "h2",
-          "texto": "COOKIES DOS WEB SITES"
-        },
-        {
-          "nivel": "h2",
-          "texto": "REGISTRO NOS NOSSOS WEB SITES"
-        },
-        {
-          "nivel": "h2",
-          "texto": "UTILIZAÇÃO DOS NOSSOS SISTEMAS"
-        },
-        {
-          "nivel": "h2",
-          "texto": "COOKIES DOS SISTEMAS"
-        },
-        {
-          "nivel": "h2",
-          "texto": "COMENTÁRIOS NO NOSSO BLOG, INSTAGRAM, FACEBOOK, LINKEDIN, YOUTUBE e TWITTER"
-        },
-        {
-          "nivel": "h2",
-          "texto": "FIQUE LIGADO"
-        },
-        {
-          "nivel": "h3",
-          "texto": "POLÍTICA DE PRIVACIDADE Ambipar ESG"
-        },
-        {
-          "nivel": "h2",
-          "texto": "DÚVIDAS TERMO DE USO"
-        },
-        {
-          "nivel": "h2",
-          "texto": "SEU CONSENTIMENTO"
+          "texto": "Prepare sua Escola para o MEC"
         }
       ],
       "posicao": 1,
-      "titulo_serp": "Bebedouros/Reservatórios de água e CLT: qual a obrigatoriedade das empresas? - Ambipar ESG",
-      "descricao_serp": "March 8, 2023 - Abrangida NR 18 e NR 24, a obrigatoriedade do fornecimento de água potável, filtrada e fresca para os colaboradores é comumente fornecida através da instalação de bebedouros; estes são comumente encontrados através da utilização de ..."
+      "titulo_serp": "Acessibilidade em Escolas e o MEC | Piso Tátil (NBR 9050)",
+      "descricao_serp": "Garanta a nota máxima no credenciamento do MEC. Guia completo de acessibilidade para escolas: sinalização tátil, piso tátil e requisitos NBR 9050."
     },
     {
-      "url": "https://www.comparebebedouros.com.br/bebedouro-para-empresa-obra/",
-      "titulo_pagina": "Comprando bebedouro para empresa ou obra",
-      "num_palavras": 1202,
-      "intro": "Comprar o bebedouro ideal para a suaempresaouobranem sempre é uma tarefa fácil. É preciso atentar-se não só para os requisitos essenciais de qualquer boa compra (qualidade, pós-venda, garantia e beleza), como também obedecer às normas legais que regem os locais de trabalho. Para facilitar esta difícil tarefa, vamos ajudá-lo a seguir tanto as implicações legais como os requisitos essenciais de uma ótima compra. Este guia vai ajudá-lo a comprar corretamente umbebedouro para empresae também bebedou",
+      "url": "https://jeelevadores.com.br/saiba-o-que-e-a-norma-nbr-9050/",
+      "titulo_pagina": "NBR 9050: conheça a norma de acessibilidade",
+      "num_palavras": 1643,
+      "intro": "Você sabe o que é acessibilidade? Basicamente, ela se refere a um direito assegurado por lei que visa remover barreiras físicas, arquitetônicas, de comunicação e de atitudes. Nos projetos de construção civil, a NBR 9050 garante esse direito.",
       "headings": [
         {
           "nivel": "h2",
-          "texto": "O bebedouro e a CLT (Consolidação das Leis Trabalhistas)"
+          "texto": "Norma de acessibilidade: o que é a NBR 9050?"
         },
         {
           "nivel": "h2",
-          "texto": "Punições para ausência de água potável ou em desacordo com as normas"
+          "texto": "A nova norma de acessibilidade"
         },
         {
           "nivel": "h2",
-          "texto": "Mensurando a qualidade da água do bebedouro"
+          "texto": "Principais mudanças na NBR 9050"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Mobiliários em rotas acessíveis"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Ampliação da acessibilidade"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Símbolos e desenhos"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Sinalização sonora"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Rampas nas calçadas"
         },
         {
           "nivel": "h2",
-          "texto": "Definindo o modelo e a capacidade do bebedouro"
+          "texto": "Quem fiscaliza o cumprimento da NBR 9050?"
+        },
+        {
+          "nivel": "h2",
+          "texto": "5 passos para tornar seu projeto de construção civil mais acessível"
         },
         {
           "nivel": "h3",
-          "texto": "Como saber qual bebedouro comprar?"
+          "texto": "1.Conheça e aplique as normas de acessibilidade:"
         },
         {
           "nivel": "h3",
-          "texto": "Não conseguiu decidir qual bebedouro escolher?"
+          "texto": "2.Incorpore o Desenho Universal"
         },
         {
           "nivel": "h3",
-          "texto": "Loading, Please Wait!"
+          "texto": "3.Foque na mobilidade e circulação:"
+        },
+        {
+          "nivel": "h3",
+          "texto": "4.Considere aspectos sensoriais e cognitivos"
+        },
+        {
+          "nivel": "h3",
+          "texto": "5.Realize consultas e testes de usabilidade"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Invista em elevadores e plataformas de acessibilidade"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Assine nossa newsletter"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Acessibilidade"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Elevadores de acessibilidade"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Acessibilidade para pessoas cegas: uso do braille em elevadores para maior autonomia"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Acessibilidade"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Dicas"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Informativos"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Projeto de acessibilidade: 5 ambientes para inspiração"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Elevadores de acessibilidade"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Símbolos de inclusão e acessibilidade: guia completo para estabelecimentos"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Tem interesse em nosso serviço?"
         }
       ],
-      "posicao": 2,
-      "titulo_serp": "Bebedouro para empresa ou obra - Bebedouro Industrial",
-      "descricao_serp": "Esta informação est presente ... item da norma anterior, também é definida uma proporção de trabalhadores para cada bebedouro, sendo de 1 (um) bebedouro para cada grupo de 50 empregados...."
-    },
-    {
-      "url": "https://www.scribd.com/document/659815129/NR-24-Limpeza-e-Higienizacao-de-Bebedouro",
-      "titulo_pagina": "",
-      "num_palavras": 37,
-      "intro": "",
-      "headings": [],
       "posicao": 3,
-      "titulo_serp": "NR 24 Limpeza e Higienizacao de Bebedouro | PDF",
-      "descricao_serp": "Este documento estabelece os procedimentos para limpeza e higienização dos bebedouros da empresa WR Construtora, definindo os materiais e etapas necessárias para limpeza, desinfecção e liberação dos bebedouros para uso, visando garantir ..."
+      "titulo_serp": "NBR 9050: conheça a norma de acessibilidade - JE Elevadores",
+      "descricao_serp": "Na atualização da NBR 9050 foi acrescentada a utilização de transportes, o que antes não fazia parte do escopo. Assim como a informação e os sistemas de tecnologias. Símbolos e desenhos."
     }
   ]
 }
