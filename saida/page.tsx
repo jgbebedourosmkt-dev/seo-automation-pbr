@@ -14,24 +14,24 @@ export const metadata = buildMetadata({
 
 const faqs = [
   {
-    question: 'O que é um bebedouro inox 3 torneiras?',
-    answer: 'É um bebedouro industrial com três saídas de água simultâneas, construído em aço inoxidável. Permite atender três usuários ao mesmo tempo, sendo indicado para fábricas, escolas, academias e empresas com alto fluxo de pessoas.',
+    question: 'Qual a capacidade ideal de um bebedouro inox 3 torneiras?',
+    answer: 'A maioria dos modelos disponíveis no mercado possui capacidade de 100 litros, suficiente para ambientes com fluxo médio a alto. Para locais com mais de 80 usuários por turno, considere um modelo de maior capacidade ou com 4 torneiras.',
   },
   {
-    question: 'Qual a capacidade típica de um bebedouro inox 3 torneiras?',
-    answer: 'Os modelos mais comuns têm capacidade de 100 litros, com compressor que refrigera entre 15 e 25 litros por hora mantendo a água entre 8°C e 12°C. Alguns modelos oferecem uma torneira de água natural além das de água gelada.',
+    question: 'Bebedouro inox 3 torneiras precisa de filtro?',
+    answer: 'Não é obrigatório, mas é altamente recomendado, especialmente em regiões com água de baixa qualidade ou alto teor de cloro. Muitos fabricantes oferecem versões com filtro externo de fácil instalação e substituição periódica.',
   },
   {
-    question: 'O bebedouro inox 3 torneiras precisa de instalação hidráulica?',
-    answer: 'Sim, o equipamento deve ser conectado à rede de água encanada e à tomada elétrica de 110V ou 220V conforme o modelo. A instalação deve ser feita por técnico qualificado seguindo a norma NBR 13713.',
+    question: 'Qual tensão elétrica está disponível no bebedouro inox 3 torneiras?',
+    answer: 'Os modelos são comercializados em 110V e 220V. Antes de comprar, verifique a tensão da rede elétrica do local de instalação. Usar a tensão errada pode danificar o compressor e anular a garantia do fabricante.',
   },
   {
-    question: 'O bebedouro inox 3 torneiras possui certificação INMETRO?',
-    answer: 'Sim, modelos homologados possuem certificação INMETRO conforme a NBR 13713, que regula bebedouros elétricos no Brasil. A certificação garante segurança elétrica, qualidade da água e desempenho mínimo de refrigeração.',
+    question: 'Bebedouro inox 3 torneiras é certificado pelo INMETRO?',
+    answer: 'Sim, todos os bebedouros elétricos vendidos legalmente no Brasil devem ter certificação INMETRO conforme a Portaria 371/2009. O selo garante conformidade com normas de segurança elétrica, higiene e eficiência energética.',
   },
   {
-    question: 'Com que frequência devo fazer manutenção no bebedouro inox 3 torneiras?',
-    answer: 'Recomenda-se limpeza interna a cada 6 meses conforme a RDC 275 da ANVISA, troca do filtro a cada 3 a 6 meses dependendo do uso, e revisão anual do compressor. A higienização externa deve ser feita semanalmente.',
+    question: 'Com que frequência devo higienizar o bebedouro inox 3 torneiras?',
+    answer: 'Recomenda-se limpeza mensal em ambientes de baixo fluxo e quinzenal em locais de alto movimento. A RDC 275 da ANVISA orienta os procedimentos sanitários aplicáveis a equipamentos de água de uso coletivo.',
   },
 ]
 
@@ -44,7 +44,7 @@ export default function BebedouroInox3TorneirasPage() {
       <PilarLayout
         badge="Guia Completo"
         title="Bebedouro Inox 3 Torneiras: Modelos e Especificações"
-        excerpt="O bebedouro inox 3 torneiras é a solução ideal para ambientes com alto fluxo de usuários, com três saídas simultâneas de água gelada e estrutura em aço inoxidável de alta durabilidade."
+        excerpt="O bebedouro inox 3 torneiras é a solução industrial para ambientes com alto fluxo de usuários que precisam de atendimento simultâneo com estrutura em aço inoxidável."
         breadcrumbLabel="Bebedouro Inox 3 Torneiras: Modelos e Especificações"
         breadcrumbSlug="bebedouro-inox-3-torneiras"
         ctaHref="https://jgbebedouros.com.br?utm_source=portalbebedouro&utm_medium=pilar&utm_campaign=bebedouro-inox-3-torneiras"
@@ -53,21 +53,21 @@ export default function BebedouroInox3TorneirasPage() {
         finalCtaTitle="Precisa de bebedouro inox 3 torneiras?"
         finalCtaDesc="A JG Bebedouros oferece venda e manutencao em todo o Brasil."
         tocItems={[
-          { href: '#o-que-e', label: 'O que é bebedouro inox 3 torneiras' },
-          { href: '#vantagens-inox', label: 'Vantagens do aço inox' },
-          { href: '#especificacoes-tecnicas', label: 'Especificações técnicas' },
-          { href: '#capacidade-refrigeracao', label: 'Capacidade e refrigeração' },
-          { href: '#onde-usar', label: 'Onde usar' },
-          { href: '#certificacoes-normas', label: 'Certificações e normas' },
-          { href: '#instalacao-manutencao', label: 'Instalação e manutenção' },
-          { href: '#modelos-relacionados', label: 'Modelos relacionados' },
-          { href: '#orcamento-preco', label: 'Orçamento e preço' },
+          { href: '#o-que-e', label: 'O que é' },
+          { href: '#especificacoes-tecnicas', label: 'Especificações Técnicas' },
+          { href: '#modelos-disponiveis', label: 'Modelos Disponíveis' },
+          { href: '#uso-corporativo', label: 'Uso Corporativo' },
+          { href: '#vantagens-do-inox', label: 'Vantagens do Inox' },
+          { href: '#manutencao-e-higiene', label: 'Manutenção e Higiene' },
+          { href: '#modelos-relacionados', label: 'Modelos Relacionados' },
+          { href: '#como-escolher', label: 'Como Escolher' },
+          { href: '#onde-encontrar', label: 'Onde Encontrar' },
         ]}
         stats={[
-          { valor: '100 L', label: 'Capacidade do tanque' },
-          { valor: '3', label: 'Saídas simultâneas' },
+          { valor: '3', label: 'Torneiras simultâneas' },
+          { valor: '100L', label: 'Capacidade média' },
           { valor: 'INMETRO', label: 'Certificação obrigatória' },
-          { valor: '8–12 °C', label: 'Temperatura da água gelada' },
+          { valor: 'NBR 13713', label: 'Norma aplicável' },
         ]}
         faqs={faqs}
         internalLinks={[
@@ -80,73 +80,93 @@ export default function BebedouroInox3TorneirasPage() {
           { href: '/local/bebedouro-industrial-sao-paulo', label: 'em São Paulo' },
         ]}
       >
+
+        {/* Seção 1 */}
         <section id="o-que-e" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>O que é bebedouro inox 3 torneiras</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O <strong>bebedouro inox 3 torneiras</strong> é um equipamento industrial com três saídas de água simultâneas, construído com estrutura de <a href="/bebedouro-inox" className="text-az hover:underline">bebedouro inox</a>. Projetado para alto fluxo, permite atender até três usuários ao mesmo tempo, eliminando filas e aumentando a eficiência do ponto de hidratação.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O modelo mais comum no mercado brasileiro tem capacidade de 100 litros, com tanque interno em aço inoxidável e sistema de refrigeração por compressor. A estrutura em inox garante resistência à corrosão, facilidade de limpeza e vida útil superior em comparação a modelos fabricados com outros materiais.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A instalação requer conexão à rede de água encanada e tomada elétrica na tensão do modelo escolhido (110V ou 220V). O processo é simples e segue as recomendações da norma NBR 13713, devendo ser executado por técnico qualificado para garantir segurança e desempenho adequados desde o primeiro uso.</p>
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>O que é Bebedouro Inox 3 Torneiras</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O bebedouro inox 3 torneiras é um equipamento industrial que permite atender três usuários ao mesmo tempo. Com capacidade de 100 litros, estrutura em aço inoxidável e certificação INMETRO, é ideal para empresas, fábricas, escolas e ambientes com alto fluxo de pessoas.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Dentro da família dos <a href="/bebedouro-inox" className="text-az hover:underline">bebedouro inox</a>, o modelo com 3 torneiras representa o equilíbrio mais eficiente entre capacidade de atendimento e custo operacional. É fabricado por marcas como Robust, Acqua Gelata, Lider e Frisbel, com versões disponíveis em 110V ou 220V.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A configuração mais comum prevê duas saídas de água gelada e uma saída de água natural. Esse arranjo reduz o consumo de energia sem comprometer a experiência dos usuários em ambientes com demanda variada ao longo do dia.</p>
         </section>
 
-        <section id="vantagens-inox" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Vantagens do aço inox no bebedouro</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O aço inoxidável é o material mais indicado para bebedouros industriais por combinar resistência mecânica e higiene superior. A superfície lisa não retém odores nem sabores e dificulta a proliferação de bactérias, atendendo às exigências sanitárias da RDC 275 da ANVISA para pontos de consumo coletivo.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Ambientes agressivos como fábricas, academias e cantinas escolares exigem equipamentos que suportem uso intenso e limpeza frequente com produtos químicos. O inox resiste a esses procedimentos sem corrosão ou degradação, reduzindo significativamente o custo total de manutenção ao longo dos anos.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O acabamento escovado ou polido do inox transmite modernidade e higiene, sendo bem recebido em recepções corporativas, clínicas e estabelecimentos de alimentação. Para empresas que precisam de um <a href="/bebedouro-para-empresa" className="text-az hover:underline">bebedouro para empresa</a> com boa apresentação visual, o modelo inox é a escolha mais indicada.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A durabilidade do aço inoxidável também reduz a frequência de substituição do equipamento. Enquanto modelos em plástico comum podem apresentar desgaste visível em dois a três anos de uso intenso, um bebedouro inox bem mantido pode operar por dez anos ou mais sem comprometer a qualidade da água ou a integridade estrutural.</p>
-        </section>
-
+        {/* Seção 2 */}
         <section id="especificacoes-tecnicas" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Especificações técnicas dos modelos</h2>
-          <img src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%203%20torneiras%20robust%20100%20litros.png" alt="bebedouro industrial inox 3 torneiras robust 100 litros" className="rounded-lg object-cover w-2/5" style={{ float: 'left', marginRight: '15px', marginBottom: '8px' }} loading="lazy" />
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Os modelos disponíveis no mercado seguem especificações bastante padronizadas. A capacidade do tanque varia entre 100 e 150 litros, com potência de compressor entre 1/4 e 1/3 HP. A tensão elétrica pode ser 110V ou 220V — esse detalhe deve ser confirmado antes da compra para evitar custos de adaptação elétrica na instalação.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">As dimensões típicas de um modelo de chão com 100 litros são aproximadamente 55 cm de largura × 45 cm de profundidade × 110 cm de altura, com peso entre 40 e 65 kg. Alguns modelos incluem uma terceira torneira de água natural além das duas de água gelada, atendendo a diferentes preferências de temperatura dos usuários.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">As torneiras podem ser em polipropileno de alto impacto ou em aço inox, sendo este último mais durável. O aparador de água frontal deve ser em chapa de inox com dreno, e o acesso ao compressor facilitado para manutenção. Verifique se o modelo possui filtro embutido ou externo, pois isso afeta o custo e a frequência da manutenção periódica.</p>
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Especificações Técnicas</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Os modelos mais comercializados de bebedouro inox 3 torneiras possuem capacidade de 100 litros, dimensões aproximadas de 55 cm de largura por 47 cm de profundidade e 120 cm de altura. O peso varia entre 35 e 50 kg dependendo do fabricante e dos componentes utilizados.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A tensão elétrica disponível é 110V ou 220V, com potência média de 370W a 500W. A temperatura de saída da água gelada fica entre 4°C e 10°C, adequada para ambientes industriais mesmo em dias de calor intenso.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Cada torneira opera de forma independente. Em modelos padrão, duas torneiras fornecem água gelada e uma fornece água natural, sem refrigeração. Algumas configurações permitem personalizar essa divisão conforme a necessidade do local de instalação.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O aparador de água frontal em chapa de aço inox com dreno integrado evita acúmulo de líquido no piso e facilita a limpeza diária. O compressor é hermético, vedado de fábrica, com sistema de refrigeração a gás R134a ou R600a nos modelos mais novos, dentro das normas ambientais vigentes.</p>
+        </section>
+
+        {/* Seção 3 - com imagem 1 */}
+        <section id="modelos-disponiveis" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Modelos Disponíveis</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            <img src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%203%20torneiras%20robust%20100%20litros.png" alt="bebedouro industrial inox 3 torneiras robust 100 litros" className="rounded-lg object-cover w-2/5" style={{ float: 'left', marginRight: '15px', marginBottom: '8px' }} loading="lazy" />
+            O mercado brasileiro oferece diversas linhas de bebedouro inox 3 torneiras. A linha Robust é uma das mais vendidas: estrutura em inox escovado 430, tampa em inox 304 e torneiras em plástico de alto impacto. O modelo de 100 litros pesa cerca de 43 kg e suporta uso contínuo em ambientes industriais.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A Acqua Gelata oferece o modelo de 100 litros em 110V com filtro externo de fácil instalação, comercializado em grandes redes como Leroy Merlin. Já o modelo Lider (LE) tem inox escovado e torneiras em aço inoxidável, sendo preferido em ambientes sujeitos a uso intenso ou vandalismo.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A Frisbel disponibiliza bebedouros de 100 litros com filtro integrado na versão 220V, aprovados pela NBR 13713 e certificados pelo INMETRO. Todos os fabricantes devem atender à RDC 275 da ANVISA quanto à higiene dos materiais em contato com a água potável.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Na escolha do modelo, verifique a espessura do inox da carcaça, o tipo de filtro suportado e a procedência do compressor. Compressores de marcas como Embraco e Tecumseh oferecem maior vida útil e menor consumo energético ao longo da vida útil do equipamento.</p>
           <div style={{ clear: 'both' }} />
         </section>
 
-        <section id="capacidade-refrigeracao" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Capacidade e refrigeração</h2>
-          <img src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20100%20litros%20inox%203%20torneiras%20robust%20angulo%20fontal.png" alt="bebedouro 100 litros inox 3 torneiras robust angulo fontal" className="rounded-lg object-cover w-2/5" style={{ float: 'left', marginRight: '15px', marginBottom: '8px' }} loading="lazy" />
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A capacidade de refrigeração é medida em litros de água gelada produzida por hora a 32°C de temperatura ambiente. Modelos de 100 litros costumam refrigerar entre 15 e 25 litros por hora, mantendo a água entre 8°C e 12°C. Esse índice deve ser considerado no dimensionamento do equipamento conforme o número de usuários do ambiente.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para ambientes com 100 a 300 pessoas, um modelo de 100 litros com 3 torneiras costuma suprir os picos de demanda. Para locais com mais de 300 usuários simultâneos, pode ser necessário complementar com um <a href="/bebedouro-inox-25-litros" className="text-az hover:underline">bebedouro inox 25 litros</a> de bancada adicional ou optar por modelo de maior capacidade com 4 saídas.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O consumo de energia de modelos certificados fica entre 180 e 280 kWh por ano, dependendo da temperatura ambiente e do volume de uso diário. Modelos com etiqueta de eficiência energética A ou B representam economia relevante no custo operacional, especialmente em instalações com funcionamento contínuo de 8 a 12 horas por dia.</p>
-          <div style={{ clear: 'both' }} />
+        {/* Seção 4 */}
+        <section id="uso-corporativo" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Uso Corporativo</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O bebedouro inox 3 torneiras atende diretamente à NR-24, que determina a obrigatoriedade de fornecimento de água potável para trabalhadores. Em ambientes com 30 a 80 funcionários por turno, esse modelo costuma ser suficiente para garantir acesso sem filas nos intervalos.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Fábricas, galpões logísticos, academias, refeitórios e escolas são os principais compradores desse equipamento. Em lanchonetes e restaurantes, a torneira de água natural facilita o autoatendimento dos funcionários sem consumir energia de refrigeração desnecessária.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para quem busca um <a href="/bebedouro-para-empresa" className="text-az hover:underline">bebedouro para empresa</a>, é fundamental verificar a capacidade de refrigeração nos horários de pico. O dimensionamento correto considera o número de usuários por turno, a temperatura ambiente do local e o intervalo entre manutenções preventivas programadas.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Conforme a NR-24, o bebedouro deve ser instalado em local de fácil acesso, com espaço adequado ao redor para limpeza e manutenção. O ponto de instalação deve contar com entrada de água fria de ½ polegada e saída de esgoto para o dreno do aparador frontal.</p>
         </section>
 
-        <section id="onde-usar" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Onde usar o bebedouro inox 3 torneiras</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O modelo com 3 torneiras é projetado para locais onde o fluxo de pessoas é intenso e contínuo. Fábricas, galpões logísticos, cantinas escolares, academias, restaurantes, padarias, supermercados e obras da construção civil são os ambientes mais comuns. A NR-24 do Ministério do Trabalho exige fornecimento de água potável em locais de trabalho, tornando o equipamento obrigação legal em diversas situações.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Em igrejas, centros comunitários e eventos com grande público, o bebedouro inox 3 torneiras reduz o congestionamento nos pontos de água. Três pessoas se servindo ao mesmo tempo diminui o tempo de espera e melhora a experiência dos usuários nos momentos de maior demanda, como intervalos e horários de refeição.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para postos de gasolina, clínicas e hospitais, o material inox atende às exigências sanitárias da ANVISA para equipamentos em locais de uso coletivo. O acabamento inox suporta produtos de limpeza sem degradação da superfície ou comprometimento da qualidade da água distribuída. Saiba mais sobre aplicações corporativas no guia de <a href="/bebedouro-para-empresa" className="text-az hover:underline">bebedouro para empresa</a>.</p>
+        {/* Seção 5 */}
+        <section id="vantagens-do-inox" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Vantagens do Inox</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O aço inoxidável utilizado nos bebedouros de 3 torneiras oferece resistência à corrosão, facilidade de limpeza e longa durabilidade. Os tipos AISI 430 e AISI 304 são os mais usados: o 304 é mais resistente a meios ácidos e recomendado para áreas costeiras ou com maior umidade ambiente.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Segundo a NBR 13713, todos os materiais em contato com a água potável devem ser certificados e não podem alterar as propriedades organolépticas da água — cor, odor e sabor. O inox atende plenamente esse requisito, ao contrário de materiais plásticos de baixa qualidade que podem liberar substâncias indesejáveis.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A certificação INMETRO é obrigatória para bebedouros elétricos comercializados no Brasil. Ela garante que o produto passou por testes de segurança elétrica, eficiência energética e conformidade com normas técnicas. Ao adquirir um bebedouro inox 3 torneiras, sempre verifique o selo INMETRO na embalagem ou no equipamento.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Em comparação com modelos de carcaça plástica, o inox suporta impactos mecânicos, resiste a produtos de limpeza industriais e não amarca com uso cotidiano. Isso reduz os custos de substituição ao longo da vida útil, que pode ultrapassar 10 anos com manutenção adequada.</p>
         </section>
 
-        <section id="certificacoes-normas" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Certificações e normas obrigatórias</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Todo bebedouro elétrico vendido no Brasil deve ser certificado pelo INMETRO conforme a norma NBR 13713, que estabelece requisitos de segurança elétrica, desempenho de refrigeração e materiais em contato com a água. A compra de modelos sem certificação representa risco para o usuário e responsabilidade legal para o empregador ou proprietário do estabelecimento.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A RDC 275 da ANVISA determina as boas práticas de higienização de equipamentos em contato com água potável em locais coletivos. O plano de manutenção deve prever limpeza interna semestral, troca de filtro conforme o fabricante e registro dos procedimentos realizados para fins de fiscalização sanitária em inspeções rotineiras.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A NR-24 do Ministério do Trabalho e Emprego estabelece condições sanitárias mínimas nos locais de trabalho, incluindo a obrigatoriedade de bebedouros com água potável em quantidade suficiente para todos os trabalhadores. O descumprimento sujeita a empresa a autuação pelos fiscais do trabalho, com risco de embargo das atividades nos casos mais graves.</p>
+        {/* Seção 6 */}
+        <section id="manutencao-e-higiene" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Manutenção e Higiene</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A higienização do bebedouro inox 3 torneiras deve ser feita quinzenalmente ou mensalmente, conforme a demanda do local. O processo inclui desligar o equipamento da tomada, drenar a água, limpar o reservatório interno com solução de hipoclorito de sódio a 1% e enxaguar com água corrente antes de religar.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A troca do filtro deve seguir o manual do fabricante — normalmente a cada 3 a 6 meses. Em regiões com água de baixa qualidade ou alto teor de cloro, o intervalo pode ser menor. A RDC 275 da ANVISA regulamenta os procedimentos sanitários aplicáveis a equipamentos de água para consumo coletivo.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O compressor hermético dispensa manutenção interna, mas a limpeza do condensador com jato de ar comprimido deve ser feita semestralmente. Essa prática mantém a eficiência energética e evita superaquecimento, prolongando a vida útil do equipamento de forma significativa.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Equipamentos mal higienizados podem ser autuados pela vigilância sanitária e representam risco à saúde dos usuários. Recomenda-se afixar próximo ao bebedouro uma planilha de controle de higienização com data, responsável e produto utilizado, facilitando auditorias internas e externas.</p>
         </section>
 
-        <section id="instalacao-manutencao" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Instalação e manutenção</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A instalação do bebedouro inox 3 torneiras requer um ponto de água fria com encanamento de 1/2 polegada e tomada elétrica na tensão do modelo adquirido. A maioria dos fabricantes acompanha o equipamento com kit completo de instalação, incluindo mangueira flexível, conector e válvula de corte. O processo não exige obras e pode ser concluído em menos de uma hora por técnico habilitado.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A manutenção preventiva consiste na troca do filtro a cada 3 a 6 meses, limpeza do reservatório com solução clorada semestralmente e verificação periódica do compressor e das torneiras. Modelos com filtro embutido facilitam essa rotina, pois a troca do elemento filtrante é feita sem necessidade de ferramentas especiais ou desmontagem do equipamento principal.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O custo anual de manutenção de um bebedouro inox 3 torneiras gira entre R$ 200 e R$ 500, dependendo da frequência de uso, da qualidade da água local e do contrato de assistência técnica escolhido. Empresas que optam por contrato de manutenção preventiva garantem menor tempo de parada, atendimento prioritário e previsibilidade de gastos no orçamento anual de infraestrutura.</p>
-        </section>
-
+        {/* Seção 7 - com imagem 2 */}
         <section id="modelos-relacionados" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Modelos relacionados e comparativos</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Se o volume de usuários for menor, o <a href="/bebedouro-inox-2-torneiras" className="text-az hover:underline">bebedouro inox 2 torneiras</a> pode ser suficiente. Esse modelo ocupa menos espaço e tem custo de aquisição e manutenção menores, sendo adequado para escritórios de até 80 pessoas ou para pontos de hidratação secundários em ambientes maiores que já contam com um equipamento principal.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para ambientes com fluxo ainda mais intenso, como galpões industriais de grande porte ou refeitórios com centenas de funcionários, o <a href="/bebedouro-inox-4-torneiras" className="text-az hover:underline">bebedouro inox 4 torneiras</a> amplia a capacidade de atendimento simultâneo. A diferença de preço entre os modelos de 3 e 4 torneiras costuma ser de 15% a 25%, e o ganho na agilidade pode justificar o investimento adicional.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para locais onde o espaço no chão é limitado, o <a href="/bebedouro-inox-25-litros" className="text-az hover:underline">bebedouro inox 25 litros</a> de bancada é uma alternativa compacta para cozinhas industriais, halls de atendimento ou pontos de serviço onde instalar um equipamento de chão não é viável estruturalmente.</p>
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Modelos Relacionados</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            <img src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20100%20litros%20inox%203%20torneiras%20robust%20angulo%20fontal.png" alt="bebedouro 100 litros inox 3 torneiras robust angulo fontal" className="rounded-lg object-cover w-2/5" style={{ float: 'left', marginRight: '15px', marginBottom: '8px' }} loading="lazy" />
+            Para ambientes com menor fluxo, o <a href="/bebedouro-inox-2-torneiras" className="text-az hover:underline">bebedouro inox 2 torneiras</a> é mais indicado para locais com até 30 usuários por turno, com menor consumo elétrico e preço de aquisição mais acessível. É ideal como ponto de hidratação secundário.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para ambientes com fluxo muito intenso, como grandes indústrias e centros comerciais, o <a href="/bebedouro-inox-4-torneiras" className="text-az hover:underline">bebedouro inox 4 torneiras</a> amplia a capacidade simultânea. A diferença de preço entre os modelos de 3 e 4 torneiras costuma ser de 15% a 25%, podendo se justificar em locais com mais de 100 usuários simultâneos.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para locais com espaço no piso limitado, o <a href="/bebedouro-inox-25-litros" className="text-az hover:underline">bebedouro inox 25 litros</a> de bancada é uma alternativa compacta para halls de atendimento ou cozinhas industriais onde instalar um modelo de chão não é viável estruturalmente.</p>
+          <div style={{ clear: 'both' }} />
         </section>
 
-        <section id="orcamento-preco" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Orçamento e faixa de preço</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O preço de um bebedouro inox 3 torneiras varia conforme o fabricante, o tipo de torneiras (inox ou plástico de alto impacto), a potência do compressor e os acessórios incluídos. Para <a href="/blog/bebedouro-industrial-preco-2025" className="text-az hover:underline">veja a faixa de preço</a> atualizada com os principais modelos disponíveis no mercado brasileiro em 2025.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Além do valor de aquisição, considere os custos de instalação hidráulica e elétrica, o filtro de reposição e a manutenção preventiva anual. Fornecedores que oferecem contrato de manutenção preventiva incluído podem representar economia significativa a longo prazo, especialmente em ambientes com uso intenso e contínuo durante toda a jornada de trabalho.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para empresas em São Paulo e região metropolitana, a entrega e instalação costumam ser realizadas com maior agilidade e menor custo logístico. Confira as opções disponíveis <a href="/local/bebedouro-industrial-sao-paulo" className="text-az hover:underline">em São Paulo</a> e solicite um orçamento personalizado com prazo de entrega e condições de pagamento para o seu projeto.</p>
+        {/* Seção 8 */}
+        <section id="como-escolher" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Como Escolher</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para escolher o bebedouro inox 3 torneiras ideal, considere o número de usuários simultâneos, a tensão elétrica disponível no local (110V ou 220V) e a necessidade de filtro integrado ou externo. Ambientes com água de baixa qualidade exigem filtragem mais robusta para garantir a saúde dos usuários.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A potência do compressor determina a velocidade de resfriamento. Em climas quentes ou locais sem climatização, prefira modelos com compressor de 450W ou mais. Para referências de custo e marcas disponíveis, <a href="/blog/bebedouro-industrial-preco-2025" className="text-az hover:underline">veja a faixa de preço</a> atualizada com os principais modelos do mercado.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A instalação é simples: basta conectar à rede hidráulica com mangueira de ½ polegada e ligar na tomada adequada. Alguns modelos acompanham kit completo de instalação. Verifique se o local conta com ponto de esgoto próximo para o dreno do aparador frontal.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Avalie também a garantia oferecida: modelos com garantia de 12 meses no compressor e 6 meses nas peças são mais confiáveis. Fabricantes nacionais costumam ter rede de assistência técnica mais ampla, reduzindo o tempo de parada em caso de falha no equipamento.</p>
         </section>
+
+        {/* Seção 9 */}
+        <section id="onde-encontrar" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Onde Encontrar</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O bebedouro inox 3 torneiras está disponível em lojas especializadas, grandes redes de materiais de construção e distribuidores regionais. Para empresas que precisam de entrega, instalação técnica e manutenção preventiva incluída, o ideal é contratar diretamente com um fornecedor especializado em bebedouros industriais.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para quem está localizado <a href="/local/bebedouro-industrial-sao-paulo" className="text-az hover:underline">em São Paulo</a>, a capital concentra os maiores distribuidores de bebedouros industriais do país, com pronta-entrega e assistência técnica autorizada das principais marcas. O prazo médio de entrega para o interior e outras regiões varia entre 3 e 7 dias úteis.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Na hora da compra, solicite nota fiscal com descrição completa do equipamento, número de série e certificado de garantia. Esses documentos são necessários em caso de acionamento da assistência técnica e para comprovação junto à vigilância sanitária durante eventuais inspeções do ambiente de trabalho.</p>
+        </section>
+
       </PilarLayout>
       <Footer />
     </>
