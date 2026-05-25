@@ -1,107 +1,224 @@
 {
-  "keyword": "bebedouro para hotel",
-  "gerado_em": "2026-05-25T09:14:21.571669",
-  "media_palavras_top3": 1133,
-  "minimo_palavras_recomendado": 1359,
+  "keyword": "NR-24 bebedouro",
+  "gerado_em": "2026-05-25T14:30:30.400982",
+  "media_palavras_top3": 1886,
+  "minimo_palavras_recomendado": 5302,
   "concorrentes": [
     {
-      "url": "https://www.booking.com/city/br/bebedouro.pt-br.html",
-      "titulo_pagina": "Pesquisar hotéis em Bebedouro",
-      "num_palavras": 1133,
-      "intro": "Hotel Real Garden fornece acomodação com piscina ao ar livre, estacionamento privativo grátis, academia e jardim em Bebedouro. Barretos Country Acquapark fica a 44 km de distância.",
+      "url": "https://www.verdeghaia.com.br/bebedouros-reservatorios-de-agua-e-clt-qual-a-obrigatoriedade-das-empresas/",
+      "titulo_pagina": "Bebedouros/Reservatórios de água e CLT: qual a obrigatoriedade das empresas?27/02/2023",
+      "num_palavras": 4419,
+      "intro": "Abrangida NR 18 e NR 24, a obrigatoriedade do fornecimento de água potável, filtrada e fresca para os colaboradores é comumente fornecida através da instalação de bebedouros; estes são comumente encontrados através da utilização de abastecimento de rede ou por meio de galões/bombonas (envazada ou mineral).",
       "headings": [
         {
-          "nivel": "h2",
-          "texto": "Bebedouro – ótimos hotéis e lugares para ficar"
+          "nivel": "h3",
+          "texto": "Você também pode gostar..."
         },
         {
           "nivel": "h3",
-          "texto": "Filtrar resultados por:"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Hotel Real Garden"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Real Palace Hotel"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Apartamento térreo"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Apartamento 1 andar"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Hotel Barão Do Rio Branco"
+          "texto": "Informe seus dados de contato para receber a ligação dos nossos consultores"
         },
         {
           "nivel": "h2",
-          "texto": "Hotéis mais reservados em Bebedouro e arredores no último mês"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Real Palace Hotel"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Hotel Real Garden"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Hotel Barão Do Rio Branco"
+          "texto": "SEUS DIREITOS:"
         },
         {
           "nivel": "h2",
-          "texto": "O que os hóspedes disseram sobre Bebedouro:"
+          "texto": "OBTENÇÃO DE CONFIRMAÇÃO DE EXISTÊNCIA OU O ACESSO AOS SEUS DADOS PESSOAIS"
         },
         {
           "nivel": "h2",
-          "texto": "Pesquise, explore e faça planos para toda a sua viagem"
+          "texto": "SOLICITAÇÃO DE CORREÇÃO, ELIMINAÇÃO, BLOQUEIO OU ANONIMIZAÇÃO DOS SEUS DADOS PESSOAIS"
+        },
+        {
+          "nivel": "h2",
+          "texto": "PORTABILIDADE DOS SEUS DADOS PESSOAIS"
+        },
+        {
+          "nivel": "h2",
+          "texto": "INVIOLABILIDADE E SIGILO DAS SUAS INFORMAÇÕES"
+        },
+        {
+          "nivel": "h2",
+          "texto": "NÃO FORNECIMENTO A TERCEIROS DE SEUS DADOS PESSOAIS"
+        },
+        {
+          "nivel": "h2",
+          "texto": "FINALIDADES PARA O TRATAMENTO DE DADOS"
+        },
+        {
+          "nivel": "h2",
+          "texto": "CONTROLE DE ACESSO"
+        },
+        {
+          "nivel": "h2",
+          "texto": "MECANISMOS PARA AUTENTICAÇÃO DE ACESSO"
+        },
+        {
+          "nivel": "h2",
+          "texto": "INVENTÁRIO DETALHADO DE ACESSO"
+        },
+        {
+          "nivel": "h2",
+          "texto": "ENCRIPTAÇÃO E PROTEÇÃO DOS DADOS"
+        },
+        {
+          "nivel": "h2",
+          "texto": "APLICAÇÃO DE NORMAS DE CONSUMO"
+        },
+        {
+          "nivel": "h2",
+          "texto": "MAIS SOBRE PADRÕES DE SEGURANÇA DA INFORMAÇÃO"
         },
         {
           "nivel": "h3",
-          "texto": "Hotéis no Brasil"
+          "texto": "CAMADA DE SEGURANÇA:"
+        },
+        {
+          "nivel": "h2",
+          "texto": "FIQUE LIGADO"
         },
         {
           "nivel": "h3",
-          "texto": "Hotéis em: Interior São Paulo"
+          "texto": "TERMO DE USO Ambipar ESG"
         },
         {
           "nivel": "h3",
-          "texto": "Hotéis em: Estado de São Paulo"
+          "texto": "DÚVIDAS TERMO DE USO"
         },
         {
           "nivel": "h3",
-          "texto": "Hotéis em Ribeirão Preto"
+          "texto": "SEU CONSENTIMENTO"
+        },
+        {
+          "nivel": "h2",
+          "texto": "RESPONSÁVEL PELO TRATAMENTO DE DADOS"
+        },
+        {
+          "nivel": "h2",
+          "texto": "RESPONSABILIDADES DA Ambipar ESG"
+        },
+        {
+          "nivel": "h2",
+          "texto": "RESPONSABILIDADES DOS USUÁRIOS E CLIENTES"
+        },
+        {
+          "nivel": "h2",
+          "texto": "PROPRIEDADE INTELECTUAL"
+        },
+        {
+          "nivel": "h2",
+          "texto": "BASE LEGAL PARA O TRATAMENTO DE DADOS PESSOAIS"
+        },
+        {
+          "nivel": "h2",
+          "texto": "PERÍODO DURANTE O QUAL OS DADOS SÃO ARMAZENADOS"
+        },
+        {
+          "nivel": "h2",
+          "texto": "TRATAMENTO DE DADOS PESSOAIS SENSÍVEIS E DE CRIANÇAS OU ADOLESCENTES"
+        },
+        {
+          "nivel": "h2",
+          "texto": "CONTATO POR FORMULÁRIO"
+        },
+        {
+          "nivel": "h2",
+          "texto": "SUBSCRIÇÃO EM NOSSA NEWSLETTER"
+        },
+        {
+          "nivel": "h2",
+          "texto": "UTILIZAÇÃO DOS NOSSOS WEB SITES"
+        },
+        {
+          "nivel": "h2",
+          "texto": "COOKIES DOS WEB SITES"
+        },
+        {
+          "nivel": "h2",
+          "texto": "REGISTRO NOS NOSSOS WEB SITES"
+        },
+        {
+          "nivel": "h2",
+          "texto": "UTILIZAÇÃO DOS NOSSOS SISTEMAS"
+        },
+        {
+          "nivel": "h2",
+          "texto": "COOKIES DOS SISTEMAS"
+        },
+        {
+          "nivel": "h2",
+          "texto": "COMENTÁRIOS NO NOSSO BLOG, INSTAGRAM, FACEBOOK, LINKEDIN, YOUTUBE e TWITTER"
+        },
+        {
+          "nivel": "h2",
+          "texto": "FIQUE LIGADO"
         },
         {
           "nivel": "h3",
-          "texto": "Hotéis em Olímpia"
+          "texto": "POLÍTICA DE PRIVACIDADE Ambipar ESG"
         },
         {
-          "nivel": "h3",
-          "texto": "Quando visitar o Brasil"
+          "nivel": "h2",
+          "texto": "DÚVIDAS TERMO DE USO"
         },
         {
-          "nivel": "h3",
-          "texto": "Hotéis no Rio de Janeiro"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Hotéis em São Paulo"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Aluguel de carro em Bebedouro"
+          "nivel": "h2",
+          "texto": "SEU CONSENTIMENTO"
         }
       ],
       "posicao": 1,
-      "titulo_serp": "Hotéis baratos perto de Bebedouro - os melhores hotéis perto de Bebedouro, Estado de São Paulo",
-      "descricao_serp": "Grandes descontos online para hotéis em: Bebedouro, Brasil. Boa disponibilidade e tarifas espetaculares. Leia opiniões sobre os hotéis e escolha a melhor oferta para a sua estadia."
+      "titulo_serp": "Bebedouros/Reservatórios de água e CLT: qual a obrigatoriedade das empresas? - Ambipar ESG",
+      "descricao_serp": "March 8, 2023 - Abrangida NR 18 e NR 24, a obrigatoriedade do fornecimento de água potável, filtrada e fresca para os colaboradores é comumente fornecida através da instalação de bebedouros; estes são comumente encontrados através da utilização de ..."
+    },
+    {
+      "url": "https://www.comparebebedouros.com.br/bebedouro-para-empresa-obra/",
+      "titulo_pagina": "Comprando bebedouro para empresa ou obra",
+      "num_palavras": 1202,
+      "intro": "Comprar o bebedouro ideal para a suaempresaouobranem sempre é uma tarefa fácil. É preciso atentar-se não só para os requisitos essenciais de qualquer boa compra (qualidade, pós-venda, garantia e beleza), como também obedecer às normas legais que regem os locais de trabalho. Para facilitar esta difícil tarefa, vamos ajudá-lo a seguir tanto as implicações legais como os requisitos essenciais de uma ótima compra. Este guia vai ajudá-lo a comprar corretamente umbebedouro para empresae também bebedou",
+      "headings": [
+        {
+          "nivel": "h2",
+          "texto": "O bebedouro e a CLT (Consolidação das Leis Trabalhistas)"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Punições para ausência de água potável ou em desacordo com as normas"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Mensurando a qualidade da água do bebedouro"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Definindo o modelo e a capacidade do bebedouro"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Como saber qual bebedouro comprar?"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Não conseguiu decidir qual bebedouro escolher?"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Loading, Please Wait!"
+        }
+      ],
+      "posicao": 2,
+      "titulo_serp": "Bebedouro para empresa ou obra - Bebedouro Industrial",
+      "descricao_serp": "Esta informação est presente ... item da norma anterior, também é definida uma proporção de trabalhadores para cada bebedouro, sendo de 1 (um) bebedouro para cada grupo de 50 empregados...."
+    },
+    {
+      "url": "https://www.scribd.com/document/659815129/NR-24-Limpeza-e-Higienizacao-de-Bebedouro",
+      "titulo_pagina": "",
+      "num_palavras": 37,
+      "intro": "",
+      "headings": [],
+      "posicao": 3,
+      "titulo_serp": "NR 24 Limpeza e Higienizacao de Bebedouro | PDF",
+      "descricao_serp": "Este documento estabelece os procedimentos para limpeza e higienização dos bebedouros da empresa WR Construtora, definindo os materiais e etapas necessárias para limpeza, desinfecção e liberação dos bebedouros para uso, visando garantir ..."
     }
   ]
 }
