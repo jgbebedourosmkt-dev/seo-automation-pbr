@@ -111,14 +111,14 @@ export default function Bebedouro200LitrosPage() {
 
         <section id="quantas-pessoas" className="mb-12 scroll-mt-20">
           <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Quantas Pessoas Atende</h2>
-          <img
-            src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%204%20torneiras%20robust%20200%20litros.png"
-            alt="bebedouro industrial inox 4 torneiras robust 200 litros"
-            className="rounded-lg object-cover w-2/5"
-            style={{ float: 'left', marginRight: '15px', marginBottom: '8px' }}
-            loading="lazy"
-          />
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            <img
+              src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%204%20torneiras%20robust%20200%20litros.png"
+              alt="bebedouro industrial inox 4 torneiras robust 200 litros"
+              className="rounded-lg object-cover w-2/5"
+              style={{ float: 'left', marginRight: '15px', marginBottom: '8px' }}
+              loading="lazy"
+            />
             Um bebedouro 200 litros atende aproximadamente 400 pessoas por dia considerando um consumo médio de 0,5 litro por uso. Essa estimativa é conservadora: em locais com clima quente ou atividade física intensa, como construção civil ou siderurgia, o consumo por pessoa pode ser maior, reduzindo o número de usuários atendidos por recarga.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
@@ -132,14 +132,14 @@ export default function Bebedouro200LitrosPage() {
 
         <section id="modelos" className="mb-12 scroll-mt-20">
           <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Modelos Disponíveis no Mercado</h2>
-          <img
-            src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%204%20torneiras%20robust%20200%20litros%20ambiente%20obra.png"
-            alt="bebedouro industrial inox 4 torneiras robust 200 litros ambiente obra"
-            className="rounded-lg object-cover w-2/5"
-            style={{ float: 'left', marginRight: '15px', marginBottom: '8px' }}
-            loading="lazy"
-          />
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            <img
+              src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%204%20torneiras%20robust%20200%20litros%20ambiente%20obra.png"
+              alt="bebedouro industrial inox 4 torneiras robust 200 litros ambiente obra"
+              className="rounded-lg object-cover w-2/5"
+              style={{ float: 'left', marginRight: '15px', marginBottom: '8px' }}
+              loading="lazy"
+            />
             No segmento de 200 litros, os modelos mais comuns possuem 4 torneiras, sendo 3 com água gelada e 1 com água natural (temperatura ambiente). Essa configuração atende à recomendação da NBR 13713, que exige pelo menos uma saída de água natural para usuários que não devem ingerir líquidos muito gelados por prescrição médica ou condição de saúde.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
