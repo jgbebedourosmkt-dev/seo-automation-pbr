@@ -211,6 +211,19 @@ def _normalizar(texto: str) -> set:
     return {p for p in palavras if p not in _STOP_PT and len(p) > 1}
 
 
+def _extrair_variantes(texto: str) -> dict:
+    """Extrai qualificadores numéricos de torneiras e litragem do texto."""
+    import unicodedata
+    normalizado = unicodedata.normalize("NFD", texto.lower())
+    sem_acento = "".join(c for c in normalizado if unicodedata.category(c) != "Mn")
+    torneiras = re.search(r"(\d+)\s*torneiras?", sem_acento)
+    litragem = re.search(r"(\d+)\s*litros?", sem_acento)
+    return {
+        "torneiras": torneiras.group(1) if torneiras else None,
+        "litragem": litragem.group(1) if litragem else None,
+    }
+
+
 def _buscar_imagens(keyword: str, max_results: int = IMAGENS_MAX) -> list:
     """Retorna as imagens mais relevantes para a keyword, com score e URL."""
     imagens = _listar_imagens()
@@ -218,14 +231,23 @@ def _buscar_imagens(keyword: str, max_results: int = IMAGENS_MAX) -> list:
         return []
 
     tokens_kw = _normalizar(keyword)
+    variantes_kw = _extrair_variantes(keyword)
     resultados = []
     for img in imagens:
         nome_sem_ext = os.path.splitext(img["nome"])[0]
+        variantes_img = _extrair_variantes(nome_sem_ext)
+        # Filtro duro: rejeita imagens com torneiras/litragem diferente da keyword
+        if variantes_kw["torneiras"] and variantes_img["torneiras"]:
+            if variantes_kw["torneiras"] != variantes_img["torneiras"]:
+                continue
+        if variantes_kw["litragem"] and variantes_img["litragem"]:
+            if variantes_kw["litragem"] != variantes_img["litragem"]:
+                continue
         tokens_img = _normalizar(nome_sem_ext)
         intersecao = tokens_kw & tokens_img
         if not intersecao:
             continue
-        score = len(intersecao) / max(len(tokens_kw), 1)
+        score = (2 * len(intersecao)) / max(len(tokens_kw) + len(tokens_img), 1)
         resultados.append({
             "nome": img["nome"],
             "raw_url": img["raw_url"],
@@ -394,6 +416,7 @@ def _push_github(pasta_saida: str, keyword: str, numero_linha: int):
             raise RuntimeError(f"git {' '.join(cmd)} falhou:\n{result.stderr.strip()}")
         return result.stdout.strip()
 
+    _git(["pull", "--rebase", "origin", "main"])
     _git(["add", "saida/", "estado.json"])
     _git(["commit", "-m", f"linha {numero_linha}: {keyword}"])
     _git(["push", "origin", "main"])
