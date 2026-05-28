@@ -14,24 +14,24 @@ export const metadata = buildMetadata({
 
 const faqs = [
   {
-    question: 'Quantas pessoas um bebedouro 200 litros atende por dia?',
-    answer: 'Um bebedouro de 200 litros atende aproximadamente 400 pessoas por dia, considerando um consumo médio de 0,5 litro por uso. Em ambientes com alto fluxo, como fábricas e canteiros de obra, o reservatório pode ser reabastecido automaticamente pela rede hidráulica, eliminando o limite de recarga manual.',
+    question: 'Um bebedouro 200 litros atende quantas pessoas por turno?',
+    answer: 'Um bebedouro 200 litros atende entre 300 e 400 pessoas por turno de 8 horas, considerando consumo médio de 0,5 litro por pessoa. Em ambientes com esforço físico intenso ou alta temperatura, como obras e fábricas, o consumo sobe para até 1,5 litro por trabalhador, reduzindo a capacidade para 130 a 200 usuários por turno.',
   },
   {
-    question: 'Qual a tensão elétrica do bebedouro 200 litros?',
-    answer: 'A maioria dos modelos de bebedouro 200 litros opera em 220V monofásico, mas existem versões bivolt (110V/220V). Consulte a ficha técnica do modelo antes da compra para garantir compatibilidade com a rede elétrica do local de instalação e evitar danos ao compressor.',
+    question: 'Qual o consumo elétrico de um bebedouro 200 litros?',
+    answer: 'O consumo elétrico varia entre 350W e 600W, dependendo do modelo e do número de torneiras. Em operação contínua de 8 horas por dia, o gasto mensal fica em torno de 108 kWh. Modelos com certificação INMETRO e selo Procel garantem eficiência energética comprovada por ensaios independentes.',
   },
   {
-    question: 'O bebedouro 200 litros é obrigatório por lei em empresas?',
-    answer: 'A NR-24 do Ministério do Trabalho e Emprego exige fornecimento de água potável fresca em todos os locais de trabalho. Para empresas com mais de 200 colaboradores, modelos de grande porte como o bebedouro 200 litros são a solução mais indicada para cumprir essa exigência com segurança e eficiência.',
+    question: 'Bebedouro 200 litros precisa de instalação hidráulica?',
+    answer: 'Sim. O modelo de passagem direta requer conexão à rede hidráulica com tubulação de ½ ou ¾ de polegada e pressão entre 10 e 40 mca. A instalação acompanha mangueiras e conectores e deve ser feita por profissional habilitado para garantir conformidade com as normas e evitar vazamentos.',
   },
   {
     question: 'Qual a diferença entre bebedouro 100 litros e 200 litros?',
-    answer: 'O bebedouro 100 litros atende até 200 pessoas por dia, enquanto o de 200 litros dobra essa capacidade, chegando a 400 usuários. Além da maior capacidade, o modelo de 200 litros geralmente possui mais torneiras (3 ou 4), dimensões maiores e compressor mais potente para maior produção de água gelada por hora.',
+    answer: 'O modelo de 100 litros atende até 200 pessoas por turno, enquanto o de 200 litros dobra essa capacidade para até 400 usuários. O bebedouro 200 litros também costuma ter mais torneiras (3 ou 4), compressor mais potente e maior produção de água gelada por hora, sendo indicado para ambientes industriais de médio e grande porte.',
   },
   {
-    question: 'O bebedouro 200 litros precisa de manutenção periódica?',
-    answer: 'Sim. A higienização do reservatório deve ser feita a cada 6 meses conforme a RDC 275 da ANVISA. A troca do filtro é recomendada a cada 6 a 12 meses, dependendo da qualidade da água local. Modelos com certificação INMETRO e conformidade com a NBR 13713 facilitam o controle de manutenção e garantem adequação legal.',
+    question: 'Com que frequência o bebedouro 200 litros precisa de manutenção?',
+    answer: 'A higienização completa do reservatório deve ser feita a cada 6 meses, conforme a RDC 275 da ANVISA. A troca do filtro de carvão ativado é recomendada a cada 6 a 12 meses, dependendo da qualidade da água local. A manutenção preventiva do compressor deve ser realizada anualmente por técnico especializado.',
   },
 ]
 
@@ -39,12 +39,25 @@ export default function Bebedouro200LitrosPage() {
   return (
     <>
       <Topbar /><Header /><Nav />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', slug: '' }, { name: 'Bebedouro 200 Litros: Atende 400 Pessoas' }])) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(faqs)) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            breadcrumbSchema([
+              { name: 'Home', slug: '' },
+              { name: 'Bebedouro 200 Litros: Atende 400 Pessoas' },
+            ])
+          ),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(faqs)) }}
+      />
       <PilarLayout
         badge="Guia Completo"
         title="Bebedouro 200 Litros: Atende 400 Pessoas"
-        excerpt="Bebedouro 200 litros: capacidade industrial para atender até 400 pessoas por dia em empresas e obras."
+        excerpt="Bebedouro 200 litros: capacidade industrial para atender até 400 colaboradores com água gelada de forma contínua, sem interrupção."
         breadcrumbLabel="Bebedouro 200 Litros: Atende 400 Pessoas"
         breadcrumbSlug="bebedouro-200-litros"
         ctaHref="https://jgbebedouros.com.br?utm_source=portalbebedouro&utm_medium=pilar&utm_campaign=bebedouro-200-litros"
@@ -53,21 +66,20 @@ export default function Bebedouro200LitrosPage() {
         finalCtaTitle="Precisa de bebedouro 200 litros?"
         finalCtaDesc="A JG Bebedouros oferece venda e manutenção em todo o Brasil."
         tocItems={[
-          { href: '#introducao', label: 'O que é' },
+          { href: '#o-que-e', label: 'O que é um Bebedouro 200 Litros' },
           { href: '#especificacoes', label: 'Especificações Técnicas' },
           { href: '#quantas-pessoas', label: 'Quantas Pessoas Atende' },
+          { href: '#dimensoes-instalacao', label: 'Dimensões e Instalação' },
           { href: '#modelos', label: 'Modelos Disponíveis' },
-          { href: '#normas', label: 'Normas e Certificações' },
-          { href: '#uso-corporativo', label: 'Uso Corporativo' },
-          { href: '#como-escolher', label: 'Como Escolher' },
-          { href: '#modelos-relacionados', label: 'Modelos Relacionados' },
-          { href: '#preco', label: 'Preço e Orçamento' },
+          { href: '#uso-corporativo', label: 'Bebedouro para Empresa' },
+          { href: '#normas-certificacoes', label: 'Normas e Certificações' },
+          { href: '#preco-orcamento', label: 'Preço e Orçamento' },
         ]}
         stats={[
           { valor: '200 L', label: 'Capacidade do reservatório' },
-          { valor: '400', label: 'Pessoas atendidas por dia' },
+          { valor: 'até 400', label: 'Usuários atendidos por turno' },
           { valor: '4', label: 'Torneiras (modelo padrão)' },
-          { valor: 'Inox 304', label: 'Material do reservatório' },
+          { valor: 'NR-24', label: 'Norma obrigatória em obras' },
         ]}
         faqs={faqs}
         internalLinks={[
@@ -80,37 +92,16 @@ export default function Bebedouro200LitrosPage() {
           { href: '/local/bebedouro-industrial-sao-paulo', label: 'em São Paulo' },
         ]}
       >
-        <section id="introducao" className="mb-12 scroll-mt-20">
+
+        <section id="o-que-e" className="mb-12 scroll-mt-20">
           <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>O que é um Bebedouro 200 Litros</h2>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O <a href="/bebedouro" className="text-az hover:underline">bebedouro</a> 200 litros é um equipamento industrial de grande porte projetado para atender até 400 pessoas por dia em empresas, fábricas e canteiros de obra. Com reservatório em aço inox e sistema de refrigeração de alta potência, é a solução mais indicada para ambientes com alto fluxo contínuo de trabalhadores.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Diferente dos modelos domésticos ou de escritório, o bebedouro 200 litros é dimensionado para operar 24 horas por dia sem interrupção. Seu reservatório de grande volume garante que a água gelada esteja sempre disponível, mesmo nos momentos de maior demanda, como intervalos e horários de pico em turnos de produção industrial.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A capacidade de 200 litros posiciona esse modelo no segmento de bebedouros industriais pesados. Ele é indicado para plantas industriais, canteiros de obra com mais de 200 operários, escolas de grande porte e instalações esportivas como ginásios e estádios com fluxo intenso de frequentadores.
+            O <a href="/bebedouro" className="text-az hover:underline">bebedouro</a> 200 litros é um equipamento industrial com reservatório de 200 litros, que fornece água gelada continuamente para até 400 pessoas por turno. Conecta-se diretamente à rede hidráulica, opera sem reabastecimento manual e é obrigatório pela NR-24 em empresas com alto fluxo de colaboradores.
           </p>
         </section>
 
         <section id="especificacoes" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Especificações Técnicas</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Os modelos de bebedouro 200 litros possuem dimensões aproximadas de 60 × 60 × 120 cm (largura × profundidade × altura), com variações entre fabricantes. O peso em operação, com reservatório cheio, pode ultrapassar 250 kg, o que exige piso reforçado e planejamento prévio do ponto de instalação.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A tensão de operação mais comum é 220V monofásico, embora modelos bivolt também estejam disponíveis no mercado. O consumo elétrico varia entre 800W e 1.200W dependendo da potência do compressor e do número de torneiras com circuito de resfriamento independente ativadas ao mesmo tempo.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O reservatório é fabricado em aço inox 304, material que garante resistência à corrosão, facilidade de higienização e conformidade com as normas sanitárias da ANVISA. As torneiras são geralmente em plástico de alto impacto ou inox, com mecanismo antivandálico adequado para uso em ambientes industriais de alto tráfego.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A pressão mínima de alimentação hídrica recomendada é de 0,5 kgf/cm², com entrada de 3/4 de polegada. Modelos com filtro embutido incluem elemento filtrante de carvão ativado impregnado com prata, que remove cloro, odores e microrganismos antes do processo de resfriamento da água.
-          </p>
-        </section>
-
-        <section id="quantas-pessoas" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Quantas Pessoas Atende</h2>
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Especificações Técnicas do Bebedouro 200 Litros</h2>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
             <img
               src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%204%20torneiras%20robust%20200%20litros.png"
@@ -119,19 +110,35 @@ export default function Bebedouro200LitrosPage() {
               style={{ float: 'left', marginRight: '15px', marginBottom: '8px' }}
               loading="lazy"
             />
-            Um bebedouro 200 litros atende aproximadamente 400 pessoas por dia considerando um consumo médio de 0,5 litro por uso. Essa estimativa é conservadora: em locais com clima quente ou atividade física intensa, como construção civil ou siderurgia, o consumo por pessoa pode ser maior, reduzindo o número de usuários atendidos por recarga.
+            O bebedouro 200 litros possui reservatório em aço inoxidável AISI 304, que garante higiene, resistência à corrosão e durabilidade em ambientes industriais. A estrutura externa é revestida com tinta epóxi eletrostática, protegendo contra umidade e impactos. O sistema de refrigeração utiliza gás R-134a (sem CFC), em conformidade com as normas ambientais.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A NR-24, norma regulamentadora do Ministério do Trabalho e Emprego, estabelece que cada trabalhador deve ter acesso a pelo menos 1 litro de água potável por hora em atividades a céu aberto ou em ambientes quentes. Com base nessa normativa, o bebedouro 200 litros cobre um turno de 8 horas para até 25 trabalhadores em condições extremas de calor, sendo necessária conexão contínua à rede hidráulica.
+            A alimentação elétrica padrão é em 220V monofásico, com potência do compressor entre 350W e 600W dependendo do modelo. A capacidade de produção de água gelada alcança 200 litros por hora em condições ideais (temperatura ambiente de 25°C), mantendo a água entre 10°C e 14°C mesmo no pico de uso. A pressão de entrada mínima recomendada é 0,5 kgf/cm² com ramal de ½ polegada.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Na prática, a maioria das instalações conecta o bebedouro diretamente à rede hidráulica, eliminando a necessidade de reabastecimento manual. Nesse cenário, o limite deixa de ser o volume do reservatório e passa a ser a capacidade de produção de frio do compressor, medida em litros de água gelada por hora segundo os ensaios da NBR 13713.
+            A cuba coletora é fabricada em polipropileno de alto impacto, resistente a impactos e de fácil higienização. As torneiras são do tipo alavanca ou pressão, disponíveis em plástico de alto impacto ou inox, com mecanismo antivandálico para uso em ambientes industriais. O modelo com 4 torneiras, sendo uma delas para água natural, é o mais solicitado em obras e fábricas.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            Muitos modelos incluem filtro de carvão ativado impregnado com prata, que remove cloro livre, odores e partículas em suspensão antes do processo de resfriamento. Esse recurso é especialmente importante em regiões onde a qualidade da rede pública de água apresenta variações sazonais ou onde há presença de sedimentos e alto teor de minerais.
           </p>
           <div style={{ clear: 'both' }} />
         </section>
 
-        <section id="modelos" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Modelos Disponíveis no Mercado</h2>
+        <section id="quantas-pessoas" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Quantas Pessoas Atende um Bebedouro 200 Litros</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            A capacidade de atendimento varia de acordo com o ambiente e o perfil dos usuários. Em escritórios e ambientes com trabalho sedentário, o consumo médio é de 0,5 litro por pessoa por turno de 8 horas. Nesse cenário, o bebedouro 200 litros atende com folga até 400 colaboradores, mesmo com picos de demanda nos intervalos de almoço e lanche.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            Em canteiros de obras, fábricas e ambientes com esforço físico intenso ou alta temperatura, o consumo sobe para 1 a 1,5 litro por trabalhador por turno. Nesses casos, o mesmo reservatório de 200 litros atende com segurança entre 130 e 200 pessoas. Quando o equipamento está conectado diretamente à rede hidráulica, o limite deixa de ser o volume do reservatório e passa a ser a capacidade de produção de frio do compressor, medida em litros por hora conforme a NBR 13713.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            Para dimensionar corretamente, considere o pico de uso simultâneo. Em horários de intervalo, muitos usuários acessam o equipamento ao mesmo tempo, gerando filas. O modelo com 4 torneiras reduz o tempo de espera e é a escolha mais indicada para grupos acima de 150 pessoas. Para grupos menores, o <a href="/bebedouro-2-torneiras" className="text-az hover:underline">bebedouro 2 torneiras</a> ou o <a href="/bebedouro-3-torneiras" className="text-az hover:underline">bebedouro 3 torneiras</a> podem ser suficientes.
+          </p>
+        </section>
+
+        <section id="dimensoes-instalacao" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Dimensões e Instalação do Bebedouro 200 Litros</h2>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
             <img
               src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%204%20torneiras%20robust%20200%20litros%20ambiente%20obra.png"
@@ -140,90 +147,75 @@ export default function Bebedouro200LitrosPage() {
               style={{ float: 'left', marginRight: '15px', marginBottom: '8px' }}
               loading="lazy"
             />
-            No segmento de 200 litros, os modelos mais comuns possuem 4 torneiras, sendo 3 com água gelada e 1 com água natural (temperatura ambiente). Essa configuração atende à recomendação da NBR 13713, que exige pelo menos uma saída de água natural para usuários que não devem ingerir líquidos muito gelados por prescrição médica ou condição de saúde.
+            As dimensões típicas do bebedouro 200 litros giram em torno de 125 cm de altura, 65 cm de largura e 55 cm de profundidade, com variações entre fabricantes. O peso vazio fica entre 45 kg e 60 kg; com o reservatório cheio ultrapassa 250 kg, exigindo piso firme e nivelado como base de apoio.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Os principais fabricantes brasileiros oferecem variações com diferentes acabamentos: modelos todo inox, modelos com cuba e torneiras em plástico de alto impacto (mais econômicos) e versões reforçadas para ambientes agressivos como mineração e obras em condições extremas. Todos devem portar o selo INMETRO conforme exigência da Portaria 371/2020.
+            A instalação requer conexão à rede hidráulica com tubulação de ½ polegada e pressão de entrada entre 10 e 40 mca (metros de coluna d'água). O equipamento acompanha mangueiras flexíveis, conectores e tubo de despejo, facilitando a instalação pelo técnico responsável. O ponto elétrico deve ser em 220V com aterramento adequado e disjuntor dedicado de 10A.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Alguns modelos incluem compartimento para filtro embutido, o que dispensa a instalação de pré-filtro externo. Esse diferencial simplifica a manutenção periódica e reduz o custo operacional ao longo do tempo, sendo um critério relevante na decisão de compra para ambientes industriais com operação contínua e equipe de manutenção reduzida.
+            Em canteiros de obra, é prática comum instalar o bebedouro sobre base de concreto elevada de 15 a 20 cm do chão, facilitando a limpeza do piso ao redor e atendendo às recomendações da NR-24 quanto às condições de higiene. Essa medida também protege os componentes inferiores do equipamento contra acúmulo de umidade e lama em dias de chuva.
           </p>
           <div style={{ clear: 'both' }} />
         </section>
 
-        <section id="normas" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Normas e Certificações Obrigatórias</h2>
+        <section id="modelos" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Modelos Disponíveis de Bebedouro 200 Litros</h2>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A <strong>NBR 13713</strong> da ABNT é a principal norma técnica que regulamenta bebedouros no Brasil. Ela define requisitos de projeto, materiais, desempenho térmico e ensaios que os fabricantes devem cumprir antes de colocar um produto no mercado. Todo bebedouro vendido legalmente no país deve ser ensaiado conforme essa norma e ter o laudo disponível para consulta.
+            O bebedouro 200 litros é comercializado em diferentes configurações de torneiras, materiais e recursos adicionais. A escolha depende do número de usuários, do ambiente de instalação e do orçamento disponível. Os três formatos mais comuns no mercado brasileiro são os modelos com 2, 3 e 4 torneiras.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O selo <strong>INMETRO</strong> é obrigatório para bebedouros elétricos conforme a Portaria 371/2020. Ele garante que o produto foi avaliado por um organismo acreditado quanto à segurança elétrica, desempenho térmico e materiais em contato com a água. Antes de adquirir qualquer modelo, verifique o número de certificado diretamente no portal oficial do INMETRO.
+            O <a href="/bebedouro-4-torneiras" className="text-az hover:underline">bebedouro 4 torneiras</a> é o modelo mais completo: três saídas de água gelada e uma de água natural. É o mais indicado para fábricas, canteiros de obras e galpões com alto fluxo de usuários simultâneos, pois elimina filas nos horários de pico. A presença de água natural também reduz o consumo do compressor ao longo do dia.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A <strong>NR-24</strong> (Condições Sanitárias dos Locais de Trabalho) exige que empregadores forneçam água potável fresca para todos os trabalhadores durante a jornada. O descumprimento pode resultar em autuação pela Auditoria Fiscal do Trabalho, com multas progressivas conforme o número de empregados afetados. Para empresas com mais de 300 funcionários, bebedouros de grande porte são praticamente indispensáveis.
+            Para empresas de médio porte, o <a href="/bebedouro-3-torneiras" className="text-az hover:underline">bebedouro 3 torneiras</a> oferece bom equilíbrio entre custo e capacidade de atendimento simultâneo, sendo suficiente para grupos de até 250 pessoas por turno. Já o <a href="/bebedouro-2-torneiras" className="text-az hover:underline">bebedouro 2 torneiras</a> na capacidade de 200 litros é indicado para espaços com fluxo mais controlado, onde o grande reservatório é necessário mas o atendimento simultâneo é menor.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A <strong>RDC 275</strong> da ANVISA regulamenta as Boas Práticas para Serviços de Alimentação e estabelece a necessidade de higienização periódica dos reservatórios de água. Para bebedouros industriais, a recomendação é a limpeza e sanitização completa do reservatório a cada 6 meses, com registro em planilha de manutenção assinada pelo responsável técnico.
+            Além das torneiras, os modelos se diferenciam pelo acabamento: pintura epóxi eletrostática (mais econômica) ou gabinete todo em inox AISI 304 (mais durável em ambientes úmidos e agressivos). Modelos premium incluem painel digital de temperatura, sistema de autolavagem e certificação INMETRO, sendo obrigatórios em contratos públicos e licitações governamentais.
           </p>
         </section>
 
         <section id="uso-corporativo" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Uso Corporativo e Industrial</h2>
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Bebedouro 200 Litros para Empresa</h2>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O <a href="/bebedouro-para-empresa" className="text-az hover:underline">bebedouro para empresa</a> de grande porte é ao mesmo tempo uma exigência legal e um investimento em produtividade. Trabalhadores bem hidratados cometem menos erros, apresentam menor índice de absenteísmo e têm melhor desempenho físico e cognitivo ao longo do turno. Prover acesso fácil à água gelada de qualidade é uma das medidas de saúde ocupacional com melhor custo-benefício comprovado.
+            Para empresas que buscam um <a href="/bebedouro-para-empresa" className="text-az hover:underline">bebedouro para empresa</a>, o modelo de 200 litros representa a melhor relação entre capacidade, custo operacional e conformidade legal. A NR-24 (Condições Sanitárias dos Locais de Trabalho) obriga os empregadores a fornecerem água potável e fresca a todos os trabalhadores durante a jornada, sob pena de autuação fiscal com multas progressivas.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Em canteiros de obra, onde os trabalhadores ficam expostos ao sol e ao calor durante toda a jornada, o bebedouro 200 litros é frequentemente instalado em pontos estratégicos ao longo do canteiro, próximo às áreas de maior concentração de operários. A instalação com ligação direta à rede hidráulica garante abastecimento contínuo sem necessidade de reabastecimento manual pelo encarregado.
+            Empresas com mais de 300 funcionários em um único turno geralmente optam por dois ou mais bebedouros distribuídos estrategicamente no ambiente. A NR-24 orienta que nenhum trabalhador precise percorrer mais de 100 metros até o ponto de água mais próximo. Esse critério define o número de equipamentos necessários e a melhor disposição por planta baixa.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Galpões industriais, frigoríficos, plantas de beneficiamento e fábricas de médio e grande porte são os ambientes que mais se beneficiam desse modelo. A robustez do inox 304 suporta ambientes úmidos, quentes e com variações extremas de temperatura, mantendo a conformidade sanitária e o desempenho técnico ao longo de anos de operação intensa.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Para grandes instalações com mais de 500 colaboradores, pode ser necessário distribuir múltiplos bebedouros pelo espaço. A JG Bebedouros realiza projeto de distribuição por planta baixa para garantir que todos os trabalhadores tenham acesso à água em até 30 metros de caminhada, seguindo as boas práticas da NR-24.
+            Muitas empresas optam pela locação ao invés da compra, modalidade que inclui instalação, manutenção preventiva e corretiva sem custo adicional. Para canteiros de obra com prazo definido ou empresas que não querem imobilizar capital, essa opção é especialmente vantajosa. Disponível <a href="/local/bebedouro-industrial-sao-paulo" className="text-az hover:underline">em São Paulo</a> e em todo o Brasil, a JG Bebedouros atende empresas de todos os portes com entrega, instalação e suporte técnico local.
           </p>
         </section>
 
-        <section id="como-escolher" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Como Escolher o Modelo Certo</h2>
+        <section id="normas-certificacoes" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Normas e Certificações Obrigatórias</h2>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O primeiro critério de escolha é o número de usuários simultâneos e a estimativa de consumo diário. Para até 200 pessoas, um modelo de 100 litros pode ser suficiente. Para empresas entre 200 e 400 colaboradores, o bebedouro 200 litros é a escolha mais adequada. Acima de 400 usuários, considere instalar múltiplas unidades distribuídas estrategicamente pelo espaço de trabalho.
+            A <strong>NBR 13713</strong> da ABNT é a principal norma técnica que regulamenta bebedouros no Brasil. Ela define requisitos de projeto, materiais em contato com a água, desempenho térmico e ensaios que os fabricantes devem cumprir antes de colocar o produto no mercado. Todo bebedouro vendido legalmente no país deve ter laudo de conformidade com essa norma disponível para consulta.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O segundo critério é o ambiente de instalação. Locais com umidade elevada, presença de produtos químicos ou exposição a intempéries exigem modelos com construção todo inox, incluindo estrutura, cuba e torneiras. Em ambientes internos com uso moderado, modelos com partes em plástico de alto impacto oferecem boa relação custo-benefício sem sacrificar durabilidade.
+            O <strong>INMETRO</strong> certifica bebedouros elétricos conforme a Portaria 371/2020, avaliando segurança elétrica, eficiência energética e qualidade dos materiais em contato com a água. O certificado INMETRO é obrigatório para a comercialização legal no Brasil e deve ser verificado pelo número de registro no portal oficial do Instituto antes da compra ou contratação.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Verifique se o modelo possui filtro embutido ou se exige pré-filtro externo. Em regiões com água de baixa qualidade ou com alto teor de minerais, o sistema de filtração é fundamental tanto para a qualidade da água quanto para a durabilidade do compressor. Equipamentos sem filtro adequado podem ter o compressor danificado precocemente por sedimentos ou incrustações.
+            A <strong>NR-24</strong> (Condições Sanitárias e de Conforto nos Locais de Trabalho) exige que empregadores forneçam água potável fresca em quantidade suficiente para todos os trabalhadores. O descumprimento pode resultar em autuação pela Auditoria Fiscal do Trabalho. Para empresas em obras e construção civil, a NR-24 é especialmente relevante, pois define obrigações detalhadas sobre pontos de água e espaçamento máximo entre bebedouros.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Avalie também a assistência técnica disponível na sua região antes de fechar a compra. Bebedouros industriais exigem manutenção preventiva periódica e eventual manutenção corretiva de urgência. Optar por uma marca com rede de assistência técnica consolidada reduz o tempo de parada do equipamento e garante continuidade no fornecimento de água.
-          </p>
-        </section>
-
-        <section id="modelos-relacionados" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Modelos Relacionados por Número de Torneiras</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O número de torneiras determina quantas pessoas podem se servir simultaneamente, reduzindo filas nos horários de pico como intervalos de almoço e pausas de turno. Para pequenas instalações com até 100 usuários, o <a href="/bebedouro-2-torneiras" className="text-az hover:underline">bebedouro 2 torneiras</a> pode ser suficiente e representa menor investimento inicial com manutenção simplificada.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Para instalações de médio porte, o <a href="/bebedouro-3-torneiras" className="text-az hover:underline">bebedouro 3 torneiras</a> oferece equilíbrio entre custo e capacidade de atendimento simultâneo. Já em ambientes industriais com mais de 200 colaboradores e fluxo intenso nos intervalos, o <a href="/bebedouro-4-torneiras" className="text-az hover:underline">bebedouro 4 torneiras</a> é a escolha mais indicada para eliminar aglomerações e atender a todos com rapidez.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Os modelos de 200 litros são comercializados principalmente nas versões de 3 e 4 torneiras. A versão com 4 torneiras inclui tipicamente 3 saídas de água gelada e 1 natural, atendendo às exigências da NBR 13713. Consulte a ficha técnica de cada modelo para verificar a configuração exata e a capacidade de produção de água gelada por hora em litros.
+            A <strong>RDC 275</strong> da ANVISA estabelece os procedimentos operacionais padronizados para higienização de superfícies em contato com alimentos e bebidas. Para bebedouros em indústrias alimentícias, hospitais, restaurantes e refeitórios, a limpeza e desinfecção semestral do reservatório deve seguir esta resolução, com registro em planilha assinada pelo responsável técnico do estabelecimento.
           </p>
         </section>
 
-        <section id="preco" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Preço, Orçamento e Disponibilidade</h2>
+        <section id="preco-orcamento" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Preço e Como Solicitar Orçamento</h2>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O preço de um bebedouro 200 litros varia conforme o fabricante, o número de torneiras, os materiais utilizados e os acessórios incluídos como filtros e kit de instalação. Para obter uma referência atualizada de mercado, <a href="/blog/bebedouro-industrial-preco-2025" className="text-az hover:underline">veja a faixa de preço</a> dos principais modelos disponíveis em 2025. Os valores podem diferir significativamente dependendo da região e da modalidade de aquisição escolhida.
+            O preço do bebedouro 200 litros varia conforme o número de torneiras, o acabamento (epóxi ou todo inox), a presença de filtro embutido e a certificação INMETRO. Para uma referência atualizada de mercado, <a href="/blog/bebedouro-industrial-preco-2025" className="text-az hover:underline">veja a faixa de preço</a> dos principais modelos para 2025, com comparativo entre fabricantes e modalidades de aquisição (compra, locação e comodato).
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Para empresas que buscam a solução mais econômica a longo prazo, o modelo de comodato é uma alternativa interessante. Nessa modalidade, a empresa fornecedora instala o bebedouro sem custo inicial mediante contrato de manutenção mensal. Essa opção é comum em grandes contas industriais e elimina o desembolso de capital no momento da implantação.
+            Modelos básicos com 2 torneiras e gabinete em aço pintado partem de valores mais acessíveis, enquanto versões em inox com 4 torneiras, filtro de prata e certificação INMETRO chegam a preços mais elevados. A diferença costuma ser compensada pela maior durabilidade, menor custo de manutenção e conformidade garantida com as normas trabalhistas e sanitárias.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Para instalações <a href="/local/bebedouro-industrial-sao-paulo" className="text-az hover:underline">em São Paulo</a> e Grande São Paulo, a JG Bebedouros realiza visita técnica gratuita para dimensionamento correto e apresentação de orçamento personalizado. O atendimento cobre desde a escolha do modelo até a instalação e o plano de manutenção preventiva. Clique em "Solicitar orçamento" para receber uma proposta em até 24 horas.
+            Para empresas que precisam de múltiplos equipamentos, é possível negociar pacotes especiais de fornecimento, frete e instalação. Distribuidores especializados oferecem planos de manutenção preventiva trimestral ou semestral com troca de filtros, limpeza do reservatório e verificação do sistema elétrico, garantindo desempenho e conformidade legal ao longo de toda a vida útil do equipamento. Use o botão de orçamento nesta página para receber uma proposta em até 24 horas.
           </p>
         </section>
+
       </PilarLayout>
       <Footer />
     </>
