@@ -1,33 +1,109 @@
 {
-  "keyword": "case sucesso bebedouro industrial",
-  "gerado_em": "2026-05-28T09:14:22.214726",
-  "media_palavras_top3": 597,
-  "minimo_palavras_recomendado": 800,
+  "keyword": "case bebedouro escola pública",
+  "gerado_em": "2026-05-28T14:30:47.113823",
+  "media_palavras_top3": 4550,
+  "minimo_palavras_recomendado": 10321,
   "concorrentes": [
     {
-      "url": "https://www.casared.com.br/bebedouro-industrial",
-      "titulo_pagina": "Não existem produtos nessa categoria",
-      "num_palavras": 667,
-      "intro": "Você está tentando acessar uma categoria, mas não existem produtos adicionados nela.",
+      "url": "https://linhares.es.gov.br/2023/07/10/linhares-cidada-realiza-mais-de-14-mil-atendimentos-em-bebedouro/",
+      "titulo_pagina": "",
+      "num_palavras": 499,
+      "intro": "O evento aproximou os serviços públicos dos moradores e vai percorrer diversas comunidades do interior",
       "headings": [],
       "posicao": 1,
-      "titulo_serp": "Bebedouro Industrial - Loja de Equipamentos Gastronômicos Online | CasaRed",
-      "descricao_serp": "O produto foi adicionado com sucesso à sua Lista de Desejos."
+      "titulo_serp": "Linhares + Cidadã realiza mais de 1,4 mil atendimentos em Bebedouro",
+      "descricao_serp": "10 de jul. de 2023 · A primeira edição do Linhares + Cidadã movimentou Bebedouro no último sábado e realizou mais de 1,4 mil atendimentos em diversos serviços ..."
     },
     {
-      "url": "https://www.equipecasonline.com/bebedouros-industrial",
-      "titulo_pagina": "Bebedouros Industrial",
-      "num_palavras": 527,
-      "intro": "Utilização em de Bebedouros Industrial para Escolas, Fábricas, Padarias e Canteiros de Obra.",
+      "url": "https://www.scielo.br/j/asoc/a/RXkwNGK76Hf9vykmWvvMf7R/?lang=en",
+      "titulo_pagina": "ENVIRONMENTAL PROTECTION AREAS: THE CASE OF THE BEBEDOURO STREAM WATERSHED",
+      "num_palavras": 8601,
+      "intro": "Environmental Protection Areas are legal provisions aiming at the preservation of natural resources through the maintenance of the ecosystem functions. This study aimed to characterize the changes on the land-use between 2002 and 2011, verify the implementation of these legal provisions on the Bebedouro Stream Watershed (Frutal, Minas Gerais), analyze the implications of changes in environmental laws and indicate management options for water resource conservation. For this work the following pro",
       "headings": [
         {
+          "nivel": "h2",
+          "texto": "Abstract"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Resumo"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Resumen"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Introduction"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Methodology"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Case study"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Final considerations"
+        },
+        {
+          "nivel": "h2",
+          "texto": "References"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Publication Dates"
+        },
+        {
+          "nivel": "h2",
+          "texto": "History"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Ferramentas do artigo"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Versão para download de PDF"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Artigos relacionados"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Versões e tradução automática"
+        },
+        {
           "nivel": "h3",
-          "texto": "Para continuar, informe seu e-mail"
+          "texto": "Versão original do texto"
+        },
+        {
+          "nivel": "h3",
+          "texto": "Tradução automática"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Como citar"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Métricas"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Mensagem"
+        },
+        {
+          "nivel": "h2",
+          "texto": "Mensagem"
         }
       ],
       "posicao": 2,
-      "titulo_serp": "Bebedouros Industrial",
-      "descricao_serp": "Produto adicionado com sucesso!"
+      "titulo_serp": "environmental protection areas: the case of the bebedouro stream ...",
+      "descricao_serp": "This study aimed to characterize the changes on the land-use between 2002 and 2011, verify the implementation of these legal provisions on the Bebedouro Stream ..."
     }
   ]
 }
