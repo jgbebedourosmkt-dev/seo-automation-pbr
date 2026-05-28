@@ -396,9 +396,9 @@ def _push_github(pasta_saida: str, keyword: str, numero_linha: int):
             raise RuntimeError(f"git {' '.join(cmd)} falhou:\n{result.stderr.strip()}")
         return result.stdout.strip()
 
-    _git(["pull", "--rebase", "origin", "main"])
     _git(["add", f"{SAIDA_SUBDIR}/", "estado_blog.json"])
     _git(["commit", "-m", f"blog linha {numero_linha}: {keyword}"])
+    _git(["pull", "--rebase", "--autostash", "origin", "main"])
     _git(["push", "origin", "main"])
     logging.info("Push ao staging concluído")
 
