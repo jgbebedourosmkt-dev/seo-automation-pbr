@@ -1,59 +1,59 @@
 {
   "meta": {
     "arquivo": "https://docs.google.com/spreadsheets/d/1Pug3l_jGx9NOBIJ-qpjL9Klu9NwvZXZ1LI9Ny8Ba-G4/edit?usp=sharing",
-    "linha": 34,
+    "linha": 35,
     "coluna_keyword": "Palavra-chave Principal",
-    "keyword": "filtro industrial 100 litros",
-    "titulo_h1": "Filtro Industrial 100 Litros: Atende 200 Pessoas",
-    "meta_title": "Filtro Industrial 100 Litros: Atende 200 Pessoas",
-    "meta_description": "Filtro Industrial 100 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 200 colaboradores.",
-    "slug": "filtro-industrial-100-litros",
+    "keyword": "filtro industrial 200 litros",
+    "titulo_h1": "Filtro Industrial 200 Litros: Atende 400 Pessoas",
+    "meta_title": "Filtro Industrial 200 Litros: Atende 400 Pessoas",
+    "meta_description": "Filtro Industrial 200 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 400 colaboradores.",
+    "slug": "filtro-industrial-200-litros",
     "cluster": "Filtro Industrial",
     "tipo_pilar": "🟢 Variação Litragem",
     "intencao": "Transacional",
-    "variacoes_semanticas": "filtro industrial 100l; filtro industrial de 100 litros; filtro industrial capacidade 100 litros",
+    "variacoes_semanticas": "filtro industrial 200l; filtro industrial de 200 litros; filtro industrial capacidade 200 litros",
     "links_internos": "• Âncora: \"filtro industrial\" → portaldobebedouro.com.br/filtro-industrial (intro/contexto (linkar para a raiz é obrigatório))\n• Âncora: \"filtro industrial 2 torneiras\" → portaldobebedouro.com.br/filtro-industrial-2-torneiras (seção 'modelos relacionados')\n• Âncora: \"filtro industrial 3 torneiras\" → portaldobebedouro.com.br/filtro-industrial-3-torneiras (seção 'modelos relacionados')\n• Âncora: \"filtro industrial 4 torneiras\" → portaldobebedouro.com.br/filtro-industrial-4-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção sobre uso corporativo)\n• Âncora: \"veja a faixa de preço\" → portaldobebedouro.com.br/blog/bebedouro-industrial-preco-2025 (seção de orçamento/preço)\n• Âncora: \"em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção de disponibilidade/entrega)",
     "imagens": [
       {
-        "nome": "bebedouro industrial inox 3 torneiras robust 100 litros.png",
-        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%203%20torneiras%20robust%20100%20litros.png",
-        "alt_text": "bebedouro industrial inox 3 torneiras robust 100 litros",
+        "nome": "bebedouro industrial inox 4 torneiras robust 200 litros.png",
+        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%204%20torneiras%20robust%20200%20litros.png",
+        "alt_text": "bebedouro industrial inox 4 torneiras robust 200 litros",
         "score": 0.55,
         "palavras_comuns": [
-          "100",
+          "200",
           "industrial",
           "litros"
         ]
       },
       {
-        "nome": "bebedouro industrial inox 3 torneiras robust 100 litros ambiente academia.png",
-        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%203%20torneiras%20robust%20100%20litros%20ambiente%20academia.png",
-        "alt_text": "bebedouro industrial inox 3 torneiras robust 100 litros ambiente academia",
+        "nome": "bebedouro industrial inox 4 torneiras robust 200 litros ambiente obra.png",
+        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%204%20torneiras%20robust%20200%20litros%20ambiente%20obra.png",
+        "alt_text": "bebedouro industrial inox 4 torneiras robust 200 litros ambiente obra",
         "score": 0.46,
         "palavras_comuns": [
-          "100",
+          "200",
           "industrial",
           "litros"
         ]
       }
     ],
-    "gerado_em": "2026-05-28T13:00:09.197730"
+    "gerado_em": "2026-05-28T18:00:09.642285"
   },
   "dados_linha": {
-    "#": "35",
+    "#": "36",
     "Status": "A produzir",
     "Tipo de Pilar": "🟢 Variação Litragem",
     "Raiz / Pai": "Filtro Industrial",
     "Cluster": "Filtro Industrial",
-    "Palavra-chave Principal": "filtro industrial 100 litros",
-    "Variações Semânticas": "filtro industrial 100l; filtro industrial de 100 litros; filtro industrial capacidade 100 litros",
+    "Palavra-chave Principal": "filtro industrial 200 litros",
+    "Variações Semânticas": "filtro industrial 200l; filtro industrial de 200 litros; filtro industrial capacidade 200 litros",
     "Intenção": "Transacional",
-    "Prioridade": "Alta",
+    "Prioridade": "Média",
     "Vol. Estimado": "—",
     "Dificuldade": "Baixa",
-    "URL / Slug": "/filtro-industrial-100-litros",
-    "h1": "Filtro Industrial 100 Litros: Atende 200 Pessoas",
-    "Meta Description": "Filtro Industrial 100 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 200 colaboradores.",
+    "URL / Slug": "/filtro-industrial-200-litros",
+    "h1": "Filtro Industrial 200 Litros: Atende 400 Pessoas",
+    "Meta Description": "Filtro Industrial 200 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 400 colaboradores.",
     "Links Internos": "• Âncora: \"filtro industrial\" → portaldobebedouro.com.br/filtro-industrial (intro/contexto (linkar para a raiz é obrigatório))\n• Âncora: \"filtro industrial 2 torneiras\" → portaldobebedouro.com.br/filtro-industrial-2-torneiras (seção 'modelos relacionados')\n• Âncora: \"filtro industrial 3 torneiras\" → portaldobebedouro.com.br/filtro-industrial-3-torneiras (seção 'modelos relacionados')\n• Âncora: \"filtro industrial 4 torneiras\" → portaldobebedouro.com.br/filtro-industrial-4-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção sobre uso corporativo)\n• Âncora: \"veja a faixa de preço\" → portaldobebedouro.com.br/blog/bebedouro-industrial-preco-2025 (seção de orçamento/preço)\n• Âncora: \"em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção de disponibilidade/entrega)"
   }
 }
