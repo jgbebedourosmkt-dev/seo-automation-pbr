@@ -1,59 +1,55 @@
 {
   "meta": {
     "arquivo": "https://docs.google.com/spreadsheets/d/1Pug3l_jGx9NOBIJ-qpjL9Klu9NwvZXZ1LI9Ny8Ba-G4/edit?usp=sharing",
-    "linha": 35,
+    "linha": 36,
     "coluna_keyword": "Palavra-chave Principal",
-    "keyword": "filtro industrial 200 litros",
-    "titulo_h1": "Filtro Industrial 200 Litros: Atende 400 Pessoas",
-    "meta_title": "Filtro Industrial 200 Litros: Atende 400 Pessoas",
-    "meta_description": "Filtro Industrial 200 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 400 colaboradores.",
-    "slug": "filtro-industrial-200-litros",
-    "cluster": "Filtro Industrial",
-    "tipo_pilar": "🟢 Variação Litragem",
-    "intencao": "Transacional",
-    "variacoes_semanticas": "filtro industrial 200l; filtro industrial de 200 litros; filtro industrial capacidade 200 litros",
-    "links_internos": "• Âncora: \"filtro industrial\" → portaldobebedouro.com.br/filtro-industrial (intro/contexto (linkar para a raiz é obrigatório))\n• Âncora: \"filtro industrial 2 torneiras\" → portaldobebedouro.com.br/filtro-industrial-2-torneiras (seção 'modelos relacionados')\n• Âncora: \"filtro industrial 3 torneiras\" → portaldobebedouro.com.br/filtro-industrial-3-torneiras (seção 'modelos relacionados')\n• Âncora: \"filtro industrial 4 torneiras\" → portaldobebedouro.com.br/filtro-industrial-4-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção sobre uso corporativo)\n• Âncora: \"veja a faixa de preço\" → portaldobebedouro.com.br/blog/bebedouro-industrial-preco-2025 (seção de orçamento/preço)\n• Âncora: \"em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção de disponibilidade/entrega)",
+    "keyword": "Bebedouro com Motor",
+    "titulo_h1": "Bebedouro com Motor: Guia Completo 2025",
+    "meta_title": "Bebedouro com Motor: Guia Completo 2025",
+    "meta_description": "Bebedouro com Motor: tipos, características, normas e onde comprar. Guia completo para sua aplicação específica.",
+    "slug": "bebedouro-com-motor",
+    "cluster": "Por característica técnica",
+    "tipo_pilar": "🟠 Pilar simples",
+    "intencao": "Comercial",
+    "variacoes_semanticas": "bebedouro motorizado; bebedouro com compressor; bebedouro refrigerado motor",
+    "links_internos": "• Âncora: \"bebedouro industrial\" → portaldobebedouro.com.br/bebedouro-industrial (intro/contexto)\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (seção comparativa)\n• Âncora: \"bebedouro elétrico industrial\" → portaldobebedouro.com.br/bebedouro-eletrico-industrial (seção 'modelos relacionados')\n• Âncora: \"bebedouro com filtro\" → portaldobebedouro.com.br/bebedouro-com-filtro (seção 'modelos relacionados')\n• Âncora: \"atendimento em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção 'onde compramos/atendemos')",
     "imagens": [
       {
-        "nome": "bebedouro industrial inox 4 torneiras robust 200 litros.png",
-        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%204%20torneiras%20robust%20200%20litros.png",
-        "alt_text": "bebedouro industrial inox 4 torneiras robust 200 litros",
-        "score": 0.55,
+        "nome": "bebedouro 100 e 50 litros inox 3 e 2 torneiras lado a lado.png",
+        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20100%20e%2050%20litros%20inox%203%20e%202%20torneiras%20lado%20a%20lado.png",
+        "alt_text": "bebedouro 100 e 50 litros inox 3 e 2 torneiras lado a lado",
+        "score": 0.22,
         "palavras_comuns": [
-          "200",
-          "industrial",
-          "litros"
+          "bebedouro"
         ]
       },
       {
-        "nome": "bebedouro industrial inox 4 torneiras robust 200 litros ambiente obra.png",
-        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%204%20torneiras%20robust%20200%20litros%20ambiente%20obra.png",
-        "alt_text": "bebedouro industrial inox 4 torneiras robust 200 litros ambiente obra",
-        "score": 0.46,
+        "nome": "bebedouro 25 e 30 litros inox 2 torneiras industrial.png",
+        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%2025%20e%2030%20litros%20inox%202%20torneiras%20industrial.png",
+        "alt_text": "bebedouro 25 e 30 litros inox 2 torneiras industrial",
+        "score": 0.22,
         "palavras_comuns": [
-          "200",
-          "industrial",
-          "litros"
+          "bebedouro"
         ]
       }
     ],
-    "gerado_em": "2026-05-28T18:00:09.642285"
+    "gerado_em": "2026-05-29T08:00:08.884941"
   },
   "dados_linha": {
-    "#": "36",
+    "#": "37",
     "Status": "A produzir",
-    "Tipo de Pilar": "🟢 Variação Litragem",
-    "Raiz / Pai": "Filtro Industrial",
-    "Cluster": "Filtro Industrial",
-    "Palavra-chave Principal": "filtro industrial 200 litros",
-    "Variações Semânticas": "filtro industrial 200l; filtro industrial de 200 litros; filtro industrial capacidade 200 litros",
-    "Intenção": "Transacional",
-    "Prioridade": "Média",
-    "Vol. Estimado": "—",
-    "Dificuldade": "Baixa",
-    "URL / Slug": "/filtro-industrial-200-litros",
-    "h1": "Filtro Industrial 200 Litros: Atende 400 Pessoas",
-    "Meta Description": "Filtro Industrial 200 Litros: especificações, dimensões e quantos usuários atende. Ideal para empresas com até 400 colaboradores.",
-    "Links Internos": "• Âncora: \"filtro industrial\" → portaldobebedouro.com.br/filtro-industrial (intro/contexto (linkar para a raiz é obrigatório))\n• Âncora: \"filtro industrial 2 torneiras\" → portaldobebedouro.com.br/filtro-industrial-2-torneiras (seção 'modelos relacionados')\n• Âncora: \"filtro industrial 3 torneiras\" → portaldobebedouro.com.br/filtro-industrial-3-torneiras (seção 'modelos relacionados')\n• Âncora: \"filtro industrial 4 torneiras\" → portaldobebedouro.com.br/filtro-industrial-4-torneiras (seção 'modelos relacionados')\n• Âncora: \"bebedouro para empresa\" → portaldobebedouro.com.br/bebedouro-para-empresa (seção sobre uso corporativo)\n• Âncora: \"veja a faixa de preço\" → portaldobebedouro.com.br/blog/bebedouro-industrial-preco-2025 (seção de orçamento/preço)\n• Âncora: \"em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção de disponibilidade/entrega)"
+    "Tipo de Pilar": "🟠 Pilar simples",
+    "Raiz / Pai": "—",
+    "Cluster": "Por característica técnica",
+    "Palavra-chave Principal": "Bebedouro com Motor",
+    "Variações Semânticas": "bebedouro motorizado; bebedouro com compressor; bebedouro refrigerado motor",
+    "Intenção": "Comercial",
+    "Prioridade": "Alta",
+    "Vol. Estimado": "590",
+    "Dificuldade": "Média",
+    "URL / Slug": "/bebedouro-com-motor",
+    "h1": "Bebedouro com Motor: Guia Completo 2025",
+    "Meta Description": "Bebedouro com Motor: tipos, características, normas e onde comprar. Guia completo para sua aplicação específica.",
+    "Links Internos": "• Âncora: \"bebedouro industrial\" → portaldobebedouro.com.br/bebedouro-industrial (intro/contexto)\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (seção comparativa)\n• Âncora: \"bebedouro elétrico industrial\" → portaldobebedouro.com.br/bebedouro-eletrico-industrial (seção 'modelos relacionados')\n• Âncora: \"bebedouro com filtro\" → portaldobebedouro.com.br/bebedouro-com-filtro (seção 'modelos relacionados')\n• Âncora: \"atendimento em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção 'onde compramos/atendemos')"
   }
 }
