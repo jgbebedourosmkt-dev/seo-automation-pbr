@@ -14,24 +14,24 @@ export const metadata = buildMetadata({
 
 const faqs = [
   {
-    question: 'Qual é a diferença entre bebedouro elétrico industrial e doméstico?',
-    answer: 'O bebedouro elétrico industrial possui estrutura em aço inox, reservatório de 25 a 200 litros, sistema de refrigeração para uso contínuo e certificação INMETRO/NBR 13713. Modelos domésticos têm capacidade reduzida (5 a 10 litros) e não suportam o uso intensivo de dezenas ou centenas de pessoas por turno de trabalho.',
+    question: 'Qual a diferença entre bebedouro elétrico industrial e bebedouro por pressão?',
+    answer: 'O bebedouro elétrico industrial utiliza compressor ou célula Peltier para refrigerar a água, garantindo temperatura constante independente do ambiente. Já o bebedouro por pressão é conectado à rede hidráulica e resfria a água por circulação, sendo fixado em parede ou coluna. Para ambientes industriais com alta demanda, o elétrico é mais indicado pela capacidade de reservatório e eficiência térmica.',
   },
   {
-    question: 'Bebedouro elétrico industrial funciona em 220V?',
-    answer: 'Sim. A maioria dos modelos está disponível em 127V e 220V. Equipamentos de alta capacidade (100 a 200 litros) são frequentemente exclusivos para 220V. Confirme a tensão disponível na instalação antes de adquirir o equipamento — instalar na tensão errada danifica o compressor e anula a garantia do fabricante.',
+    question: 'O bebedouro elétrico industrial consome muita energia?',
+    answer: 'O consumo varia conforme o modelo e a tecnologia de refrigeração. Bebedouros com célula Peltier consomem entre 40W e 80W, enquanto os com compressor variam de 100W a 500W dependendo da capacidade. Em uso contínuo de 8 horas por dia, o custo médio mensal fica entre R$ 15 e R$ 60. Modelos certificados pelo INMETRO tendem a ser mais eficientes energeticamente.',
   },
   {
-    question: 'Quantos bebedouros industriais são necessários para minha empresa?',
-    answer: 'A NR-24 do Ministério do Trabalho exige que o empregador forneça água potável em quantidade suficiente para todos os trabalhadores. Como referência técnica, use 1 torneira para cada 50 colaboradores por turno. Para dimensionamento preciso, consulte um técnico de segurança do trabalho ou entre em contato com a JG Bebedouros.',
+    question: 'Qual capacidade de bebedouro elétrico industrial devo escolher para minha empresa?',
+    answer: 'A recomendação técnica é de aproximadamente 0,2 a 0,3 litros por colaborador por hora. Para uma equipe de 50 pessoas em turno de 8 horas, um modelo de 25 a 50 litros é adequado. Para mais de 100 colaboradores ou uso em refeitórios, recomenda-se modelos de 100 a 200 litros com 3 ou 4 torneiras para atender a demanda simultânea.',
   },
   {
-    question: 'Com que frequência o bebedouro elétrico industrial precisa de manutenção?',
-    answer: 'A manutenção preventiva deve ser realizada a cada 6 meses, incluindo limpeza e sanitização do reservatório, troca dos filtros (quando houver) e verificação do sistema de refrigeração. Em ambientes com maior impureza na água, a frequência recomendada é trimestral, conforme os protocolos de higiene da RDC 275 da ANVISA.',
+    question: 'O bebedouro elétrico industrial precisa ter certificação INMETRO?',
+    answer: 'Sim. A certificação INMETRO é obrigatória para bebedouros elétricos comercializados no Brasil, conforme a NBR 13713. O selo garante conformidade em segurança elétrica, eficiência térmica e qualidade dos materiais. Além disso, a NR-24 e a RDC 275 da ANVISA regulamentam os padrões de higiene e fornecimento de água potável no ambiente de trabalho.',
   },
   {
-    question: 'O que é a NBR 13713 e por que ela é obrigatória para bebedouros industriais?',
-    answer: 'A NBR 13713 é a norma técnica da ABNT que define os requisitos mínimos de desempenho, segurança e higiene para bebedouros no Brasil. Equipamentos certificados garantem qualidade dos materiais em contato com a água, eficiência de refrigeração dentro dos padrões técnicos e proteção legal para a empresa em caso de fiscalização sanitária ou trabalhista.',
+    question: 'Qual a diferença entre bebedouro industrial 127V e 220V?',
+    answer: 'A voltagem determina a compatibilidade com a rede elétrica do local. Modelos 127V são mais comuns em residências e pequenas empresas; os 220V são mais potentes e adequados para uso industrial intensivo, com maior eficiência de refrigeração e menor aquecimento do motor. Antes de adquirir, verifique a voltagem disponível nas tomadas industriais do seu galpão ou fábrica.',
   },
 ]
 
@@ -42,32 +42,30 @@ export default function BebedouroEletricoIndustrialPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', slug: '' }, { name: 'Bebedouro Elétrico Industrial: Guia Completo 2025' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(faqs)) }} />
       <PilarLayout
-        badge="Guia Completo"
-        title="Bebedouro Elétrico Industrial: Guia Completo 2025"
-        excerpt="Bebedouro elétrico industrial: tipos, capacidades, normas NBR 13713 e NR-24 — tudo que sua empresa precisa saber para escolher o modelo certo."
-        breadcrumbLabel="Bebedouro Elétrico Industrial: Guia Completo 2025"
-        breadcrumbSlug="bebedouro-eletrico-industrial"
+        badge="Guia Completo" title="Bebedouro Elétrico Industrial: Guia Completo 2025"
+        excerpt="O Bebedouro Elétrico Industrial é a solução mais eficiente para hidratação contínua em fábricas, galpões e empresas de qualquer porte no Brasil."
+        breadcrumbLabel="Bebedouro Elétrico Industrial: Guia Completo 2025" breadcrumbSlug="bebedouro-eletrico-industrial"
         ctaHref="https://jgbebedouros.com.br?utm_source=portalbebedouro&utm_medium=pilar&utm_campaign=bebedouro-eletrico-industrial"
-        ctaLabel="Solicitar orcamento"
+        ctaLabel="Solicitar orçamento"
         sidebarCtaHref="https://jgbebedouros.com.br?utm_source=portalbebedouro&utm_medium=sidebar&utm_campaign=bebedouro-eletrico-industrial"
         finalCtaTitle="Precisa de Bebedouro Elétrico Industrial?"
-        finalCtaDesc="A JG Bebedouros oferece venda e manutencao em todo o Brasil."
+        finalCtaDesc="A JG Bebedouros oferece venda e manutenção em todo o Brasil."
         tocItems={[
-          { href: '#o-que-e-bebedouro-eletrico-industrial', label: 'O que é Bebedouro Elétrico Industrial' },
-          { href: '#tipos-por-capacidade', label: 'Tipos por Capacidade: 25 a 200 Litros' },
-          { href: '#refrigeracao-compressor-ou-peltier', label: 'Refrigeração: Compressor ou Célula Peltier' },
-          { href: '#quantas-torneiras', label: 'Quantas Torneiras: 2, 3 ou 4 Saídas' },
-          { href: '#materiais-e-voltagem', label: 'Materiais, Voltagem e Instalação' },
-          { href: '#normas-tecnicas', label: 'Normas: NBR 13713, INMETRO e NR-24' },
-          { href: '#como-escolher', label: 'Como Escolher o Modelo Ideal' },
-          { href: '#modelos-relacionados', label: 'Modelos Relacionados' },
-          { href: '#onde-atendemos', label: 'Onde Compramos e Atendemos' },
+          { href: '#o-que-e', label: 'O que é' },
+          { href: '#como-funciona', label: 'Como funciona' },
+          { href: '#capacidades', label: 'Capacidades disponíveis' },
+          { href: '#tipos', label: 'Tipos e modelos' },
+          { href: '#normas', label: 'Normas e certificações' },
+          { href: '#como-escolher', label: 'Como escolher' },
+          { href: '#modelos-relacionados', label: 'Modelos relacionados' },
+          { href: '#instalacao-manutencao', label: 'Instalação e manutenção' },
+          { href: '#onde-atendemos', label: 'Onde atendemos' },
         ]}
         stats={[
-          { valor: '25 a 200 L', label: 'Capacidade disponível' },
-          { valor: '127V / 220V', label: 'Tensões disponíveis' },
-          { valor: '2 a 4', label: 'Opções de torneiras' },
-          { valor: 'NBR 13713', label: 'Norma de certificação' },
+          { valor: '10 a 200L', label: 'Capacidade disponível' },
+          { valor: '127V/220V', label: 'Voltagens compatíveis' },
+          { valor: 'NBR 13713', label: 'Norma técnica' },
+          { valor: '2 a 4', label: 'Torneiras por modelo' },
         ]}
         faqs={faqs}
         internalLinks={[
@@ -79,81 +77,81 @@ export default function BebedouroEletricoIndustrialPage() {
           { href: '/local/bebedouro-industrial-sao-paulo', label: 'atendimento em São Paulo' },
         ]}
       >
-        <section id="o-que-e-bebedouro-eletrico-industrial" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>O que é Bebedouro Elétrico Industrial</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O bebedouro elétrico industrial é um equipamento de refrigeração de água por sistema elétrico, projetado para uso intensivo em fábricas, galpões, refeitórios e hospitais. Conectado à rede de 127V ou 220V, resfria água de forma contínua com reservatório em aço inox e capacidade de 25 a 200 litros.</p>
+
+        <section id="o-que-e" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>O que é um Bebedouro Elétrico Industrial</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O bebedouro elétrico industrial é um equipamento de refrigeração de água que utiliza compressor ou célula Peltier para resfriar grandes volumes com alta eficiência. Indicado para fábricas, galpões e refeitórios, oferece estrutura robusta em aço inox, capacidade de 10 a 200 litros e atende as normas INMETRO e NBR 13713.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Diferente dos modelos domésticos, o <a href="/bebedouro-industrial" className="text-az hover:underline">bebedouro industrial</a> foi projetado para suportar uso intensivo e longas jornadas de trabalho. Ele mantém a temperatura da água gelada de forma constante, mesmo em ambientes com temperatura elevada, como galpões de produção, refeitórios de grandes empresas e áreas externas cobertas.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A adoção do bebedouro elétrico industrial também está relacionada ao cumprimento das normas trabalhistas brasileiras. A NR-24 do Ministério do Trabalho e a RDC 275 da ANVISA exigem o fornecimento de água potável e fresca aos colaboradores durante a jornada, tornando o equipamento uma obrigação legal para muitas empresas.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Os materiais utilizados na construção do bebedouro elétrico industrial também diferem dos domésticos. O aço inox AISI 304 é o padrão para reservatórios e estruturas externas, pela resistência à corrosão, facilidade de higienização e durabilidade em ambientes com umidade elevada ou exposição a produtos químicos.</p>
         </section>
 
-        <section id="tipos-por-capacidade" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Tipos por Capacidade: 25, 50, 100 e 200 Litros</h2>
+        <section id="como-funciona" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Como Funciona a Refrigeração Elétrica</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Os bebedouros elétricos industriais utilizam dois sistemas principais de refrigeração: compressor e célula Peltier (termoelétrica). Cada tecnologia tem características distintas que determinam a eficiência, o custo operacional e a aplicação mais adequada para cada tipo de ambiente industrial.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O sistema de compressor funciona de forma similar a um refrigerador convencional, com gás refrigerante circulando em circuito fechado. É a tecnologia mais eficiente para grandes volumes, mantendo a água entre 4°C e 10°C mesmo em ambientes com temperatura acima de 35°C. É o sistema mais comum em bebedouros industriais de 50L, 100L e 200L, sendo essencial para uso em galpões, fábricas e refeitórios de grande porte.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Já a célula Peltier utiliza efeito termoelétrico para resfriar a água. Quando a corrente elétrica passa pelas células semicondutoras, uma face do módulo esfria enquanto a outra aquece. Esta tecnologia é mais silenciosa, tem menor consumo elétrico e não utiliza gases refrigerantes. É ideal para escritórios e ambientes menores, mas perde eficiência quando a temperatura ambiente ultrapassa 30°C.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Quanto à voltagem, modelos 127V são adequados para a maioria dos estabelecimentos comerciais e pequenas indústrias. Os modelos 220V oferecem maior potência de refrigeração, menor aquecimento do motor em uso contínuo e são recomendados para aplicações industriais intensivas. Verifique sempre a voltagem disponível nas tomadas industriais do ambiente de instalação antes da compra.</p>
+        </section>
+
+        <section id="capacidades" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Capacidades Disponíveis</h2>
           <img src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%2025%20e%2030%20litros%20inox%202%20torneiras%20industrial.png" alt="bebedouro 25 e 30 litros inox 2 torneiras industrial" className="rounded-lg object-cover w-2/5" style={{ float: 'left', marginRight: '15px', marginBottom: '8px' }} loading="lazy" />
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para escolher o <a href="/bebedouro-industrial" className="text-az hover:underline">bebedouro industrial</a> elétrico adequado, a capacidade do reservatório é o primeiro critério técnico. O tamanho correto depende do número de colaboradores por turno, da frequência de consumo e das condições térmicas do ambiente de trabalho.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Os modelos de 25 litros são indicados para empresas com até 50 colaboradores em turno único. Compactos e fáceis de instalar, atendem escritórios, pequenas oficinas e comércios com demanda moderada. São os mais comuns em ambientes comerciais que buscam uma solução econômica sem abrir mão da qualidade de refrigeração.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Os bebedouros de 50 litros atendem ambientes médios, como galpões com 50 a 150 funcionários. Com duas torneiras e estrutura em inox, garantem fluxo contínuo de água gelada mesmo em jornadas prolongadas e condições de calor intenso — muito comuns em operações industriais e de logística no Brasil.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para operações com 150 a 300 colaboradores, como refeitórios de médias empresas e linhas de produção industriais, os modelos de 100 litros com 3 torneiras oferecem equilíbrio ideal entre capacidade e velocidade de atendimento nos horários de intervalo coletivo.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Os bebedouros de 200 litros com 4 torneiras são a solução para grandes indústrias, hospitais e instalações com mais de 300 usuários simultâneos. Eles suportam picos de consumo no horário de intervalo sem interrupção. O bebedouro elétrico inox nessa categoria é o padrão exigido em licitações públicas e em empresas sujeitas a auditoria da Vigilância Sanitária.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A capacidade do reservatório é o principal critério para dimensionar o bebedouro elétrico industrial correto para cada ambiente. O mercado oferece desde modelos compactos de bancada com 10 litros até equipamentos de coluna com 200 litros voltados para grandes demandas industriais.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Modelos de 10 a 25 litros são ideais para escritórios com até 30 colaboradores ou pontos específicos de atendimento. O reservatório menor facilita a higienização frequente e ocupa menos espaço, sendo adequado para salas de reunião, recepções e áreas administrativas com fluxo moderado de pessoas.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para médias empresas com 50 a 100 funcionários, os modelos de 50 litros representam o melhor custo-benefício. Eles oferecem boa capacidade de armazenamento e refrigeração contínua sem necessidade de recarga frequente. Os modelos de 100 litros com 3 torneiras atendem equipes maiores com alto fluxo simultâneo, reduzindo filas nos intervalos de turno.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Grandes indústrias, refeitórios corporativos e plantas com mais de 200 colaboradores devem optar por modelos de 150 a 200 litros com 4 torneiras. Estes equipamentos são projetados para uso contínuo em três turnos e suportam variações extremas de temperatura ambiente, garantindo água gelada durante toda a jornada de trabalho.</p>
           <div style={{ clear: 'both' }} />
         </section>
 
-        <section id="refrigeracao-compressor-ou-peltier" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Refrigeração: Compressor ou Célula Peltier</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O sistema de refrigeração é o componente que mais diferencia os bebedouros elétricos industriais entre si. Existem dois tipos principais: compressor a gás refrigerante e módulo termoelétrico (célula Peltier), com características técnicas e aplicações distintas que impactam diretamente no desempenho e no custo operacional.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Bebedouros com compressor funcionam como geladeiras convencionais: utilizam gás refrigerante para resfriar a água de forma potente e eficiente. São indicados para ambientes com temperatura elevada, como fábricas metalúrgicas, fundições e galpões sem climatização, onde a demanda por água muito gelada é constante ao longo de toda a jornada.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A célula Peltier resfria a água por efeito termoelétrico, sem partes móveis e sem gás refrigerante. Esse sistema é mais silencioso e consome menos energia do que o compressor. É indicado para escritórios, laboratórios e ambientes climatizados, onde a refrigeração não precisa ser tão intensa e o ruído do motor seria incômodo para os usuários.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Em ambientes industriais com temperatura acima de 28°C, o compressor é sempre a escolha técnica mais segura. A célula Peltier perde eficiência progressivamente em calor extremo e pode não manter a temperatura ideal no horário de pico. Para galpões e linhas de produção, opte por modelos com compressor certificados pelo INMETRO conforme a NBR 13713.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Do ponto de vista da manutenção, o compressor exige revisão periódica do circuito de gás e verificação do condensador — especialmente em ambientes com poeira industrial. A célula Peltier praticamente não requer manutenção do sistema de refrigeração, apenas a limpeza regular do reservatório e a troca dos filtros, quando o modelo incluir filtragem integrada.</p>
-        </section>
-
-        <section id="quantas-torneiras" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Quantas Torneiras: 2, 3 ou 4 Saídas</h2>
+        <section id="tipos" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Tipos e Modelos de Bebedouro Elétrico Industrial</h2>
           <img src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%202%20torneiras%20robust%2050%20litros.png" alt="bebedouro industrial inox 2 torneiras robust 50 litros" className="rounded-lg object-cover w-2/5" style={{ float: 'left', marginRight: '15px', marginBottom: '8px' }} loading="lazy" />
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O número de torneiras determina quantas pessoas podem ser atendidas ao mesmo tempo. A escolha errada gera filas, desperdício de tempo produtivo e insatisfação dos colaboradores nos horários de intervalo — impactando diretamente na produtividade e no cumprimento das exigências da NR-24.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Modelos com 2 torneiras são suficientes para ambientes com até 100 usuários em turno único. Geralmente oferecem água gelada em uma saída e água natural na outra — uma configuração versátil para escritórios, oficinas e pequenos galpões com fluxo de uso distribuído de forma razoavelmente uniforme ao longo do expediente.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para ambientes com 100 a 250 colaboradores, bebedouros com 3 torneiras garantem atendimento ágil sem formação de filas. A terceira saída pode dispensar água em temperatura ambiente, ideal para uso durante refeições ou para colaboradores que preferem água não gelada — aumentando a versatilidade sem elevar significativamente o custo do equipamento.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Nas grandes indústrias, refeitórios corporativos e instalações hospitalares, os bebedouros com 4 torneiras são o padrão recomendado. Com capacidade de atender múltiplos usuários simultaneamente, reduzem o tempo de espera nos intervalos e atendem à NR-24, que regula as condições mínimas de fornecimento de água potável em ambientes de trabalho no Brasil.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Além da capacidade e tecnologia de refrigeração, os <a href="/tipos-de-bebedouro" className="text-az hover:underline">tipos de bebedouro</a> elétrico industrial variam conforme o formato de instalação e o número de torneiras. Cada configuração atende a um perfil específico de uso e deve ser escolhida de acordo com o fluxo de colaboradores e as condições do local.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Os bebedouros de coluna são os mais comuns em ambientes industriais. Ficam apoiados no piso, têm maior capacidade e são de fácil acesso para todos os colaboradores. Disponíveis com 2, 3 ou 4 torneiras, permitem que várias pessoas se sirvam simultaneamente, reduzindo filas nos horários de pico como início de turno e intervalo de almoço.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Os modelos de bancada são compactos e ideais para escritórios, recepções e copas. Ocupam pouco espaço e geralmente possuem capacidade entre 5 e 20 litros. São práticos para ambientes onde não há espaço suficiente para instalar um equipamento de coluna, mas ainda exigem ponto elétrico e, nos modelos conectados à rede, ponto de água.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Os bebedouros de pressão são fixados em paredes ou colunas, liberando completamente o espaço do piso. São conectados diretamente à rede hidráulica e têm sistema elétrico apenas para a refrigeração. São muito utilizados em corredores de fábricas, banheiros industriais e áreas externas cobertas, onde o espaço é limitado e o fluxo de pessoas é constante.</p>
           <div style={{ clear: 'both' }} />
         </section>
 
-        <section id="materiais-e-voltagem" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Materiais, Voltagem e Instalação</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O aço inox AISI 304 é o material padrão para bebedouros elétricos industriais e sua adoção não é opcional: a RDC 275 da ANVISA exige que equipamentos em contato com água potável em ambientes coletivos sejam fabricados em material de grau alimentar, resistente à corrosão e de fácil higienização.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O reservatório em inox resiste à oxidação, à umidade industrial e a produtos de limpeza sem contaminar a água. Modelos de qualidade inferior que usam plástico ou galvanizado podem comprometer a potabilidade e têm vida útil significativamente menor, especialmente em ambientes industriais com grandes variações de temperatura e umidade.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Em relação à voltagem, os bebedouros elétricos industriais estão disponíveis em 127V e 220V. Alguns fabricantes oferecem versões bivolt que se adaptam automaticamente à tensão disponível. Confirme com o eletricista responsável qual é a tensão do circuito disponível no local de instalação antes de finalizar a compra do equipamento.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O consumo médio de energia de um bebedouro industrial de 50 litros fica entre 150W e 400W, dependendo do sistema de refrigeração e da temperatura ambiente. O compressor não opera continuamente — ele ativa apenas quando a água aquece acima do ponto de ajuste, mantendo o consumo médio relativamente baixo ao longo do dia.</p>
-        </section>
-
-        <section id="normas-tecnicas" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Normas Técnicas: NBR 13713, INMETRO e NR-24</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A aquisição de um bebedouro elétrico industrial deve considerar três referências normativas principais: a NBR 13713, o INMETRO e a NR-24. O cumprimento dessas normas não é opcional — é requisito legal para empresas e condição para validade da garantia do fabricante do equipamento.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A NBR 13713 da ABNT define os requisitos de desempenho, segurança e higiene para bebedouros de pressão e de jato inclinado no Brasil. Equipamentos certificados passam por testes que verificam a qualidade dos materiais em contato com a água, a eficiência de refrigeração declarada pelo fabricante e a resistência estrutural para uso contínuo em ambientes coletivos.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O INMETRO certifica bebedouros pelo Programa de Avaliação da Conformidade, verificando se o produto fabricado em série mantém as características do modelo aprovado em laboratório. O selo INMETRO confirma segurança elétrica e sanitária, sendo obrigatório para comercialização legal no Brasil — sua ausência é sinal de alerta na hora da compra.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A NR-24 do Ministério do Trabalho estabelece as condições mínimas de higiene nos locais de trabalho, incluindo fornecimento obrigatório de água potável, fresca e em quantidade suficiente para todos os trabalhadores. O descumprimento pode resultar em autuação durante fiscalizações trabalhistas. A RDC 275 da ANVISA complementa essas exigências para instalações de saúde, alimentação e educação.</p>
+        <section id="normas" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Normas Técnicas e Certificações</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O bebedouro elétrico industrial comercializado no Brasil deve obrigatoriamente ser certificado pelo INMETRO conforme os requisitos da NBR 13713. Esta norma técnica da ABNT estabelece os critérios de segurança elétrica, eficiência de refrigeração, materiais em contato com a água e durabilidade mínima dos equipamentos. O selo INMETRO confirma que o produto passou por testes independentes e atende aos padrões nacionais.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A NR-24 do Ministério do Trabalho regulamenta as condições sanitárias e de conforto nos locais de trabalho, incluindo o fornecimento de água potável e fresca a todos os trabalhadores. O descumprimento pode gerar autuações em fiscalizações trabalhistas e multas administrativas. A norma especifica que a água deve estar disponível em pontos de fácil acesso e em quantidade suficiente para toda a demanda de cada turno.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A RDC 275 da ANVISA complementa as exigências ao regular as boas práticas de higiene para equipamentos de água em ambientes coletivos. Ela determina protocolos de limpeza, higienização do reservatório, periodicidade da troca de filtros e registro dos procedimentos realizados. Empresas dos setores alimentício e de saúde têm exigências adicionais que devem ser observadas conforme a categoria de licenciamento sanitário.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Ao adquirir o bebedouro elétrico industrial, verifique sempre a plaqueta de identificação do produto com o número do certificado INMETRO, a voltagem, a potência em watts e o número de série do equipamento. Esses dados são essenciais para o registro no inventário de ativos da empresa e para comprovação de conformidade em eventuais auditorias ou fiscalizações trabalhistas e sanitárias.</p>
         </section>
 
         <section id="como-escolher" className="mb-12 scroll-mt-20">
           <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Como Escolher o Bebedouro Elétrico Industrial Ideal</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Escolher o bebedouro elétrico industrial correto requer avaliar quatro variáveis técnicas em ordem: número de usuários por turno, temperatura do ambiente, tensão elétrica disponível e normas aplicáveis ao setor. Seguir essa sequência evita investimento inadequado e garante um equipamento corretamente dimensionado para a demanda real da operação.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Primeiro, calcule o número de colaboradores por turno e identifique o horário de pico — geralmente o intervalo para refeições. Use a proporção de 1 torneira para cada 50 usuários como referência mínima. Em seguida, avalie a capacidade de reservatório considerando a frequência com que a reposição de água estará disponível na instalação.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Verifique a temperatura média do ambiente. Locais acima de 28°C exigem bebedouros com compressor a gás para manter a água gelada de forma constante e eficiente. Confirme também a tensão elétrica disponível — 127V ou 220V. Instalar o equipamento na tensão errada danifica o compressor imediatamente e anula a garantia do fabricante.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Por fim, verifique se o modelo possui certificação INMETRO e atende à NBR 13713. Para indústrias alimentícias, hospitais e escolas, confirme também a conformidade com a RDC 275 da ANVISA. Ao comparar orçamentos, inclua no cálculo o custo de manutenção preventiva semestral e a disponibilidade de assistência técnica autorizada na sua região.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para aprofundar a análise técnica antes da compra, <a href="/blog/como-escolher-bebedouro-industrial" className="text-az hover:underline">leia o guia completo</a> de seleção com tabelas de dimensionamento por número de usuários e checklist de conformidade normativa — especialmente útil para compras corporativas e licitações públicas.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A escolha do bebedouro elétrico industrial correto envolve a análise de cinco fatores principais: número de colaboradores, tipo de ambiente, voltagem disponível, espaço físico e nível de uso. Avaliar todos esses critérios antes da compra evita subdimensionamento — que resulta em falta de água gelada nos picos — ou gastos desnecessários com equipamentos superdimensionados.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O número de colaboradores define diretamente a capacidade necessária. A recomendação técnica é de 0,2 a 0,3 litros por pessoa por hora de trabalho. Para um turno de 8 horas com 80 funcionários, o consumo estimado é de 128 a 192 litros, indicando a necessidade de um modelo de 50 litros com reposição ou um equipamento de 100 a 200 litros com abastecimento contínuo pela rede hidráulica.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O tipo de ambiente influencia diretamente a eficiência do sistema de refrigeração. Em galpões industriais com temperatura ambiente acima de 35°C, o sistema de compressor é obrigatório para garantir água gelada de forma constante. Em escritórios climatizados, a célula Peltier pode ser suficiente e oferece a vantagem de operação silenciosa e menor consumo de energia elétrica.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Considere também a forma de abastecimento: modelos com reservatório exigem reposição manual periódica, enquanto os conectados à rede hidráulica têm abastecimento automático e contínuo. Para locais sem ponto de água próximo, o reservatório é a solução mais prática. Para alto volume contínuo em múltiplos turnos, a conexão direta à rede é mais eficiente e evita interrupções no fornecimento.</p>
         </section>
 
         <section id="modelos-relacionados" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Modelos Relacionados: Bebedouro com Motor e com Filtro</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Além dos bebedouros elétricos padrão, existem variações com características técnicas específicas para demandas distintas. Conhecer essas opções amplifica as alternativas disponíveis e pode ser determinante para atender corretamente as condições hidráulicas e de qualidade da água da sua instalação industrial.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O <a href="/bebedouro-com-motor" className="text-az hover:underline">bebedouro com motor</a> adiciona pressurização ao sistema de distribuição, permitindo instalação em locais sem pressão adequada na rede hidráulica — como galpões em andares superiores, instalações com tubulação de diâmetro reduzido ou pontos de consumo distantes da entrada de água principal da edificação.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Já o <a href="/bebedouro-com-filtro" className="text-az hover:underline">bebedouro com filtro</a> integra filtragem diretamente no equipamento, retendo impurezas, cloro e sedimentos antes que a água chegue à torneira. Ideal para regiões com qualidade variável de água na rede pública, elimina a necessidade de filtro externo separado e reduz os custos de manutenção ao longo do tempo.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para entender melhor as diferenças entre todos os formatos disponíveis, consulte o guia completo sobre <a href="/tipos-de-bebedouro" className="text-az hover:underline">tipos de bebedouro</a>. Ele apresenta comparação técnica detalhada entre bebedouros de pressão, jato inclinado, coluna e parede — com indicações práticas de uso por tipo de ambiente e porte da empresa.</p>
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Modelos Relacionados</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para quem busca modelos com maior potência de refrigeração e motor dedicado de alta performance, o <a href="/bebedouro-com-motor" className="text-az hover:underline">bebedouro com motor</a> oferece desempenho superior em ambientes de alta temperatura. Esses modelos utilizam compressor de alta potência e são indicados para uso contínuo em três turnos e em galpões com temperatura elevada durante todo o dia.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para ambientes onde a qualidade da água é um requisito crítico — como indústrias alimentícias, farmacêuticas ou áreas de saúde — o <a href="/bebedouro-com-filtro" className="text-az hover:underline">bebedouro com filtro</a> é a opção mais indicada. O sistema de filtração integrado remove cloro, sedimentos, odores e possíveis contaminantes, garantindo água pura diretamente no ponto de consumo sem necessidade de filtro externo separado.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Quer aprofundar o conhecimento antes de tomar a decisão de compra? <a href="/blog/como-escolher-bebedouro-industrial" className="text-az hover:underline">Leia o guia completo</a> sobre como escolher o bebedouro industrial ideal, com comparativo técnico entre modelos, análise de marcas líderes e critérios objetivos para cada tipo de operação industrial no Brasil.</p>
+        </section>
+
+        <section id="instalacao-manutencao" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Instalação e Manutenção</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A instalação do bebedouro elétrico industrial deve ser realizada por técnico qualificado, especialmente nos modelos que requerem conexão direta à rede hidráulica e elétrica industrial. O equipamento deve ser posicionado em local nivelado, ventilado e distante de fontes de calor intenso, como fornos, caldeiras ou exposição solar direta prolongada.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A manutenção preventiva é essencial para garantir a vida útil do equipamento e a qualidade da água fornecida. Recomenda-se a higienização completa do reservatório a cada 6 meses, com uso de solução de hipoclorito de sódio conforme orientação do fabricante. A troca de filtros, quando presentes, deve seguir o calendário definido pelo fabricante, geralmente a cada 6 ou 12 meses.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O compressor deve ser verificado anualmente por técnico especializado para garantir a carga correta do gás refrigerante e a integridade das vedações do circuito. Ruídos anormais, queda na temperatura da água ou formação excessiva de gelo no reservatório são sinais de que o equipamento necessita de manutenção corretiva imediata, evitando quebra total e interrupção no fornecimento.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Manter registros documentados das manutenções realizadas é obrigatório para empresas sujeitas à fiscalização da ANVISA e do Ministério do Trabalho. Um livro de registros ou planilha digital com datas, responsáveis técnicos e procedimentos realizados é suficiente para comprovar a conformidade em eventuais inspeções sanitárias ou auditorias trabalhistas.</p>
         </section>
 
         <section id="onde-atendemos" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Onde Compramos e Atendemos</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A JG Bebedouros atende empresas em todo o Brasil com venda, instalação e manutenção de bebedouros elétricos industriais. Nossa equipe técnica está disponível para dimensionar o equipamento correto para a sua demanda e garantir instalação dentro das normas NBR 13713 e NR-24, com laudo técnico quando exigido.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Oferecemos contratos de manutenção preventiva com visitas programadas semestrais, limpeza e sanitização do reservatório, verificação do sistema de refrigeração e substituição de peças com desgaste natural. Esse serviço garante conformidade permanente com a NR-24 e com as exigências da Vigilância Sanitária, evitando autuações e interrupções na operação.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para empresas localizadas em São Paulo e região metropolitana, oferecemos visita técnica presencial, orçamento sem compromisso e suporte pós-venda ágil com tempo de resposta de até 24 horas para chamados urgentes. Confira as informações completas sobre <a href="/local/bebedouro-industrial-sao-paulo" className="text-az hover:underline">atendimento em São Paulo</a> e entre em contato para agendamento.</p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Se você ainda está comparando opções, acesse o guia completo sobre <a href="/bebedouro-industrial" className="text-az hover:underline">bebedouro industrial</a> — um recurso detalhado com tabelas de dimensionamento, comparativo de marcas e checklist de conformidade normativa para uso em licitações públicas e compras corporativas de grande porte.</p>
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Onde Atendemos</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A JG Bebedouros fornece bebedouros elétricos industriais para empresas em todo o Brasil, com estoque disponível para pronta entrega. Realizamos visita técnica para avaliação do ambiente, dimensionamento correto do equipamento e instalação por equipe especializada em cada região atendida.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Para empresas no estado de São Paulo, contamos com <a href="/local/bebedouro-industrial-sao-paulo" className="text-az hover:underline">atendimento em São Paulo</a> com equipe técnica própria para instalação, manutenção preventiva e corretiva. Atendemos da capital ao interior paulista, com disponibilidade de contrato de manutenção periódica programada para garantir o cumprimento das normas técnicas vigentes.</p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">Entre em contato para solicitar um orçamento personalizado. Informe o número de colaboradores, o tipo de ambiente, a voltagem disponível e o espaço de instalação para que possamos indicar com precisão o modelo mais adequado para a sua operação e dentro do seu orçamento.</p>
         </section>
+
       </PilarLayout>
       <Footer />
     </>
