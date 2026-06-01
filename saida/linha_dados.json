@@ -1,57 +1,55 @@
 {
   "meta": {
     "arquivo": "https://docs.google.com/spreadsheets/d/1Pug3l_jGx9NOBIJ-qpjL9Klu9NwvZXZ1LI9Ny8Ba-G4/edit?usp=sharing",
-    "linha": 44,
+    "linha": 45,
     "coluna_keyword": "Palavra-chave Principal",
-    "keyword": "Fábrica de Bebedouro Industrial",
-    "titulo_h1": "Fábrica de Bebedouro Industrial: Guia Completo 2025",
-    "meta_title": "Fábrica de Bebedouro Industrial: Guia Completo 2025",
-    "meta_description": "Fábrica de Bebedouro Industrial: tipos, características, normas e onde comprar. Guia completo para sua aplicação específica.",
-    "slug": "fabrica-de-bebedouro-industrial",
-    "cluster": "Por origem (fabricante)",
+    "keyword": "Bebedouro com Filtro",
+    "titulo_h1": "Bebedouro com Filtro: Guia Completo 2025",
+    "meta_title": "Bebedouro com Filtro: Guia Completo 2025",
+    "meta_description": "Bebedouro com Filtro: tipos, características, normas e onde comprar. Guia completo para sua aplicação específica.",
+    "slug": "bebedouro-com-filtro",
+    "cluster": "Por característica técnica",
     "tipo_pilar": "🟠 Pilar simples",
-    "intencao": "Transacional",
-    "variacoes_semanticas": "fabricante de bebedouro industrial; fábrica bebedouro inox; bebedouro direto da fábrica",
-    "links_internos": "• Âncora: \"bebedouro industrial\" → portaldobebedouro.com.br/bebedouro-industrial (intro/contexto)\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (seção comparativa)\n• Âncora: \"leia o guia completo\" → portaldobebedouro.com.br/blog/como-escolher-bebedouro-industrial (CTA de aprofundamento no tópico)\n• Âncora: \"atendimento em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção 'onde compramos/atendemos')",
+    "intencao": "Comercial",
+    "variacoes_semanticas": "bebedouro com filtro de água; bebedouro filtrado; bebedouro filtro inox",
+    "links_internos": "• Âncora: \"filtro industrial\" → portaldobebedouro.com.br/filtro-industrial (intro/contexto)\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (seção comparativa)\n• Âncora: \"bebedouro com motor\" → portaldobebedouro.com.br/bebedouro-com-motor (seção 'modelos relacionados')\n• Âncora: \"bebedouro elétrico industrial\" → portaldobebedouro.com.br/bebedouro-eletrico-industrial (seção 'modelos relacionados')\n• Âncora: \"leia o guia completo\" → portaldobebedouro.com.br/blog/como-trocar-filtro-bebedouro-industrial (CTA de aprofundamento no tópico)\n• Âncora: \"atendimento em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção 'onde compramos/atendemos')",
     "imagens": [
+      {
+        "nome": "bebedouro 100 e 50 litros inox 3 e 2 torneiras lado a lado.png",
+        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20100%20e%2050%20litros%20inox%203%20e%202%20torneiras%20lado%20a%20lado.png",
+        "alt_text": "bebedouro 100 e 50 litros inox 3 e 2 torneiras lado a lado",
+        "score": 0.22,
+        "palavras_comuns": [
+          "bebedouro"
+        ]
+      },
       {
         "nome": "bebedouro 25 e 30 litros inox 2 torneiras industrial.png",
         "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%2025%20e%2030%20litros%20inox%202%20torneiras%20industrial.png",
         "alt_text": "bebedouro 25 e 30 litros inox 2 torneiras industrial",
-        "score": 0.4,
+        "score": 0.22,
         "palavras_comuns": [
-          "bebedouro",
-          "industrial"
-        ]
-      },
-      {
-        "nome": "bebedouro industrial inox 2 torneiras robust 50 litros.png",
-        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%202%20torneiras%20robust%2050%20litros.png",
-        "alt_text": "bebedouro industrial inox 2 torneiras robust 50 litros",
-        "score": 0.4,
-        "palavras_comuns": [
-          "bebedouro",
-          "industrial"
+          "bebedouro"
         ]
       }
     ],
-    "gerado_em": "2026-06-01T08:00:07.564641"
+    "gerado_em": "2026-06-01T13:00:08.850177"
   },
   "dados_linha": {
-    "#": "45",
+    "#": "46",
     "Status": "A produzir",
     "Tipo de Pilar": "🟠 Pilar simples",
     "Raiz / Pai": "—",
-    "Cluster": "Por origem (fabricante)",
-    "Palavra-chave Principal": "Fábrica de Bebedouro Industrial",
-    "Variações Semânticas": "fabricante de bebedouro industrial; fábrica bebedouro inox; bebedouro direto da fábrica",
-    "Intenção": "Transacional",
-    "Prioridade": "Urgente",
-    "Vol. Estimado": "880",
+    "Cluster": "Por característica técnica",
+    "Palavra-chave Principal": "Bebedouro com Filtro",
+    "Variações Semânticas": "bebedouro com filtro de água; bebedouro filtrado; bebedouro filtro inox",
+    "Intenção": "Comercial",
+    "Prioridade": "Alta",
+    "Vol. Estimado": "1.000",
     "Dificuldade": "Média",
-    "URL / Slug": "/fabrica-de-bebedouro-industrial",
-    "h1": "Fábrica de Bebedouro Industrial: Guia Completo 2025",
-    "Meta Description": "Fábrica de Bebedouro Industrial: tipos, características, normas e onde comprar. Guia completo para sua aplicação específica.",
-    "Links Internos": "• Âncora: \"bebedouro industrial\" → portaldobebedouro.com.br/bebedouro-industrial (intro/contexto)\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (seção comparativa)\n• Âncora: \"leia o guia completo\" → portaldobebedouro.com.br/blog/como-escolher-bebedouro-industrial (CTA de aprofundamento no tópico)\n• Âncora: \"atendimento em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção 'onde compramos/atendemos')"
+    "URL / Slug": "/bebedouro-com-filtro",
+    "h1": "Bebedouro com Filtro: Guia Completo 2025",
+    "Meta Description": "Bebedouro com Filtro: tipos, características, normas e onde comprar. Guia completo para sua aplicação específica.",
+    "Links Internos": "• Âncora: \"filtro industrial\" → portaldobebedouro.com.br/filtro-industrial (intro/contexto)\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (seção comparativa)\n• Âncora: \"bebedouro com motor\" → portaldobebedouro.com.br/bebedouro-com-motor (seção 'modelos relacionados')\n• Âncora: \"bebedouro elétrico industrial\" → portaldobebedouro.com.br/bebedouro-eletrico-industrial (seção 'modelos relacionados')\n• Âncora: \"leia o guia completo\" → portaldobebedouro.com.br/blog/como-trocar-filtro-bebedouro-industrial (CTA de aprofundamento no tópico)\n• Âncora: \"atendimento em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção 'onde compramos/atendemos')"
   }
 }
