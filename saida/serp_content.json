@@ -1,237 +1,51 @@
 {
   "keyword": "Bebedouro Escolar",
-  "gerado_em": "2026-06-01T01:14:26.236967",
-  "media_palavras_top3": 597,
-  "minimo_palavras_recomendado": 1383,
+  "gerado_em": "2026-06-01T01:14:26.877387",
+  "media_palavras_top3": 501,
+  "minimo_palavras_recomendado": 1040,
   "concorrentes": [
     {
-      "url": "https://lista.mercadolivre.com.br/bebedouro-escolar",
-      "titulo_pagina": "Bebedouro Escolar | Mercado Livre",
-      "num_palavras": 11,
-      "intro": "",
-      "headings": [],
-      "posicao": 1,
-      "titulo_serp": "Bebedouro escolar - Mercado Livre",
-      "descricao_serp": "Frete grátis no dia Compre já Bebedouro Escolar parcelado sem juros! Saiba mais sobre nossas incríveis ofertas e promoções em milhões de produtos."
-    },
-    {
-      "url": "https://jactofilter.com.br/",
-      "titulo_pagina": "",
-      "num_palavras": 1153,
-      "intro": "ESTEJA PREPARADO e Volte às atividades com o BEBEDOURO ANTI-COVID-19.Sua escola e academia estão prontos para a tão esperada RETOMADA?Criamos um sistema onde o aluno não precisa tocar na torneira, o acionamento é por sensor de presença e tem desligamento automático!Nao se preocupe! Ele tem a margem de distância adequada para que não seja acionado toda vez que alguma pessoa passar na frente.",
+      "url": "https://www.lojadobebedouro.com.br/bebedouros-de-agua/por-ambientes",
+      "titulo_pagina": "Por Ambientes",
+      "num_palavras": 867,
+      "intro": "Aparelhos comopurificadores de águae bebedouros podem ser extremamente importantes para qualquer escritório ou domicílio.",
       "headings": [
         {
           "nivel": "h2",
-          "texto": "Bem Vindo a"
+          "texto": "Bebedouros Por Ambiente"
         },
         {
           "nivel": "h2",
-          "texto": "JactoFilter"
+          "texto": "Ambiente"
         },
         {
           "nivel": "h2",
-          "texto": "Bebedouro"
-        },
-        {
-          "nivel": "h2",
-          "texto": "ANTI-COVID"
+          "texto": "Combinações"
         },
         {
           "nivel": "h3",
-          "texto": "Econômico"
+          "texto": "Escolas e o bebedouro de coluna"
         },
         {
           "nivel": "h3",
-          "texto": "ideal para crianças"
+          "texto": "Igreja e bebedouros de galão"
         },
         {
           "nivel": "h3",
-          "texto": "Diversas cores"
+          "texto": "Escritórios e bebedouros de mesa"
         },
         {
           "nivel": "h3",
-          "texto": "ACESSÍVEL"
+          "texto": "Shoppings e bebedouros inox"
         },
         {
           "nivel": "h2",
-          "texto": "Mais de"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Desde 1994 no mercado oferecendotecnologia e segurança"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouros"
-        },
-        {
-          "nivel": "h2",
-          "texto": "maisvendidos"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro Aquarium 02"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro Aquarium 03"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro Infinito"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro Millenium 01"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouros"
-        },
-        {
-          "nivel": "h2",
-          "texto": "paraShopping"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro Elo"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro Infinito"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouros"
-        },
-        {
-          "nivel": "h2",
-          "texto": "LinhaAquarium"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro Aquarium 01"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro Aquarium 02"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro Aquarium 03"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro Aquarium 04"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouros"
-        },
-        {
-          "nivel": "h2",
-          "texto": "LinhaMilleniun"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro Millenium 01"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro Millenium 05 Completo"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro Millenium 05 Direito"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Bebedouro Millenium 05 Esquerdo"
-        },
-        {
-          "nivel": "h2",
-          "texto": "8 razões para  escolher umBebedouro Jacto Filter?"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Entenda porque essa é a melhor opção pra sua escola"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Segurança"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Fácil Manutenção"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Material Reciclável"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Bebedouro Colorido"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Atendemos todo Brasil"
-        },
-        {
-          "nivel": "h3",
-          "texto": "40 Litros Hora"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Torneira Econômica"
-        },
-        {
-          "nivel": "h3",
-          "texto": "Versão Básico e Luxo"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Depoimentos dos"
-        },
-        {
-          "nivel": "h2",
-          "texto": "NossosClientes"
-        },
-        {
-          "nivel": "h2",
-          "texto": "TrocadorInfantil"
-        },
-        {
-          "nivel": "h2",
-          "texto": "para escolas"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Trocador Infantil com Armário"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Trocador Infantil com Armário"
-        },
-        {
-          "nivel": "h2",
-          "texto": "BanheiraInfantil"
-        },
-        {
-          "nivel": "h2",
-          "texto": "para escolas"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Banheira Infantil com Armário"
-        },
-        {
-          "nivel": "h2",
-          "texto": "Banheira Infantil com Armário"
+          "texto": "A Loja do Bebedouro pode ser sua solução"
         }
       ],
-      "posicao": 2,
-      "titulo_serp": "Jacto Filter Bebedouros - Bebedouros escolares",
-      "descricao_serp": "A Jacto Filter surgiu em 1994 com a fabricação de bebedouros e se tornou conceito no segmento escolar. No início atuava como revenda de bebedouros inox e bebedouros garrafão. Em nosso relacionamento com o cliente entendemos que os produtos disponíveis não atendiam as necessidades, principalmente do público infantil."
+      "posicao": 1,
+      "titulo_serp": "Bebedouros de água por ambientes | Loja do Bebedouro",
+      "descricao_serp": "Porém, existem determinados bebedouros de água que podem ser mais úteis em um dado ambiente do que outros modelos. Como dito antes, é ideal escolher bebedouros de água que se encaixem em dados ambientes, existem combinações que podem gerar bastante sucesso para determinado local."
     },
     {
       "url": "https://www.canovas.com.br/finalidade/bebedouros-para-escolas-cat.html",
@@ -280,9 +94,19 @@
           "texto": "Aguarde..."
         }
       ],
-      "posicao": 3,
+      "posicao": 2,
       "titulo_serp": "Bebedouros para Escolas - Finalidade | Cânovas Bebedouros",
-      "descricao_serp": "Bebedouro Acessível Life em Inox Cód.400 SEM contato manual R$ 6.597,00 R$ 5.977,24"
+      "descricao_serp": "Descubra o seu bebedouro ideal."
+    },
+    {
+      "url": "https://lista.mercadolivre.com.br/bebedouro-escolar",
+      "titulo_pagina": "Bebedouro Escolar | Mercado Livre",
+      "num_palavras": 11,
+      "intro": "",
+      "headings": [],
+      "posicao": 3,
+      "titulo_serp": "Bebedouro Escolar | Mercado Livre",
+      "descricao_serp": "Frete grátis no dia ✓ Compre já Bebedouro Escolar parcelado sem juros! Saiba mais sobre nossas incríveis ofertas e promoções em milhões de produtos."
     }
   ]
 }
