@@ -1,55 +1,55 @@
 {
   "meta": {
     "arquivo": "https://docs.google.com/spreadsheets/d/1Pug3l_jGx9NOBIJ-qpjL9Klu9NwvZXZ1LI9Ny8Ba-G4/edit?usp=sharing",
-    "linha": 48,
+    "linha": 49,
     "coluna_keyword": "Palavra-chave Principal",
-    "keyword": "Filtro de Água Industrial",
-    "titulo_h1": "Filtro de Água Industrial: Guia Completo 2025",
-    "meta_title": "Filtro de Água Industrial: Guia Completo 2025",
-    "meta_description": "Filtro de Água Industrial: tipos, características, normas e onde comprar. Guia completo para sua aplicação específica.",
-    "slug": "filtro-de-agua-industrial",
-    "cluster": "Filtro Industrial",
-    "tipo_pilar": "🟠 Pilar simples",
-    "intencao": "Comercial",
-    "variacoes_semanticas": "filtro água industrial inox; sistema de filtragem industrial; filtro de água para empresa",
-    "links_internos": "• Âncora: \"filtro industrial\" → portaldobebedouro.com.br/filtro-industrial (intro/contexto)\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (seção comparativa)\n• Âncora: \"leia o guia completo\" → portaldobebedouro.com.br/blog/como-trocar-filtro-bebedouro-industrial (CTA de aprofundamento no tópico)\n• Âncora: \"atendimento em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção 'onde compramos/atendemos')",
+    "keyword": "Tipos de Bebedouro",
+    "titulo_h1": "Tipos de Bebedouro: Guia Completo",
+    "meta_title": "Tipos de Bebedouro: Guia Completo",
+    "meta_description": "Tipos de Bebedouro: tudo o que você precisa saber para escolher o modelo ideal para sua aplicação.",
+    "slug": "tipos-de-bebedouro",
+    "cluster": "Pilar conceitual",
+    "tipo_pilar": "🔷 Pilar conceitual",
+    "intencao": "Informacional",
+    "variacoes_semanticas": "tipos de bebedouros; modelos de bebedouro industrial; bebedouro de coluna vs pressão",
+    "links_internos": "• Âncora: \"Bebedouro Industrial\" → portaldobebedouro.com.br/bebedouro-industrial (tabela comparativa de tipos)\n• Âncora: \"Bebedouro Inox\" → portaldobebedouro.com.br/bebedouro-inox (tabela comparativa de tipos)\n• Âncora: \"Bebedouro\" → portaldobebedouro.com.br/bebedouro (tabela comparativa de tipos)\n• Âncora: \"Filtro Industrial\" → portaldobebedouro.com.br/filtro-industrial (tabela comparativa de tipos)\n• Âncora: \"bebedouro com motor\" → portaldobebedouro.com.br/bebedouro-com-motor (seção 'modelos por aplicação')\n• Âncora: \"bebedouro de coluna\" → portaldobebedouro.com.br/bebedouro-de-coluna (seção 'modelos por aplicação')\n• Âncora: \"bebedouro de água\" → portaldobebedouro.com.br/bebedouro-de-agua (seção 'modelos por aplicação')\n• Âncora: \"bebedouro de obra\" → portaldobebedouro.com.br/bebedouro-de-obra (seção 'modelos por aplicação')",
     "imagens": [
+      {
+        "nome": "bebedouro 100 e 50 litros inox 3 e 2 torneiras lado a lado.png",
+        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20100%20e%2050%20litros%20inox%203%20e%202%20torneiras%20lado%20a%20lado.png",
+        "alt_text": "bebedouro 100 e 50 litros inox 3 e 2 torneiras lado a lado",
+        "score": 0.22,
+        "palavras_comuns": [
+          "bebedouro"
+        ]
+      },
       {
         "nome": "bebedouro 25 e 30 litros inox 2 torneiras industrial.png",
         "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%2025%20e%2030%20litros%20inox%202%20torneiras%20industrial.png",
         "alt_text": "bebedouro 25 e 30 litros inox 2 torneiras industrial",
-        "score": 0.2,
+        "score": 0.22,
         "palavras_comuns": [
-          "industrial"
-        ]
-      },
-      {
-        "nome": "bebedouro industrial inox 2 torneiras robust 50 litros.png",
-        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%202%20torneiras%20robust%2050%20litros.png",
-        "alt_text": "bebedouro industrial inox 2 torneiras robust 50 litros",
-        "score": 0.2,
-        "palavras_comuns": [
-          "industrial"
+          "bebedouro"
         ]
       }
     ],
-    "gerado_em": "2026-06-02T13:00:07.227242"
+    "gerado_em": "2026-06-02T18:00:08.115965"
   },
   "dados_linha": {
-    "#": "49",
+    "#": "50",
     "Status": "A produzir",
-    "Tipo de Pilar": "🟠 Pilar simples",
+    "Tipo de Pilar": "🔷 Pilar conceitual",
     "Raiz / Pai": "—",
-    "Cluster": "Filtro Industrial",
-    "Palavra-chave Principal": "Filtro de Água Industrial",
-    "Variações Semânticas": "filtro água industrial inox; sistema de filtragem industrial; filtro de água para empresa",
-    "Intenção": "Comercial",
-    "Prioridade": "Alta",
-    "Vol. Estimado": "1.600",
+    "Cluster": "Pilar conceitual",
+    "Palavra-chave Principal": "Tipos de Bebedouro",
+    "Variações Semânticas": "tipos de bebedouros; modelos de bebedouro industrial; bebedouro de coluna vs pressão",
+    "Intenção": "Informacional",
+    "Prioridade": "Urgente",
+    "Vol. Estimado": "2.400",
     "Dificuldade": "Média",
-    "URL / Slug": "/filtro-de-agua-industrial",
-    "h1": "Filtro de Água Industrial: Guia Completo 2025",
-    "Meta Description": "Filtro de Água Industrial: tipos, características, normas e onde comprar. Guia completo para sua aplicação específica.",
-    "Links Internos": "• Âncora: \"filtro industrial\" → portaldobebedouro.com.br/filtro-industrial (intro/contexto)\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (seção comparativa)\n• Âncora: \"leia o guia completo\" → portaldobebedouro.com.br/blog/como-trocar-filtro-bebedouro-industrial (CTA de aprofundamento no tópico)\n• Âncora: \"atendimento em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção 'onde compramos/atendemos')"
+    "URL / Slug": "/tipos-de-bebedouro",
+    "h1": "Tipos de Bebedouro: Guia Completo",
+    "Meta Description": "Tipos de Bebedouro: tudo o que você precisa saber para escolher o modelo ideal para sua aplicação.",
+    "Links Internos": "• Âncora: \"Bebedouro Industrial\" → portaldobebedouro.com.br/bebedouro-industrial (tabela comparativa de tipos)\n• Âncora: \"Bebedouro Inox\" → portaldobebedouro.com.br/bebedouro-inox (tabela comparativa de tipos)\n• Âncora: \"Bebedouro\" → portaldobebedouro.com.br/bebedouro (tabela comparativa de tipos)\n• Âncora: \"Filtro Industrial\" → portaldobebedouro.com.br/filtro-industrial (tabela comparativa de tipos)\n• Âncora: \"bebedouro com motor\" → portaldobebedouro.com.br/bebedouro-com-motor (seção 'modelos por aplicação')\n• Âncora: \"bebedouro de coluna\" → portaldobebedouro.com.br/bebedouro-de-coluna (seção 'modelos por aplicação')\n• Âncora: \"bebedouro de água\" → portaldobebedouro.com.br/bebedouro-de-agua (seção 'modelos por aplicação')\n• Âncora: \"bebedouro de obra\" → portaldobebedouro.com.br/bebedouro-de-obra (seção 'modelos por aplicação')"
   }
 }
