@@ -1,55 +1,57 @@
 {
   "meta": {
     "arquivo": "https://docs.google.com/spreadsheets/d/1Pug3l_jGx9NOBIJ-qpjL9Klu9NwvZXZ1LI9Ny8Ba-G4/edit?usp=sharing",
-    "linha": 46,
+    "linha": 47,
     "coluna_keyword": "Palavra-chave Principal",
-    "keyword": "Bebedouro de Bancada",
-    "titulo_h1": "Bebedouro de Bancada: Guia Completo 2025",
-    "meta_title": "Bebedouro de Bancada: Guia Completo 2025",
-    "meta_description": "Bebedouro de Bancada: tipos, características, normas e onde comprar. Guia completo para sua aplicação específica.",
-    "slug": "bebedouro-de-bancada",
+    "keyword": "Bebedouro Industrial Suspenso",
+    "titulo_h1": "Bebedouro Industrial Suspenso: Guia Completo 2025",
+    "meta_title": "Bebedouro Industrial Suspenso: Guia Completo 2025",
+    "meta_description": "Bebedouro Industrial Suspenso: tipos, características, normas e onde comprar. Guia completo para sua aplicação específica.",
+    "slug": "bebedouro-industrial-suspenso",
     "cluster": "Por formato",
     "tipo_pilar": "🟠 Pilar simples",
     "intencao": "Comercial",
-    "variacoes_semanticas": "bebedouro bancada industrial; bebedouro de mesa; bebedouro compacto",
-    "links_internos": "• Âncora: \"bebedouro industrial\" → portaldobebedouro.com.br/bebedouro-industrial (intro/contexto)\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (seção comparativa)\n• Âncora: \"bebedouro de coluna\" → portaldobebedouro.com.br/bebedouro-de-coluna (seção 'modelos relacionados')\n• Âncora: \"bebedouro industrial suspenso\" → portaldobebedouro.com.br/bebedouro-industrial-suspenso (seção 'modelos relacionados')\n• Âncora: \"leia o guia completo\" → portaldobebedouro.com.br/blog/bebedouro-coluna-ou-pressao (CTA de aprofundamento no tópico)\n• Âncora: \"atendimento em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção 'onde compramos/atendemos')",
+    "variacoes_semanticas": "bebedouro suspenso; bebedouro de parede industrial; bebedouro parede inox",
+    "links_internos": "• Âncora: \"bebedouro industrial\" → portaldobebedouro.com.br/bebedouro-industrial (intro/contexto)\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (seção comparativa)\n• Âncora: \"bebedouro de coluna\" → portaldobebedouro.com.br/bebedouro-de-coluna (seção 'modelos relacionados')\n• Âncora: \"bebedouro de bancada\" → portaldobebedouro.com.br/bebedouro-de-bancada (seção 'modelos relacionados')\n• Âncora: \"leia o guia completo\" → portaldobebedouro.com.br/blog/como-escolher-bebedouro-industrial (CTA de aprofundamento no tópico)\n• Âncora: \"atendimento em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção 'onde compramos/atendemos')",
     "imagens": [
-      {
-        "nome": "bebedouro 100 e 50 litros inox 3 e 2 torneiras lado a lado.png",
-        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20100%20e%2050%20litros%20inox%203%20e%202%20torneiras%20lado%20a%20lado.png",
-        "alt_text": "bebedouro 100 e 50 litros inox 3 e 2 torneiras lado a lado",
-        "score": 0.22,
-        "palavras_comuns": [
-          "bebedouro"
-        ]
-      },
       {
         "nome": "bebedouro 25 e 30 litros inox 2 torneiras industrial.png",
         "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%2025%20e%2030%20litros%20inox%202%20torneiras%20industrial.png",
         "alt_text": "bebedouro 25 e 30 litros inox 2 torneiras industrial",
-        "score": 0.22,
+        "score": 0.4,
         "palavras_comuns": [
-          "bebedouro"
+          "bebedouro",
+          "industrial"
+        ]
+      },
+      {
+        "nome": "bebedouro industrial inox 2 torneiras robust 50 litros.png",
+        "raw_url": "https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20industrial%20inox%202%20torneiras%20robust%2050%20litros.png",
+        "alt_text": "bebedouro industrial inox 2 torneiras robust 50 litros",
+        "score": 0.4,
+        "palavras_comuns": [
+          "bebedouro",
+          "industrial"
         ]
       }
     ],
-    "gerado_em": "2026-06-01T18:00:07.453615"
+    "gerado_em": "2026-06-02T08:00:07.689055"
   },
   "dados_linha": {
-    "#": "47",
+    "#": "48",
     "Status": "A produzir",
     "Tipo de Pilar": "🟠 Pilar simples",
     "Raiz / Pai": "—",
     "Cluster": "Por formato",
-    "Palavra-chave Principal": "Bebedouro de Bancada",
-    "Variações Semânticas": "bebedouro bancada industrial; bebedouro de mesa; bebedouro compacto",
+    "Palavra-chave Principal": "Bebedouro Industrial Suspenso",
+    "Variações Semânticas": "bebedouro suspenso; bebedouro de parede industrial; bebedouro parede inox",
     "Intenção": "Comercial",
-    "Prioridade": "Alta",
-    "Vol. Estimado": "720",
-    "Dificuldade": "Média",
-    "URL / Slug": "/bebedouro-de-bancada",
-    "h1": "Bebedouro de Bancada: Guia Completo 2025",
-    "Meta Description": "Bebedouro de Bancada: tipos, características, normas e onde comprar. Guia completo para sua aplicação específica.",
-    "Links Internos": "• Âncora: \"bebedouro industrial\" → portaldobebedouro.com.br/bebedouro-industrial (intro/contexto)\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (seção comparativa)\n• Âncora: \"bebedouro de coluna\" → portaldobebedouro.com.br/bebedouro-de-coluna (seção 'modelos relacionados')\n• Âncora: \"bebedouro industrial suspenso\" → portaldobebedouro.com.br/bebedouro-industrial-suspenso (seção 'modelos relacionados')\n• Âncora: \"leia o guia completo\" → portaldobebedouro.com.br/blog/bebedouro-coluna-ou-pressao (CTA de aprofundamento no tópico)\n• Âncora: \"atendimento em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção 'onde compramos/atendemos')"
+    "Prioridade": "Média",
+    "Vol. Estimado": "210",
+    "Dificuldade": "Baixa",
+    "URL / Slug": "/bebedouro-industrial-suspenso",
+    "h1": "Bebedouro Industrial Suspenso: Guia Completo 2025",
+    "Meta Description": "Bebedouro Industrial Suspenso: tipos, características, normas e onde comprar. Guia completo para sua aplicação específica.",
+    "Links Internos": "• Âncora: \"bebedouro industrial\" → portaldobebedouro.com.br/bebedouro-industrial (intro/contexto)\n• Âncora: \"tipos de bebedouro\" → portaldobebedouro.com.br/tipos-de-bebedouro (seção comparativa)\n• Âncora: \"bebedouro de coluna\" → portaldobebedouro.com.br/bebedouro-de-coluna (seção 'modelos relacionados')\n• Âncora: \"bebedouro de bancada\" → portaldobebedouro.com.br/bebedouro-de-bancada (seção 'modelos relacionados')\n• Âncora: \"leia o guia completo\" → portaldobebedouro.com.br/blog/como-escolher-bebedouro-industrial (CTA de aprofundamento no tópico)\n• Âncora: \"atendimento em São Paulo\" → portaldobebedouro.com.br/local/bebedouro-industrial-sao-paulo (seção 'onde compramos/atendemos')"
   }
 }
