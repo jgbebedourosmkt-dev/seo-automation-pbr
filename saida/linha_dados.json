@@ -1,17 +1,17 @@
 {
   "meta": {
     "arquivo": "https://docs.google.com/spreadsheets/d/1Pug3l_jGx9NOBIJ-qpjL9Klu9NwvZXZ1LI9Ny8Ba-G4/edit?usp=sharing",
-    "linha": 49,
+    "linha": 50,
     "coluna_keyword": "Palavra-chave Principal",
-    "keyword": "Tipos de Bebedouro",
-    "titulo_h1": "Tipos de Bebedouro: Guia Completo",
-    "meta_title": "Tipos de Bebedouro: Guia Completo",
-    "meta_description": "Tipos de Bebedouro: tudo o que você precisa saber para escolher o modelo ideal para sua aplicação.",
-    "slug": "tipos-de-bebedouro",
+    "keyword": "Bebedouro para Empresa",
+    "titulo_h1": "Bebedouro para Empresa: Guia Completo",
+    "meta_title": "Bebedouro para Empresa: Guia Completo",
+    "meta_description": "Bebedouro para Empresa: tudo o que você precisa saber para escolher o modelo ideal para sua aplicação.",
+    "slug": "bebedouro-para-empresa",
     "cluster": "Pilar conceitual",
     "tipo_pilar": "🔷 Pilar conceitual",
-    "intencao": "Informacional",
-    "variacoes_semanticas": "tipos de bebedouros; modelos de bebedouro industrial; bebedouro de coluna vs pressão",
+    "intencao": "Comercial",
+    "variacoes_semanticas": "bebedouro corporativo; bebedouro para escritório; bebedouro empresarial",
     "links_internos": "• Âncora: \"Bebedouro Industrial\" → portaldobebedouro.com.br/bebedouro-industrial (tabela comparativa de tipos)\n• Âncora: \"Bebedouro Inox\" → portaldobebedouro.com.br/bebedouro-inox (tabela comparativa de tipos)\n• Âncora: \"Bebedouro\" → portaldobebedouro.com.br/bebedouro (tabela comparativa de tipos)\n• Âncora: \"Filtro Industrial\" → portaldobebedouro.com.br/filtro-industrial (tabela comparativa de tipos)\n• Âncora: \"bebedouro com motor\" → portaldobebedouro.com.br/bebedouro-com-motor (seção 'modelos por aplicação')\n• Âncora: \"bebedouro de coluna\" → portaldobebedouro.com.br/bebedouro-de-coluna (seção 'modelos por aplicação')\n• Âncora: \"bebedouro de água\" → portaldobebedouro.com.br/bebedouro-de-agua (seção 'modelos por aplicação')\n• Âncora: \"bebedouro de obra\" → portaldobebedouro.com.br/bebedouro-de-obra (seção 'modelos por aplicação')",
     "imagens": [
       {
@@ -33,23 +33,23 @@
         ]
       }
     ],
-    "gerado_em": "2026-06-02T18:00:08.115965"
+    "gerado_em": "2026-06-03T08:00:07.249590"
   },
   "dados_linha": {
-    "#": "50",
+    "#": "51",
     "Status": "A produzir",
     "Tipo de Pilar": "🔷 Pilar conceitual",
     "Raiz / Pai": "—",
     "Cluster": "Pilar conceitual",
-    "Palavra-chave Principal": "Tipos de Bebedouro",
-    "Variações Semânticas": "tipos de bebedouros; modelos de bebedouro industrial; bebedouro de coluna vs pressão",
-    "Intenção": "Informacional",
+    "Palavra-chave Principal": "Bebedouro para Empresa",
+    "Variações Semânticas": "bebedouro corporativo; bebedouro para escritório; bebedouro empresarial",
+    "Intenção": "Comercial",
     "Prioridade": "Urgente",
-    "Vol. Estimado": "2.400",
+    "Vol. Estimado": "1.900",
     "Dificuldade": "Média",
-    "URL / Slug": "/tipos-de-bebedouro",
-    "h1": "Tipos de Bebedouro: Guia Completo",
-    "Meta Description": "Tipos de Bebedouro: tudo o que você precisa saber para escolher o modelo ideal para sua aplicação.",
+    "URL / Slug": "/bebedouro-para-empresa",
+    "h1": "Bebedouro para Empresa: Guia Completo",
+    "Meta Description": "Bebedouro para Empresa: tudo o que você precisa saber para escolher o modelo ideal para sua aplicação.",
     "Links Internos": "• Âncora: \"Bebedouro Industrial\" → portaldobebedouro.com.br/bebedouro-industrial (tabela comparativa de tipos)\n• Âncora: \"Bebedouro Inox\" → portaldobebedouro.com.br/bebedouro-inox (tabela comparativa de tipos)\n• Âncora: \"Bebedouro\" → portaldobebedouro.com.br/bebedouro (tabela comparativa de tipos)\n• Âncora: \"Filtro Industrial\" → portaldobebedouro.com.br/filtro-industrial (tabela comparativa de tipos)\n• Âncora: \"bebedouro com motor\" → portaldobebedouro.com.br/bebedouro-com-motor (seção 'modelos por aplicação')\n• Âncora: \"bebedouro de coluna\" → portaldobebedouro.com.br/bebedouro-de-coluna (seção 'modelos por aplicação')\n• Âncora: \"bebedouro de água\" → portaldobebedouro.com.br/bebedouro-de-agua (seção 'modelos por aplicação')\n• Âncora: \"bebedouro de obra\" → portaldobebedouro.com.br/bebedouro-de-obra (seção 'modelos por aplicação')"
   }
 }
