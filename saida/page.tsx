@@ -68,7 +68,7 @@ export default function BebedouroParaEmpresaPage() {
           { valor: '20 L/h', label: 'Vazão mínima recomendada pela NR-24' },
           { valor: '100 L', label: 'Maior capacidade disponível em inox' },
           { valor: '6 meses', label: 'Intervalo máximo entre higienizações (ANVISA)' },
-          { valor: 'NBR 13713', label: 'Norma ABNT para bebedouros elétricos' },
+          { valor: '1 por 50', label: 'Funcionários por bebedouro (NR-24)' },
         ]}
         faqs={faqs}
         internalLinks={[
