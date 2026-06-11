@@ -117,20 +117,19 @@ export default function BebedouroParaEmpresaPage() {
 
         <section id="tipos" className="mb-12 scroll-mt-20">
           <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Tipos de bebedouro para empresa</h2>
-          <img
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed"><img
             src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20100%20e%2050%20litros%20inox%203%20e%202%20torneiras%20lado%20a%20lado.png"
             alt="bebedouro 100 e 50 litros inox 3 e 2 torneiras lado a lado"
             className="rounded-lg object-cover w-2/5"
             style={{ float: 'left', marginRight: '15px', marginBottom: '8px' }}
             loading="lazy"
-          />
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O mercado oferece quatro categorias principais de bebedouro corporativo: o bebedouro de pressão de rede, o bebedouro de garrafão, o purificador de água e o bebedouro industrial de alta capacidade. Cada categoria tem características específicas que a tornam mais adequada para determinados ambientes, tamanhos de equipe e exigências operacionais do negócio.</p>
+          />O mercado oferece quatro categorias principais de bebedouro corporativo: o bebedouro de pressão de rede, o bebedouro de garrafão, o purificador de água e o bebedouro industrial de alta capacidade. Cada categoria tem características específicas que a tornam mais adequada para determinados ambientes, tamanhos de equipe e exigências operacionais do negócio.</p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O <strong>bebedouro de pressão de rede</strong> é conectado diretamente à tubulação de água e possui reservatório interno refrigerado. É a opção mais econômica a longo prazo, pois elimina o custo recorrente com garrafões. Modelos de 25 a 100 litros atendem desde pequenos escritórios até grandes fábricas. O <a href="/bebedouro-de-coluna" className="text-az hover:underline">bebedouro de coluna</a> é a variação mais popular desse tipo, combinando estética cuidada e funcionalidade robusta.</p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O <strong>bebedouro de garrafão</strong> utiliza galões de 20 litros e não requer instalação hidráulica permanente. É ideal para empresas em locais onde não há ponto de água disponível, como canteiros de obras, barracões provisórios ou depósitos remotos. O custo operacional é maior, pois exige trocas regulares de galão e a logística de transporte e armazenamento dos recipientes.</p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O <strong>purificador de água</strong> combina filtração avançada e refrigeração em um único equipamento, sendo indicado para empresas que desejam qualidade adicional no tratamento da água. Usa a pressão da rede e possui filtros que retêm impurezas, cloro residual e metais pesados. É a escolha preferida em escritórios modernos, clínicas e ambientes de saúde com alto padrão de higiene.</p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O <strong>bebedouro industrial</strong> é projetado para ambientes de alta demanda, como fábricas, refeitórios industriais e armazéns logísticos. Possui capacidade de 50 a 200 litros, corpo em aço inox com isolamento térmico reforçado e múltiplas torneiras para atender muitos colaboradores ao mesmo tempo. Saiba mais sobre o <a href="/bebedouro-industrial" className="text-az hover:underline">Bebedouro Industrial</a> e suas especificações técnicas para ambientes de alta demanda contínua.</p>
-          <div style={{ clear: 'both' }} />
         </section>
+        <div style={{ clear: 'both' }} />
 
         <section id="capacidade" className="mb-12 scroll-mt-20">
           <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Capacidade e dimensionamento correto</h2>
@@ -143,20 +142,19 @@ export default function BebedouroParaEmpresaPage() {
 
         <section id="normas" className="mb-12 scroll-mt-20">
           <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Normas e legislação aplicáveis</h2>
-          <img
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed"><img
             src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%2025%20e%2030%20litros%20inox%202%20torneiras%20industrial.png"
             alt="bebedouro 25 e 30 litros inox 2 torneiras industrial"
             className="rounded-lg object-cover w-2/5"
             style={{ float: 'left', marginRight: '15px', marginBottom: '8px' }}
             loading="lazy"
-          />
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O uso de bebedouro em empresas é regulado por um conjunto de normas técnicas e regulamentações federais. Conhecê-las é fundamental para evitar autuações trabalhistas, garantir a saúde dos funcionários e obter certificações de qualidade e saúde ocupacional sem retrabalho.</p>
+          />O uso de bebedouro em empresas é regulado por um conjunto de normas técnicas e regulamentações federais. Conhecê-las é fundamental para evitar autuações trabalhistas, garantir a saúde dos funcionários e obter certificações de qualidade e saúde ocupacional sem retrabalho.</p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A <strong>NR-24</strong> (Norma Regulamentadora nº 24 — Condições Sanitárias e de Conforto nos Locais de Trabalho) é a principal referência legal. Ela determina que os empregadores devem fornecer água potável fresca e de qualidade para todos os trabalhadores, com bebedouros em condições de higiene, de fácil acesso e com capacidade adequada ao número de usuários. A norma especifica ainda os tipos de materiais aceitos e a necessidade de manutenção periódica documentada.</p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A <strong>NBR 13713</strong> da ABNT define os requisitos técnicos para bebedouros, incluindo dimensões mínimas, materiais aprovados, capacidade de refrigeração, acabamento interno e externo e resistência à corrosão. Um bebedouro em conformidade com a NBR 13713 garante que o equipamento foi projetado e fabricado com padrões mínimos de qualidade reconhecidos pelo mercado brasileiro e rastreáveis por laboratórios acreditados pelo INMETRO.</p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">O <strong>INMETRO</strong> certifica os bebedouros conforme a Portaria 589/2012 e suas atualizações. O selo INMETRO é obrigatório para bebedouros comercializados no Brasil e garante que o produto passou por ensaios de eficiência energética, segurança elétrica e qualidade da água fornecida ao usuário. Sempre exija o número de certificado e consulte a base de dados oficial do instituto antes de fechar uma compra corporativa.</p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">A <strong>RDC 275/2005</strong> da ANVISA estabelece as Boas Práticas para Serviços de Alimentação e é aplicável em empresas que possuem refeitório, cantina ou cozinha industrial. Ela exige que toda a água fornecida aos funcionários seja potável e que os equipamentos de distribuição sejam higienizados conforme procedimentos documentados, com registros mantidos para fins de auditoria sanitária e certificações de qualidade do setor alimentício.</p>
-          <div style={{ clear: 'both' }} />
         </section>
+        <div style={{ clear: 'both' }} />
 
         <section id="modelos-por-aplicacao" className="mb-12 scroll-mt-20">
           <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Modelos por tipo de aplicação empresarial</h2>
