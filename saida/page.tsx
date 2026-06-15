@@ -14,34 +14,34 @@ export const metadata = buildMetadata({
 
 const faqs = [
   {
-    question: 'Qual bebedouro é melhor para uma empresa com até 50 funcionários?',
+    question: 'Qual o melhor bebedouro para empresa?',
     answer:
-      'Para empresas com até 50 funcionários, o bebedouro industrial de 50 litros com 2 torneiras é o mais indicado. Ele oferece capacidade suficiente para atender à demanda sem reabastecimento frequente e é fácil de higienizar conforme exige a NR-24. Modelos em aço inox AISI 304 são preferidos por sua durabilidade e facilidade de limpeza em ambientes corporativos.',
+      'O melhor bebedouro para empresa depende do porte e do ambiente. Para indústrias e obras, modelos industriais em inox de 25 a 100 litros com motor de compressor são ideais. Para escritórios, bebedouros de coluna ou de pressão atendem bem. O critério essencial é que o equipamento tenha certificação INMETRO e atenda à NR-24.',
   },
   {
-    question: 'A empresa é obrigada por lei a fornecer bebedouro para os funcionários?',
+    question: 'Quantos bebedouros são obrigatórios por lei na empresa?',
     answer:
-      'Sim. A Norma Regulamentadora NR-24 do Ministério do Trabalho e Emprego determina que os empregadores devem disponibilizar água potável e fresca para todos os trabalhadores. O descumprimento sujeita a empresa a multas e autuações fiscais. A falta de bebedouro adequado também pode ser considerada infração sanitária pela vigilância local e gerar ações trabalhistas.',
+      'A NR-24 (Norma Regulamentadora do Ministério do Trabalho) determina que deve haver pelo menos 1 bebedouro para cada grupo de 50 trabalhadores. O equipamento deve ser de fácil acesso, mantido em perfeitas condições de higiene e fornecer água potável e fresca durante toda a jornada de trabalho.',
   },
   {
-    question: 'Com que frequência o bebedouro da empresa precisa ser higienizado?',
+    question: 'O bebedouro para empresa precisa ter certificação INMETRO?',
     answer:
-      'A ANVISA e a RDC 275 recomendam higienização completa a cada 6 meses no mínimo, incluindo troca de filtros e desinfecção do reservatório interno. Ambientes com alto fluxo de pessoas ou condições adversas — como fábricas e canteiros de obra — podem exigir manutenção trimestral. O procedimento deve ser registrado com data, responsável e assinatura para comprovação em fiscalizações.',
+      'Sim. A certificação INMETRO é obrigatória para bebedouros vendidos no Brasil, incluindo os modelos industriais e corporativos. Ela garante que o equipamento atende às normas de qualidade, segurança e higiene previstas na NBR 13713 e na RDC 275 da ANVISA. Sempre exija o certificado na hora da compra.',
   },
   {
-    question: 'Bebedouro industrial e bebedouro para empresa são a mesma coisa?',
+    question: 'Qual a diferença entre bebedouro industrial e bebedouro corporativo?',
     answer:
-      'Não necessariamente. O bebedouro industrial é um tipo específico com maior capacidade e resistência mecânica, indicado para fábricas, galpões e obras. Para escritórios e comércios menores, bebedouros de coluna ou de pressão são geralmente suficientes. A escolha correta depende do número de funcionários, do ambiente e da intensidade de uso ao longo do dia.',
+      'O bebedouro industrial é projetado para ambientes de alta demanda como fábricas, galpões e obras, com capacidade de 25 a 100 litros, estrutura em inox e resistência a condições adversas. O bebedouro corporativo (para escritório) é mais compacto e voltado para ambientes climatizados com menor fluxo de usuários e demandas estéticas mais exigentes.',
   },
   {
-    question: 'É melhor comprar ou alugar bebedouro para empresa?',
+    question: 'Como higienizar o bebedouro da empresa corretamente?',
     answer:
-      'Depende do orçamento e do horizonte de planejamento. O aluguel inclui manutenção e troca de filtros, sendo ideal para quem não quer gerir o equipamento diretamente. A compra é mais econômica a longo prazo para empresas estabelecidas — bebedouros industriais de qualidade duram mais de 10 anos com manutenção correta. Avalie o custo total de cada modalidade ao longo de 5 anos antes de decidir.',
+      'A higienização deve seguir a RDC 275 da ANVISA e ser realizada a cada 6 meses por empresa especializada. O processo inclui lavagem interna com solução clorada a 2,5%, limpeza e desinfecção das torneiras e bocais, troca de filtros e emissão de laudo técnico. Registros devem ser mantidos pela empresa para comprovação em fiscalizações.',
   },
   {
-    question: 'Qual a diferença entre bebedouro de pressão e bebedouro de garrafão para empresa?',
+    question: 'Bebedouro de garrafão ou bebedouro ligado à rede: qual é melhor para empresa?',
     answer:
-      'O bebedouro de pressão conecta-se diretamente à rede hidráulica, não exige troca de garrafão e é mais prático para locais com grande fluxo de usuários. O bebedouro de garrafão é portátil e não precisa de instalação hidráulica, sendo ideal para locais sem ponto de água encanada ou escritórios menores. O custo operacional do garrafão tende a ser mais alto no médio e longo prazo.',
+      'Para empresas com muitos funcionários, o bebedouro ligado à rede com filtro ou purificador é mais econômico e prático, pois elimina a necessidade de reposição de galões. Já o bebedouro de garrafão é indicado para pequenas empresas ou locais onde não há boa infraestrutura hidráulica próxima ao ponto de instalação.',
   },
 ]
 
@@ -69,31 +69,31 @@ export default function BebedouroParaEmpresaPage() {
       <PilarLayout
         badge="Guia Completo"
         title="Bebedouro para Empresa: Guia Completo"
-        excerpt="Bebedouro para Empresa é obrigação legal no Brasil e fator direto de produtividade, saúde e conformidade sanitária no ambiente de trabalho."
+        excerpt="Bebedouro para Empresa é obrigação legal no Brasil pela NR-24. Saiba escolher o modelo certo por porte, ambiente e certificações INMETRO e NBR 13713."
         breadcrumbLabel="Bebedouro para Empresa: Guia Completo"
         breadcrumbSlug="bebedouro-para-empresa"
         ctaHref="https://jgbebedouros.com.br?utm_source=portalbebedouro&utm_medium=pilar&utm_campaign=bebedouro-para-empresa"
-        ctaLabel="Solicitar orçamento"
+        ctaLabel="Solicitar orcamento"
         sidebarCtaHref="https://jgbebedouros.com.br?utm_source=portalbebedouro&utm_medium=sidebar&utm_campaign=bebedouro-para-empresa"
         finalCtaTitle="Precisa de Bebedouro para Empresa?"
-        finalCtaDesc="A JG Bebedouros oferece venda e manutenção em todo o Brasil."
+        finalCtaDesc="A JG Bebedouros oferece venda e manutencao em todo o Brasil."
         tocItems={[
-          { href: '#o-que-e', label: 'O que é bebedouro para empresa' },
-          { href: '#por-que-investir', label: 'Por que investir em bebedouro de qualidade' },
-          { href: '#tipos-de-bebedouro', label: 'Tipos de bebedouro para empresa' },
-          { href: '#como-escolher', label: 'Como escolher o modelo ideal' },
-          { href: '#capacidade-por-porte', label: 'Capacidade por porte da empresa' },
-          { href: '#normas-e-certificacoes', label: 'Normas e certificações obrigatórias' },
-          { href: '#manutencao-higienizacao', label: 'Manutenção e higienização' },
-          { href: '#proprio-vs-aluguel', label: 'Compra vs. aluguel' },
-          { href: '#industrial-vs-domestico', label: 'Industrial vs. doméstico' },
-          { href: '#onde-comprar', label: 'Onde comprar bebedouro para empresa' },
+          { href: '#o-que-e-bebedouro-para-empresa', label: 'O que é Bebedouro para Empresa?' },
+          { href: '#por-que-sua-empresa-precisa', label: 'Por que sua Empresa Precisa?' },
+          { href: '#tipos-de-bebedouro-para-empresa', label: 'Tipos de Bebedouro para Empresa' },
+          { href: '#bebedouro-escritorio-vs-industria', label: 'Escritório vs Ambiente Industrial' },
+          { href: '#como-escolher-bebedouro-empresa', label: 'Como Escolher o Modelo Certo' },
+          { href: '#capacidade-e-dimensionamento', label: 'Capacidade e Dimensionamento' },
+          { href: '#normas-e-regulamentacoes', label: 'Normas: INMETRO, NR-24 e RDC 275' },
+          { href: '#vantagens-bebedouro-inox', label: 'Vantagens do Bebedouro Inox' },
+          { href: '#modelos-por-aplicacao', label: 'Modelos por Aplicação' },
+          { href: '#manutencao-e-higienizacao', label: 'Manutenção e Higienização' },
         ]}
         stats={[
-          { valor: '50 L', label: 'Capacidade do modelo industrial mais vendido para empresas' },
-          { valor: '6 meses', label: 'Prazo máximo entre higienizações completas (ANVISA / RDC 275)' },
-          { valor: 'NR-24', label: 'Norma que obriga fornecimento de água potável no trabalho' },
-          { valor: 'NBR 13713', label: 'Norma técnica ABNT para bebedouros e purificadores' },
+          { valor: '1/50', label: 'bebedouros por trabalhadores exigidos pela NR-24' },
+          { valor: '2 L/dia', label: 'consumo mínimo de água recomendado por trabalhador' },
+          { valor: '100 L', label: 'capacidade máxima em modelos industriais de grande porte' },
+          { valor: 'INMETRO', label: 'certificação obrigatória para bebedouros no Brasil' },
         ]}
         faqs={faqs}
         internalLinks={[
@@ -107,37 +107,43 @@ export default function BebedouroParaEmpresaPage() {
           { href: '/bebedouro-de-obra', label: 'bebedouro de obra' },
         ]}
       >
-        {/* ── Seção 1: featured-snippet (40–60 palavras) ── */}
-        <section id="o-que-e" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>O que é bebedouro para empresa</h2>
+        <section id="o-que-e-bebedouro-para-empresa" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>O que é Bebedouro para Empresa?</h2>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Bebedouro para Empresa é qualquer equipamento de filtragem e refrigeração de água destinado ao uso coletivo em ambientes corporativos — escritórios, fábricas, comércios e obras. A escolha correta impacta diretamente na saúde dos funcionários, na produtividade operacional e no cumprimento das normas trabalhistas e sanitárias brasileiras, como a NR-24 e a RDC 275 da ANVISA.
+            O <strong>Bebedouro para Empresa</strong> é qualquer equipamento de refrigeração e filtragem de água destinado ao uso coletivo em ambientes corporativos — escritórios, fábricas, comércios, hospitais e obras. A escolha correta impacta diretamente na saúde dos funcionários, na produtividade operacional e no cumprimento das normas trabalhistas e sanitárias brasileiras, como a NR-24 e a RDC 275 da ANVISA.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            Diferente dos modelos domésticos, os bebedouros corporativos são dimensionados para alta demanda diária, com reservatórios de maior capacidade, motores de compressor mais potentes e estrutura em aço inoxidável que resiste ao uso intensivo contínuo por anos. A certificação INMETRO e a conformidade com a NBR 13713 são requisitos obrigatórios para qualquer equipamento destinado a ambientes de trabalho.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            A instalação de bebedouros adequados é uma exigência legal prevista pela NR-24 do Ministério do Trabalho e Emprego. O descumprimento não é opcional: empresas que não oferecem acesso à água potável podem ser autuadas em fiscalizações trabalhistas, responder por doenças ocupacionais e enfrentar processos trabalhistas por condições inadequadas de trabalho.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            O mercado brasileiro oferece bebedouros para empresa em diversas configurações: industriais de grande porte, de coluna para escritórios, de pressão, de garrafão e específicos para canteiros de obra. A seguir, apresentamos tudo o que você precisa saber para escolher, dimensionar e manter o equipamento ideal para o seu ambiente de trabalho.
           </p>
         </section>
 
-        {/* ── Seção 2 ── */}
-        <section id="por-que-investir" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Por que investir em bebedouro de qualidade na empresa</h2>
+        <section id="por-que-sua-empresa-precisa" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Por que sua Empresa Precisa de um Bebedouro Adequado?</h2>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Oferecer água potável e fresca no ambiente de trabalho não é apenas uma boa prática — é uma obrigação legal no Brasil. A Norma Regulamentadora NR-24 determina que todo empregador deve garantir o fornecimento de água potável a seus trabalhadores, em quantidade suficiente e com padrão de qualidade adequado. O descumprimento sujeita a empresa a multas, autuações fiscais e interdições administrativas.
+            Ter acesso à água potável no ambiente de trabalho é um direito dos trabalhadores garantido pela legislação brasileira. A NR-24 (Condições Sanitárias e de Conforto nos Locais de Trabalho) exige que toda empresa disponha de bebedouros em quantidade suficiente e em perfeitas condições de uso e higiene para todos os colaboradores durante toda a jornada de trabalho.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Além do aspecto legal, a hidratação adequada tem impacto direto na produtividade. Trabalhadores bem hidratados apresentam melhor concentração, menor índice de erros e menos fadiga ao longo da jornada. Estudos em medicina do trabalho indicam que uma desidratação de apenas 2% do peso corporal já é capaz de comprometer funções cognitivas e o desempenho físico em atividades de rotina.
+            A desidratação leve — a partir de 2% de perda hídrica — já prejudica significativamente o desempenho cognitivo e físico. Estudos em medicina do trabalho indicam que trabalhadores desidratados têm até 12% menos produtividade. Para atividades físicas intensas, como em obras e fábricas, esse impacto pode ser ainda maior e representar risco real à segurança operacional de toda a equipe.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Um <a href="/bebedouro" className="text-az hover:underline">bebedouro de água</a> moderno e bem mantido contribui também para o clima organizacional. Ele transmite cuidado com o bem-estar da equipe, favorece a satisfação dos colaboradores e reduz a rotatividade. Em setores competitivos por talentos, investimentos como esse fazem diferença na percepção que o profissional tem da empresa como empregadora.
+            Outro ponto crítico é a qualidade da água. Em muitos municípios brasileiros, a água da torneira pode conter cloro, metais pesados ou microorganismos acima dos limites seguros estabelecidos pelo Ministério da Saúde. O bebedouro com filtro ou purificador garante água de qualidade, eliminando esses riscos e evitando que a empresa seja responsabilizada por doenças relacionadas à contaminação hídrica no trabalho.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Do ponto de vista ambiental, o bebedouro corporativo substitui o consumo de garrafas plásticas descartáveis. Uma equipe de 50 funcionários que consome 2 litros por dia em garrafinhas individuais gera mais de 36 mil embalagens plásticas por ano — problema eliminado com um único bebedouro bem dimensionado, alinhando a empresa a práticas de ESG e redução de resíduos.
+            Do ponto de vista financeiro, investir em bebedouros de qualidade também reduz custos a longo prazo. Empresas que dependem de galões de água para abastecimento têm despesas recorrentes elevadas, além de problemas logísticos com armazenamento e descarte das embalagens. Bebedouros ligados à rede com filtro industrial eliminam essa dependência e pagam o investimento inicial em poucos meses.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Em ambientes industriais, a questão ultrapassa o conforto. A desidratação em atividades físicas intensas aumenta o risco de acidentes de trabalho, comprometendo a segurança de toda a operação. Por isso, a NR-24 é especialmente rigorosa para indústrias e obras, exigindo pontos de água em locais de fácil acesso dentro de cada área produtiva, sem obrigar longos deslocamentos durante o expediente.
+            Por fim, a presença de bebedouros adequados demonstra cuidado com os colaboradores e fortalece a cultura de saúde e bem-estar da organização. Empresas que investem no conforto dos funcionários têm melhores índices de satisfação, menor rotatividade e maior engajamento — fatores que impactam diretamente nos resultados do negócio e na atratividade da marca empregadora.
           </p>
         </section>
 
-        {/* ── Seção 3 ── */}
-        <section id="tipos-de-bebedouro" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Tipos de bebedouro para empresa</h2>
+        <section id="tipos-de-bebedouro-para-empresa" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Tipos de Bebedouro para Empresa</h2>
           <img
             src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%20100%20e%2050%20litros%20inox%203%20e%202%20torneiras%20lado%20a%20lado.png"
             alt="bebedouro 100 e 50 litros inox 3 e 2 torneiras lado a lado"
@@ -146,69 +152,63 @@ export default function BebedouroParaEmpresaPage() {
             loading="lazy"
           />
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O mercado oferece diferentes categorias de bebedouro corporativo, cada uma adequada a um tipo de ambiente e volume de demanda. Conhecer as opções disponíveis é o primeiro passo para evitar problemas como quebras frequentes, falta de água ou equipamentos subdimensionados para o número de usuários diários.
+            O mercado oferece uma variedade de bebedouros para atender a diferentes necessidades empresariais. A escolha correta depende do tipo de ambiente, do número de usuários, do volume de consumo diário e das condições físicas do local. Conhecer as principais categorias disponíveis é o ponto de partida para uma decisão bem informada e alinhada às normas aplicáveis.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O <strong>bebedouro de pressão</strong> conecta-se diretamente à rede hidráulica e é o mais comum em escritórios e ambientes comerciais. Não exige troca de garrafão e oferece fornecimento contínuo de água filtrada e gelada. É a opção mais prática e econômica a longo prazo para locais com grande fluxo diário de pessoas e ponto hidráulico disponível próximo ao local de instalação.
+            O <strong><a href="/bebedouro-industrial" className="text-az hover:underline">Bebedouro Industrial</a></strong> é o modelo mais robusto, projetado para fábricas, galpões, armazéns e locais de alta demanda. Possui capacidade que varia de 25 a 100 litros, estrutura em aço inox AISI 304 ou AISI 430 e motor de refrigeração de maior potência. Geralmente disponível com 2 ou 3 torneiras, permite uso simultâneo por vários trabalhadores — essencial em horários de pico com pausas regulamentadas.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O <a href="/bebedouro-de-coluna" className="text-az hover:underline">bebedouro de coluna</a> é uma variação do bebedouro de pressão com estrutura elevada que dispensa bancada de apoio. Seu design ergonômico permite que as pessoas bebam água em pé sem precisar se curvar. É amplamente utilizado em corredores, refeitórios corporativos e áreas de produção onde o espaço de bancada é limitado ou inexistente.
+            O <strong><a href="/bebedouro-de-coluna" className="text-az hover:underline">bebedouro de coluna</a></strong> é amplamente utilizado em escritórios, hospitais, clínicas e instituições de ensino. Ocupa pouco espaço no chão, tem design discreto e é conectado diretamente à rede hidráulica. Modelos modernos contam com sistema de refrigeração por compressor e filtro integrado para remoção de cloro, sedimentos e microorganismos, entregando água filtrada continuamente sem necessidade de reabastecimento.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O <a href="/bebedouro-industrial" className="text-az hover:underline">Bebedouro Industrial</a> é desenvolvido para alta demanda e condições adversas de uso, como fábricas, indústrias de alimentos e canteiros de obra. Fabricado integralmente em aço inox, com reservatório de 50 a 100 litros e 2 a 4 torneiras, ele suporta centenas de utilizações diárias sem perda de desempenho e é mais fácil de higienizar conforme exigem a RDC 275 e a NBR 13713.
+            O bebedouro de garrafão é uma alternativa para locais sem ponto de água próximo. Ele utiliza garrafões de 10 ou 20 litros como fonte de abastecimento. Apesar de prático para instalações imediatas sem obras, o custo recorrente com galões e a logística de troca tornam essa opção menos econômica para empresas com grande volume de consumo diário.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O <a href="/bebedouro-com-motor" className="text-az hover:underline">bebedouro com motor</a> utiliza compressor de refrigeração ativa para entregar água mais gelada mesmo em ambientes com temperatura elevada. É a melhor opção para galpões industriais, fábricas e regiões de clima quente, onde o resfriamento passivo não é suficiente para atender à demanda por água gelada durante os picos de calor ao longo da jornada.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O <a href="/bebedouro-inox" className="text-az hover:underline">Bebedouro Inox</a> é o padrão preferencial para uso corporativo intensivo por combinar durabilidade, higiene superior e facilidade de sanitização. O aço inox AISI 304 resiste à corrosão, não absorve odores nem sabores, é compatível com os produtos de limpeza aprovados pela ANVISA e atende integralmente aos requisitos da NBR 13713 para bebedouros de uso coletivo em ambientes de trabalho.
+            O <strong><a href="/bebedouro-de-obra" className="text-az hover:underline">bebedouro de obra</a></strong> é especialmente projetado para canteiros de construção civil, com estrutura resistente a impactos, sol, chuva e poeira. Geralmente fabricado em polietileno de alta densidade ou inox reforçado, suporta condições adversas de temperatura e é fácil de relocar entre frentes de trabalho conforme a obra avança.
           </p>
           <div style={{ clear: 'both' }} />
         </section>
 
-        {/* ── Seção 4 ── */}
-        <section id="como-escolher" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Como escolher o bebedouro ideal para sua empresa</h2>
+        <section id="bebedouro-escritorio-vs-industria" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Bebedouro para Escritório vs Ambiente Industrial</h2>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A escolha do bebedouro empresarial envolve uma análise criteriosa que vai muito além do preço de aquisição. Antes de decidir, avalie o perfil da empresa, o número de usuários por turno, as condições físicas do ambiente de instalação e as exigências legais aplicáveis ao seu setor de atividade. Uma compra bem planejada evita retrabalhos custosos e garante conformidade desde o primeiro dia de uso.
+            A escolha entre um bebedouro para escritório e um bebedouro para ambiente industrial vai muito além da estética. As diferenças técnicas são significativas e impactam diretamente na adequação do equipamento ao uso pretendido. Entender essas diferenças evita erros de compra, garante conformidade normativa e prolonga a vida útil do equipamento.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O primeiro critério é o <strong>número de funcionários por turno</strong>. A NR-24 serve como parâmetro de referência: recomenda-se ao menos um ponto de água para cada grupo de 50 trabalhadores em atividade simultânea. Empresas com mais funcionários precisam de múltiplos pontos ou de equipamentos com maior capacidade de reservatório e mais torneiras para evitar filas nos horários de pico.
+            No escritório, os bebedouros precisam ser compactos, silenciosos e com design compatível com o ambiente corporativo. A demanda é tipicamente de 10 a 50 pessoas por equipamento, e o ambiente é protegido de poeira, calor extremo e umidade excessiva. Bebedouros de coluna ou purificadores de ponto de uso (POU) atendem bem a esse perfil sem comprometer a estética do espaço de trabalho.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O <strong>tipo de ambiente</strong> é outro fator decisivo. Escritórios climatizados exigem bebedouros com boa refrigeração, mas sem necessidade de estrutura muito robusta. Indústrias e obras precisam de equipamentos em aço inox, com maior capacidade e resistência à umidade, poeira e impactos mecânicos. Ambientes externos demandam proteção adicional contra variações de temperatura e intempéries.
+            Em ambientes industriais, a realidade é completamente diferente. A temperatura costuma ser elevada, o fluxo de usuários é muito maior e as condições de uso são severas. Um bebedouro industrial precisa ter reservatório de maior capacidade, motor de refrigeração mais potente e material capaz de resistir à umidade, poeira e impactos físicos frequentes durante a operação diária da planta.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A <strong>disponibilidade de ponto hidráulico</strong> define a categoria do equipamento mais viável. Bebedouros de pressão são mais econômicos a longo prazo, mas exigem instalação hidráulica e, em alguns casos, circuito elétrico dedicado. Modelos com reservatório acoplado oferecem flexibilidade de posicionamento sem obras, sendo ideais para empresas em locais alugados onde reformas são restringidas contratualmente.
+            O número de torneiras é outro diferencial decisivo. Enquanto um bebedouro de escritório geralmente tem 1 torneira, os modelos industriais vêm com 2 ou 3 torneiras — permitindo que múltiplos trabalhadores se hidratem simultaneamente. Essa característica é essencial em ambientes com pausas regulamentadas, onde todos os colaboradores precisam usar o bebedouro dentro de curtos intervalos de tempo.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Por fim, verifique sempre a <strong>certificação INMETRO</strong> do equipamento. Bebedouros homologados pelo INMETRO passaram por testes rigorosos de eficiência e segurança, confirmando que o produto entrega água dentro dos padrões exigidos e que o consumo energético é compatível com o declarado. Essa certificação é especialmente importante para empresas sujeitas a auditorias de segurança do trabalho e vigilância sanitária.
-          </p>
-        </section>
-
-        {/* ── Seção 5 ── */}
-        <section id="capacidade-por-porte" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Capacidade e volume: qual modelo para cada porte de empresa</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Dimensionar corretamente a capacidade do bebedouro evita filas, desperdício e insatisfação dos funcionários nos horários de pico. A capacidade pode ser medida pelo volume do reservatório em litros ou pela produção de água gelada por hora, dependendo do tipo de equipamento. Conhecer esses valores é fundamental para escolher o modelo certo para cada realidade operacional.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Para <strong>microempresas com até 20 funcionários</strong>, um bebedouro de bancada com reservatório de 5 a 10 litros ou um modelo de garrafão de 20 litros já é suficiente para atender à demanda diária. O consumo de água é baixo e um único ponto de abastecimento bem posicionado resolve a necessidade de todo o time sem investimento excessivo.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Empresas de <strong>pequeno porte com 20 a 100 funcionários</strong> se beneficiam de bebedouros de pressão com reservatório de 50 litros e 2 torneiras — uma para água gelada e outra para água natural. Esse modelo oferece o equilíbrio ideal entre capacidade, custo operacional e praticidade para o dia a dia corporativo, sem necessidade de reabastecimento manual.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Para <strong>médias e grandes empresas com mais de 100 funcionários</strong>, a solução mais eficiente é instalar múltiplos pontos de água distribuídos pelo espaço ou optar por bebedouros industriais de 100 litros com 3 torneiras. O <a href="/bebedouro-industrial" className="text-az hover:underline">Bebedouro Industrial</a> é projetado exatamente para essa escala, com carcaça em inox e sistema de filtragem robusto para uso intensivo contínuo.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Em ambientes de obra e construção civil, o <a href="/bebedouro-de-obra" className="text-az hover:underline">bebedouro de obra</a> é a escolha mais adequada. Desenvolvido para resistir às condições adversas do canteiro — poeira, impactos e variações extremas de temperatura — esses modelos frequentemente incluem rodas para facilitar o reposicionamento conforme a obra avança, garantindo acesso ao ponto de água em todas as frentes de trabalho.
+            O <strong><a href="/bebedouro-inox" className="text-az hover:underline">Bebedouro Inox</a></strong> aparece como padrão nos dois contextos. O aço inoxidável é higiênico, resistente à corrosão e de fácil higienização — características valorizadas tanto em escritórios que priorizam saúde quanto em indústrias que precisam de equipamentos duráveis com o mínimo de manutenção corretiva ao longo dos anos de operação.
           </p>
         </section>
 
-        {/* ── Seção 6 ── */}
-        <section id="normas-e-certificacoes" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Normas e certificações obrigatórias para bebedouro empresarial</h2>
+        <section id="como-escolher-bebedouro-empresa" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Como Escolher o Bebedouro Certo para sua Empresa</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            Escolher o bebedouro correto para a empresa exige avaliar uma série de fatores técnicos e operacionais. Um equipamento subdimensionado gera filas, insatisfação e pode resultar em autuação trabalhista. Já um modelo superdimensionado representa custo desnecessário. A escolha adequada equilibra necessidade real, custo total de propriedade e conformidade com as normas aplicáveis ao seu setor.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            O primeiro critério é o <strong>número de funcionários</strong>. A NR-24 estabelece 1 bebedouro para cada 50 trabalhadores. Com 200 colaboradores, são necessários pelo menos 4 equipamentos distribuídos estrategicamente. É importante considerar também a distância máxima que o trabalhador percorre para acessar o bebedouro — especialmente em plantas industriais extensas onde o deslocamento pode comprometer o aproveitamento das pausas regulamentadas.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            O segundo critério é a <strong>capacidade do reservatório</strong>. Para ambientes quentes ou com alto fluxo de usuários, bebedouros de 50 a 100 litros garantem água gelada continuamente mesmo durante os picos de uso. Para escritórios climatizados com menor demanda, modelos de 20 a 30 litros são suficientes e mais econômicos no consumo de energia elétrica ao longo do mês.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            O terceiro critério é a <strong>infraestrutura disponível</strong>. Se há ponto de água próximo ao local de instalação, bebedouros ligados à rede com filtro ou purificador são mais econômicos a longo prazo. Se não há ponto de água, modelos com reservatório acoplado são a alternativa — mas exigem planejamento logístico para reposição frequente, especialmente em locais com grande volume de consumo.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            O quarto critério é a <strong>certificação</strong>. Exija sempre bebedouros com certificação INMETRO e conformidade com a NBR 13713. Equipamentos sem certificação podem apresentar falhas técnicas que colocam a saúde dos trabalhadores em risco e geram responsabilidade legal para a empresa — especialmente em caso de doenças decorrentes de má qualidade da água servida no ambiente de trabalho.
+          </p>
+        </section>
+
+        <section id="capacidade-e-dimensionamento" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Capacidade e Dimensionamento do Bebedouro Empresarial</h2>
           <img
             src="https://raw.githubusercontent.com/jgbebedourosmkt-dev/portal-do-bebedouro-imagens/main/bebedouro%2025%20e%2030%20litros%20inox%202%20torneiras%20industrial.png"
             alt="bebedouro 25 e 30 litros inox 2 torneiras industrial"
@@ -217,94 +217,99 @@ export default function BebedouroParaEmpresaPage() {
             loading="lazy"
           />
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O uso de bebedouros em empresas no Brasil é regulado por um conjunto de normas técnicas e regulatórias que todo gestor de segurança do trabalho e infraestrutura deve conhecer. O descumprimento pode resultar em multas, interdições administrativas e processos trabalhistas — riscos que uma simples aquisição adequada e manutenção periódica são suficientes para eliminar.
+            O dimensionamento correto do bebedouro para empresa é fundamental tanto para o conforto dos trabalhadores quanto para a conformidade normativa. A NR-24 é a principal referência legal, mas a NBR 13713 também traz especificações técnicas que devem ser seguidas no processo de seleção, instalação e operação dos equipamentos nos ambientes corporativos e industriais.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A <strong>NR-24</strong> (Norma Regulamentadora n.º 24 do MTE) é a principal legislação sobre instalações sanitárias e de conforto nos locais de trabalho. Ela determina que os empregadores devem fornecer água potável, fresca e em quantidade suficiente para todos os trabalhadores, com equipamentos em bom estado de conservação e higiene, posicionados em locais de fácil acesso durante toda a jornada de trabalho.
+            Para ambientes industriais com atividades físicas intensas, o consumo de água por trabalhador pode chegar a 4 litros por turno, especialmente em locais com calor elevado. Já em escritórios climatizados, o consumo médio gira em torno de 1,5 a 2 litros por pessoa por dia. Esses números devem ser usados como base de cálculo para definir a capacidade necessária de cada equipamento instalado.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A <strong>NBR 13713</strong> é a norma técnica da ABNT que estabelece requisitos e métodos de ensaio para bebedouros e purificadores de água de uso coletivo. Equipamentos certificados pela NBR 13713 passaram por testes de vazão, temperatura de resfriamento, segurança elétrica e qualidade dos materiais em contato com a água — garantindo que o produto entregará o desempenho declarado pelo fabricante em condições reais de uso intensivo.
+            Um bebedouro industrial de 50 litros atende confortavelmente a 40 a 50 trabalhadores em turno de 8 horas em ambiente de temperatura moderada. Em locais muito quentes ou com atividade física intensa, recomenda-se um modelo de 100 litros para o mesmo grupo, garantindo água gelada em todos os momentos do turno — inclusive durante os picos de demanda nos intervalos e pausas regulamentadas.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A <strong>RDC 275</strong> da ANVISA dispõe sobre o Regulamento Técnico de Características Microbiológicas para a Água de Consumo Humano. Para as empresas, isso significa que a água fornecida aos funcionários deve atender a padrões microbiológicos rígidos — o que reforça a obrigatoriedade de manutenção periódica dos bebedouros com troca regular de filtros e desinfecção documentada do reservatório interno.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O <strong>INMETRO</strong> certifica bebedouros por meio do Programa Brasileiro de Avaliação da Conformidade (PBAC). Ao adquirir um bebedouro com o selo INMETRO, a empresa garante que o equipamento foi testado e aprovado em termos de eficiência energética, segurança elétrica e qualidade da água filtrada. Sempre exija o certificado INMETRO na compra e guarde a documentação para eventuais auditorias de conformidade sanitária e trabalhista.
+            O posicionamento estratégico dos equipamentos também é variável crítica no dimensionamento. Em plantas industriais grandes, o ideal é instalar múltiplos bebedouros em pontos estratégicos: próximo às linhas de produção, nos vestiários, refeitórios e áreas de descanso. Essa distribuição garante acesso rápido à água em qualquer setor da empresa, sem que o trabalhador precise percorrer longas distâncias durante a jornada.
           </p>
           <div style={{ clear: 'both' }} />
         </section>
 
-        {/* ── Seção 7 ── */}
-        <section id="manutencao-higienizacao" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Manutenção e higienização do bebedouro na empresa</h2>
+        <section id="normas-e-regulamentacoes" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Normas e Regulamentações: INMETRO, NR-24, NBR 13713 e RDC 275</h2>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A higienização regular do bebedouro é obrigatória para garantir a qualidade da água consumida pelos funcionários. Independentemente do modelo, todo bebedouro corporativo deve passar por manutenção periódica, incluindo limpeza e desinfecção interna do reservatório, troca dos elementos filtrantes e verificação do sistema de refrigeração e das conexões hidráulicas.
+            O setor de bebedouros para empresa no Brasil é regulamentado por um conjunto de normas que envolvem saúde, segurança e qualidade do equipamento. Conhecer essas normas é essencial para garantir conformidade legal, evitar multas e autuações e proteger a empresa de responsabilidades civis e trabalhistas decorrentes de condições inadequadas de fornecimento de água.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A ANVISA recomenda higienização completa a cada <strong>6 meses</strong> como prazo máximo. Em ambientes de alta demanda — cantinas, refeitórios industriais ou áreas de produção com muitos funcionários — o intervalo pode ser reduzido para 3 meses. Todo procedimento deve ser registrado com data, nome do responsável e assinatura, para comprovação imediata em caso de fiscalização sanitária ou trabalhista.
+            A <strong>NR-24</strong> (Norma Regulamentadora nº 24 do Ministério do Trabalho e Emprego) é a principal exigência legal para empresas. Ela trata das condições sanitárias e de conforto nos locais de trabalho e determina que toda empresa deve disponibilizar bebedouros de jato inclinado em quantidade suficiente — ao menos 1 para cada 50 trabalhadores. Os equipamentos devem ser mantidos limpos, em bom estado de conservação e com água potável à temperatura adequada durante toda a jornada de trabalho.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A troca de filtros é o passo mais crítico da manutenção preventiva. Filtros saturados perdem a capacidade de remoção de cloro, sedimentos e micro-organismos, e podem se tornar um ambiente propício ao crescimento de bactérias e fungos que contaminam a água. Siga sempre as recomendações do fabricante quanto ao prazo de troca — normalmente entre 3 e 6 meses dependendo da qualidade da água local e do volume diário de uso.
+            A <strong>NBR 13713</strong> da ABNT (Associação Brasileira de Normas Técnicas) estabelece os requisitos técnicos mínimos que os bebedouros precisam atender, incluindo material de fabricação, resistência mecânica, sistema de refrigeração e características higiênicas do reservatório e das torneiras. Bebedouros certificados conforme essa norma têm seu desempenho e segurança verificados por laboratório credenciado e aprovado pelo INMETRO para esse tipo de ensaio.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O <a href="/filtro-industrial" className="text-az hover:underline">Filtro Industrial</a> é a solução mais robusta para empresas que exigem alto padrão de purificação. Ele combina múltiplos estágios de tratamento — sedimentação, carvão ativado e, em alguns modelos, ultrafiltração — garantindo água de qualidade mesmo em regiões com rede de abastecimento irregular, alto teor de cloro ou presença de sedimentos que comprometem o sabor e a segurança da água filtrada.
+            O <strong>INMETRO</strong> (Instituto Nacional de Metrologia, Qualidade e Tecnologia) exige que bebedouros industriais e de uso coletivo sejam certificados antes de serem comercializados no Brasil. A certificação é obtida após avaliação do produto por organismo credenciado, que verifica conformidade com a NBR 13713 quanto à eficiência energética, segurança elétrica e qualidade da água filtrada entregue ao usuário final.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Para simplificar a gestão, muitas empresas contratam planos de manutenção preventiva com fornecedores especializados. Esses contratos incluem visitas periódicas agendadas, troca de filtros, higienização do reservatório e emissão de relatórios técnicos com registro de cada intervenção realizada. Essa documentação é fundamental para comprovar conformidade em auditorias da vigilância sanitária, do Ministério do Trabalho e em certificações de qualidade como ISO 9001.
-          </p>
-        </section>
-
-        {/* ── Seção 8 ── */}
-        <section id="proprio-vs-aluguel" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Comprar ou alugar bebedouro para empresa: o que vale mais a pena</h2>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A decisão entre comprar ou alugar o bebedouro empresarial envolve análise de custo-benefício que vai além do preço do equipamento. Cada modalidade tem vantagens específicas que devem ser avaliadas de acordo com o porte da empresa, o horizonte de planejamento financeiro e a disponibilidade de capital para investimento inicial em infraestrutura.
+            A <strong>RDC 275</strong> da ANVISA (Agência Nacional de Vigilância Sanitária) estabelece os procedimentos obrigatórios de higienização periódica dos reservatórios de água e dos bebedouros de uso coletivo. A limpeza e desinfecção devem ser realizadas a cada 6 meses por empresa especializada, com laudo técnico disponível para fiscalização sanitária. O não cumprimento pode resultar em multas elevadas e interdição parcial ou total do estabelecimento em caso de auditoria.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            O <strong>aluguel</strong> é ideal para empresas em fase de crescimento ou que preferem previsibilidade financeira com custos mensais fixos. A mensalidade normalmente inclui manutenção preventiva, troca de filtros e suporte técnico em caso de defeito. Isso elimina a preocupação com gestão do equipamento e facilita a atualização para modelos mais modernos à medida que as necessidades da empresa evoluem ao longo dos anos.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A <strong>compra</strong> é mais vantajosa para empresas estabelecidas com planejamento de longo prazo. O investimento inicial é mais alto, mas o custo total de propriedade ao longo de 5 a 8 anos costuma ser significativamente menor do que o custo acumulado do aluguel no mesmo período. Bebedouros industriais de qualidade têm vida útil superior a 10 anos com manutenção periódica corretamente realizada.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Para grandes empresas com múltiplos pontos de água, o <a href="/bebedouro-de-agua" className="text-az hover:underline">bebedouro de água</a> próprio em inox é quase sempre a melhor opção econômica. O custo de manutenção contratado separadamente é menor do que o aluguel de múltiplas unidades, e a empresa mantém o patrimônio, tem liberdade para escolher o prestador de manutenção e não fica vinculada a cláusulas de fidelidade que limitam a troca de fornecedor.
-          </p>
-          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Existe ainda a modalidade de <strong>comodato</strong>, em que o equipamento é cedido gratuitamente mediante compra periódica de filtros, garrafões ou insumos do mesmo fornecedor. Avalie essa opção com cuidado — o custo acumulado dos insumos pode superar o aluguel convencional dependendo do volume de consumo, e o contrato pode limitar a liberdade de migrar para outro fornecedor caso os preços ou a qualidade do serviço mudem.
+            Além dessas normas principais, empresas do setor alimentício, farmacêutico e hospitalar podem estar sujeitas a regulamentações adicionais da ANVISA relacionadas à qualidade da água utilizada no processo produtivo. Nesses casos, bebedouros com sistema de purificação avançado — como osmose reversa ou ultrafiltração — podem ser necessários para garantir conformidade com os requisitos específicos de cada segmento regulado.
           </p>
         </section>
 
-        {/* ── Seção 9 ── */}
-        <section id="industrial-vs-domestico" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Bebedouro industrial vs. doméstico: diferenças que importam para empresas</h2>
+        <section id="vantagens-bebedouro-inox" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Vantagens do Bebedouro Inox para Empresas</h2>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Muitas empresas cometem o erro de adquirir bebedouros domésticos para uso corporativo, o que resulta em quebras frequentes, insatisfação dos funcionários e não conformidades com a vigilância sanitária. Entender as diferenças técnicas entre os dois tipos é fundamental para fazer a compra certa e evitar retrabalho com substituições precoces de equipamento.
+            Entre os materiais disponíveis para fabricação de bebedouros corporativos, o aço inoxidável se destaca por reunir características únicas que atendem às exigências das normas brasileiras e às demandas práticas das empresas. O <a href="/bebedouro-inox" className="text-az hover:underline">Bebedouro Inox</a> é hoje a primeira opção de gestores de facilities e de profissionais de segurança do trabalho que buscam qualidade, durabilidade e conformidade sanitária a longo prazo.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Os <strong>bebedouros domésticos</strong> são projetados para uso de 1 a 5 pessoas e possuem capacidade de reservatório limitada, compressores de menor potência e estrutura com materiais menos resistentes ao uso intensivo contínuo. Em ambientes corporativos com dezenas de utilizações diárias, eles se desgastam rapidamente e passam a apresentar problemas como vazamentos, água morna e ruído excessivo do compressor fora das especificações originais.
+            A principal vantagem do inox é a <strong>higiene superior</strong>. O aço inoxidável não apresenta porosidade, não retém odores e não favorece o crescimento de bactérias ou fungos na superfície interna do reservatório. Isso reduz significativamente o risco de contaminação da água e facilita o processo de higienização periódica exigida pela RDC 275 da ANVISA com produtos aprovados para uso em superfícies em contato com alimentos e água potável.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Os bebedouros corporativos e industriais — como os <a href="/bebedouro-inox" className="text-az hover:underline">modelos em Inox</a> certificados pela NBR 13713 — são desenvolvidos para uso contínuo por dezenas ou centenas de pessoas por dia. Possuem compressores de maior potência, reservatórios com volume maior, mais torneiras de atendimento simultâneo e estrutura interna totalmente em aço inox para facilitar a higienização e garantir a qualidade microbiológica da água ao longo de toda a vida útil do equipamento.
+            A <strong>durabilidade</strong> é outro diferencial expressivo. Bebedouros em inox AISI 304 ou AISI 430 resistem à corrosão, à umidade, aos agentes de limpeza e ao uso intensivo por décadas. Em ambientes industriais com poeira, vapor e variações de temperatura, essa resistência é determinante para evitar manutenções corretivas frequentes e o custo de substituição precoce do equipamento antes de seu tempo esperado de vida útil.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Do ponto de vista normativo, bebedouros industriais seguem a NBR 13713 e são certificados pelo INMETRO especificamente para uso coletivo em ambientes de trabalho, com testes realizados em condições reais de alta demanda. Modelos domésticos geralmente não atendem a esses requisitos e não devem ser utilizados em ambientes sujeitos a fiscalização sanitária ou trabalhista. A escolha pelo equipamento adequado é, portanto, tanto uma questão de eficiência operacional quanto de conformidade legal.
+            Do ponto de vista estético, o inox transmite limpeza e profissionalismo — um diferencial valorizado em empresas que recebem clientes, visitantes e auditores frequentemente. A superfície polida é fácil de limpar com pano úmido e mantém a aparência nova por muito mais tempo do que materiais alternativos como polipropileno ou ABS, que tendem a amarelecer e reter manchas com o tempo.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            Por fim, bebedouros em inox tendem a ter <strong>melhor desempenho de refrigeração</strong> a longo prazo. O metal conduz e dissipa calor de forma eficiente, o que, combinado com um bom motor de compressor, garante água genuinamente gelada mesmo em ambientes com temperatura ambiente acima de 35°C. Para trabalhadores expostos ao calor em linhas de produção, obras ou áreas externas, essa diferença é fundamental para a hidratação e a segurança no trabalho.
           </p>
         </section>
 
-        {/* ── Seção 10 ── */}
-        <section id="onde-comprar" className="mb-12 scroll-mt-20">
-          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Onde comprar bebedouro para empresa</h2>
+        <section id="modelos-por-aplicacao" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Modelos por Aplicação</h2>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Ao buscar bebedouro corporativo, priorize fornecedores especializados em soluções para empresas, com suporte técnico estruturado, garantia documentada e assistência pós-venda ativa. Evite compras em marketplaces genéricos sem verificar a procedência e a certificação do produto — bebedouros sem certificação INMETRO podem representar riscos à saúde dos funcionários e gerar passivos legais em auditorias sanitárias e trabalhistas.
+            Cada segmento empresarial tem suas próprias demandas de hidratação. A seguir, apresentamos as melhores opções de bebedouro por tipo de ambiente, facilitando a decisão de gestores e responsáveis pela infraestrutura, saúde ocupacional e segurança do trabalho nas empresas.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Verifique se o fornecedor oferece serviço de instalação profissional e plano de manutenção preventiva com periodicidade definida em contrato. A instalação correta é fundamental para garantir higiene e desempenho desde o primeiro dia de uso. Fornecedores com equipe técnica própria oferecem mais agilidade em casos de defeito e podem emitir laudos técnicos necessários para comprovar conformidade em fiscalizações.
+            Para <strong>fábricas e indústrias</strong>, o mais indicado é o <a href="/bebedouro-industrial" className="text-az hover:underline">Bebedouro Industrial</a> em inox, com capacidade de 50 a 100 litros e 2 ou 3 torneiras. O <a href="/bebedouro-com-motor" className="text-az hover:underline">bebedouro com motor</a> de compressor garante água gelada continuamente mesmo em ambientes com temperatura elevada e alto fluxo de usuários. Modelos com pé de apoio elevado também facilitam a limpeza do piso ao redor do equipamento e evitam acúmulo de umidade na base.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            Ao comparar propostas, avalie não apenas o preço do equipamento, mas também o custo de manutenção ao longo do tempo, a disponibilidade de peças de reposição no mercado local e o prazo de garantia oferecido. Um bebedouro mais barato com manutenção cara e reposição difícil pode custar mais do que um modelo premium com contrato de manutenção incluso e rede de assistência técnica nacional.
+            Para <strong>escritórios e ambientes corporativos</strong>, o <a href="/bebedouro-de-coluna" className="text-az hover:underline">bebedouro de coluna</a> é a solução mais elegante e prática. Ocupa pouco espaço, é silencioso e pode vir com sistema de purificação integrado que elimina cloro, metais e microorganismos da água da rede. Alguns modelos oferecem água gelada, natural e quente na mesma unidade — um diferencial valorizado por colaboradores e visitantes nos espaços corporativos.
           </p>
           <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
-            A JG Bebedouros atende empresas em todo o Brasil com linha completa de bebedouros industriais e corporativos, todos certificados pelo INMETRO e com opção de contrato de manutenção preventiva semestral. A equipe técnica realiza visita consultiva para dimensionar o número de pontos de água e indicar o modelo mais adequado para cada ambiente — sem custo adicional para orçamentos. Entre em contato e receba orientação especializada para o seu negócio.
+            Para <strong>canteiros de obra e construção civil</strong>, o <a href="/bebedouro-de-obra" className="text-az hover:underline">bebedouro de obra</a> é obrigatório pela NR-24. Construído para suportar intempéries, impactos e o ambiente hostil da construção civil, ele garante água potável mesmo em locais sem infraestrutura elétrica consolidada. Modelos com rodas facilitam o reposicionamento conforme as frentes de trabalho avançam no canteiro.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            Para locais que exigem <strong>tratamento avançado de água</strong>, como hospitais, laboratórios e indústrias alimentícias, o <a href="/filtro-industrial" className="text-az hover:underline">Filtro Industrial</a> pode ser instalado em conjunto com o bebedouro, garantindo remoção de cloro, sedimentos, metais pesados e microorganismos. O <a href="/bebedouro-de-agua" className="text-az hover:underline">bebedouro de água</a> com filtro integrado é a solução mais completa para ambientes com exigências sanitárias elevadas e regulamentação específica da ANVISA.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            Para pequenas empresas com até 15 funcionários, o <a href="/bebedouro" className="text-az hover:underline">Bebedouro</a> de menor capacidade pode ser o ponto de partida. Porém, à medida que o negócio cresce, é fundamental reavaliar o dimensionamento para garantir que a proporção de 1 bebedouro por 50 trabalhadores seja sempre respeitada, evitando não conformidades com a NR-24 que podem resultar em autuações e multas trabalhistas.
+          </p>
+        </section>
+
+        <section id="manutencao-e-higienizacao" className="mb-12 scroll-mt-20">
+          <h2 className="text-[30px] font-black text-txt mb-4 pb-2 border-b-2 border-borda" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>Manutenção e Higienização do Bebedouro Empresarial</h2>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            A manutenção e higienização correta do bebedouro para empresa não é apenas uma boa prática — é uma obrigação legal. A RDC 275 da ANVISA determina que o reservatório e o sistema de distribuição de água de uso coletivo devem ser limpos e desinfetados a cada 6 meses, com registro documental disponível para fiscalização sanitária ou trabalhista a qualquer momento.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            O processo de higienização profissional inclui: esvaziamento e lavagem interna do reservatório, desinfecção com solução clorada a 2,5% (hipoclorito de sódio), limpeza e desinfecção das torneiras e bocais, troca de filtros quando aplicável e emissão de laudo técnico com registro do procedimento realizado. O serviço deve ser executado por empresa especializada com responsável técnico habilitado e registro no órgão competente.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            Entre as higienizações semestrais completas, a empresa deve realizar limpeza superficial frequente das torneiras e da estrutura externa do bebedouro. A troca do filtro interno deve seguir a periodicidade indicada pelo fabricante — geralmente a cada 3 a 6 meses dependendo da qualidade da água local e do volume de uso diário. Filtros saturados perdem eficiência e podem se tornar foco de contaminação bacteriana.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            Sinais de que o bebedouro precisa de manutenção imediata incluem: água com gosto ou odor estranho, formação de biofilme visível na torneira ou reservatório, redução perceptível na temperatura de refrigeração e vazamentos em qualquer ponto do equipamento. Qualquer um desses sinais deve ser investigado de imediato para evitar contaminação da água e riscos à saúde dos trabalhadores que dependem do equipamento.
+          </p>
+          <p className="mb-4 text-[16px] text-txt2 leading-relaxed">
+            Uma boa prática é manter um controle de manutenção preventiva documentado para cada bebedouro instalado na empresa. Esse controle registra datas de limpezas, trocas de filtro, visitas técnicas e ocorrências. Além de facilitar fiscalizações trabalhistas e sanitárias, demonstra comprometimento da empresa com a saúde dos colaboradores — contando positivamente em auditorias de certificações como ISO 9001 e ISO 45001 de gestão da qualidade e segurança ocupacional.
           </p>
         </section>
       </PilarLayout>
